@@ -51,7 +51,7 @@ data: {
   error: null
 }
 ```
-la seule exception c'est l'utilisation de Ojbect.freeze(), qui empêche les propriétés existantes d'être changées,
+la seule exception c'est l'utilisation de Object.freeze(), qui empêche les propriétés existantes d'être changées,
 le système de réactivité ne peut donc pas traquer les changements.
 
 en plus des propriétés de données, les instances de vue exposent de nombreuses méthodes et propriétés. 
