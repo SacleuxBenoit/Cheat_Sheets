@@ -61,14 +61,14 @@ Les propriétés et méthodes sont préfixés par : $  pour les différencier de
 
 Chaque instance de vue traverse une série d'étape d'initialisation au moment de sa création, elle dois : 
 mettre en place l'observation de données, compiler le template, monter l'instance sur le DOM et mettre à jours le DOM
-quand les données changent.En cours de route elle va aussi invoquer des hooks de cycle de vie, qui nous donnent 
+quand les données changent. En cours de route elle va aussi invoquer des hooks de cycle de vie, qui nous donnent 
 l'opportunité d'exécuter une logique personalisée à chaque niveau.
 
 il y a des hooks qui sont appelés à différentes étapes du cycle de vie => created,mounted,updated,destroyed.
 Tous ces hooks de cycle de vie sont appelés avec leur this pointant sur l'instance de la vue qui les invoque.
 
-!!! Ne pas utiliser les fonctions fléchés sur une propriété ou fonction de rappel d'une instance.
+!!!!! Ne pas utiliser les fonctions fléchés sur une propriété ou fonction de rappel d'une instance.
 Comme les fonctions fléchés sont liées au context parent, this ne sera pas l'instance de vue comme vous pourriez
-vous y attendre, et vous rencontrerez alors des erreurs.
+vous y attendre, et vous rencontrerez alors des erreurs. !!!!!
 
 
