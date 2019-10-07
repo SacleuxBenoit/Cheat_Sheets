@@ -16,4 +16,14 @@ la forme la plus élémentaire de la liaison de données est l'interpolation de 
 La balise moustache sera remplacée par la valeur de la propriété msg de l'objet data correspondant.
 Elle sera également mise à jour quand la propriété msg changera.
 
+Nous pouvons également réaliser des interpolations à usage unique qui ne se mettront pas à jour lors de la 
+modification des données en utilisant la directive v-once, mais il faut garder à l'esprit que cela affectera 
+toutes les liaisons de données présentes sur le même noeud
+
+```
+<span v-once>Ceci ne changera jamais : {{ msg }}</span>
+```
+
+
+
 
