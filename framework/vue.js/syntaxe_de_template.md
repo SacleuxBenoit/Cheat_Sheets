@@ -21,8 +21,14 @@ modification des données en utilisant la directive v-once, mais il faut garder 
 toutes les liaisons de données présentes sur le même noeud
 
 ```
-<span v-once>Ceci ne changera jamais : {{ msg }}</span>
+<span v-once>Ceci ne changera jamais : {{ msg }} </span>
 ```
+
+# Interprétation du HTML
+
+Les doubles moustaches interprétent la données comme du texte brut et pas en tant qu'HTML. Pour afficher du HTML il faut 
+utiliser la directive : v-html
+
 
 
 
