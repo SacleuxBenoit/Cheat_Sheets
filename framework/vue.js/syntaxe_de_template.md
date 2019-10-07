@@ -43,3 +43,11 @@ Pour les booléens avec une valeur de true, v-bind fonctionne un peu différemen
 
 si isButtonDisabled a la valeur undefined, null ou false : l'attribut disabled ne sera pas inclut dans l'élément button généré.
 
+# Utilisation des expressions JavaScript
+
+Chacune des liaisons ne peut contenir qu'une seul expression.
+
+!!!
+Les expressions de template sont isolées et ont seulement accès à une liste blanche de globales telles que Math et Date. Vous ne devriez pas tenter d’accéder à des variables globales définies par l’utilisateur dans les expressions de template.
+!!!
+
