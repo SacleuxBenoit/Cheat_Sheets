@@ -29,7 +29,17 @@ toutes les liaisons de données présentes sur le même noeud
 Les doubles moustaches interprétent la données comme du texte brut et pas en tant qu'HTML. Pour afficher du HTML il faut 
 utiliser la directive : v-html
 
+Générer dynamiquement du HTML arbitraire sur votre site peut être très dangereux car cela peut mener facilement à des vulnérabilités XSS.
+Utilisez l'interpolation HTML uniquement sur du contenu de confiance et jamais sur du contenu fourni par l'utilisateur
 
+# Attributs 
 
+Ont ne peut pas utiliser les "moustaches" dans les attributs HTML, il faut utiliser la directive v-bind.
+Pour les booléens avec une valeur de true, v-bind fonctionne un peu différement voir l'exemple ci-dessous
 
+```
+<button v-bind:disabled="isButtonDisabled">Button</button>
+```
+
+si isButtonDisabled a la valeur undefined, null ou false : l'attribut disabled ne sera pas inclut dans l'élément button généré.
 
