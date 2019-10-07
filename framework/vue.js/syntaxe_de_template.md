@@ -51,3 +51,8 @@ Chacune des liaisons ne peut contenir qu'une seul expression.
 Les expressions de template sont isolées et ont seulement accès à une liste blanche de globales telles que Math et Date. Vous ne devriez pas tenter d’accéder à des variables globales définies par l’utilisateur dans les expressions de template.
 !!!
 
+# Directives
+
+les directives sont des attributs spécieux avec le préfixe -v les valeurs attendus sont UNIQUEMENT une unique expression en JavaScript.
+à l'exception de v-for. Le job d'une directive c'est d'appliquer réactivement des effets secondaires au DOM quand la valeur de son expression change.
+
