@@ -4,4 +4,4 @@
 
 * [instance de vue](instance_de_vue.md)
 
-* [syntaxe de template]()
+* [syntaxe de template](syntaxe_de_template.md)
