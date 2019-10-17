@@ -4,7 +4,7 @@
 
 Vue js utilise une syntaxe de template basée sur le HTML, elle permet de lier déclarativement le DOM rendu au données de l'instance sous-jacente de vue. Tous les templates de vue sont du HTML valide qui peut être interprété par les navigateurs et les interpréteurs HTML.
 
-#  Interpolations : 
+# Interpolations : 
 
 ## texte : 
 
@@ -27,7 +27,7 @@ toutes les liaisons de données présentes sur le même noeud
 ## Interprétation du HTML
 
 Les doubles moustaches interprétent la données comme du texte brut et pas en tant qu'HTML. Pour afficher du HTML il faut 
-utiliser la directive : v-html
+utiliser la directive `v-html`
 
 Générer dynamiquement du HTML arbitraire sur votre site peut être très dangereux car cela peut mener facilement à des vulnérabilités XSS.
 Utilisez l'interpolation HTML uniquement sur du contenu de confiance et jamais sur du contenu fourni par l'utilisateur
@@ -48,7 +48,7 @@ si isButtonDisabled a la valeur undefined, null ou false : l'attribut disabled n
 Chacune des liaisons ne peut contenir qu'une seul expression.
 
 !!!
-Les expressions de template sont isolées et ont seulement accès à une liste blanche de globales telles que Math et Date. Vous ne devriez pas tenter d’accéder à des variables globales définies par l’utilisateur dans les expressions de template.
+Les expressions de template sont isolées et ont seulement accès à une liste blanche de globales telles que `Math` et `Date`. Vous ne devriez pas tenter d’accéder à des variables globales définies par l’utilisateur dans les expressions de template.
 !!!
 
 # Directives
@@ -56,3 +56,6 @@ Les expressions de template sont isolées et ont seulement accès à une liste b
 les directives sont des attributs spécieux avec le préfixe -v les valeurs attendus sont UNIQUEMENT une unique expression en JavaScript.
 à l'exception de v-for. Le job d'une directive c'est d'appliquer réactivement des effets secondaires au DOM quand la valeur de son expression change.
 
+# Arguments
+
+certaines directives peuvent prendre un argument indiqué par ":" après le nom de la directive 
