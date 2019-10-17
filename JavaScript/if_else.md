@@ -69,5 +69,38 @@ nous pouvons omettre les parenthèses autour de `age > 18` l'opérateur point d'
 
 mais les parenthèses facilite la lisibilité du code, il est donc conseillé des les utiliser.
 
+## Multiple "?" : 
+
+Une séquence d'opérateurs `?` permettent de renvoyer une valeur qui dépend de plusieurs conditions.
+
+par exemple : 
+```
+let age = prompt('age?', 18);
+
+let message = (age < 3) ? 'Hi, baby!' :
+  (age < 18) ? 'Hello!' :
+  (age < 100) ? 'Greetings!' :
+  'What an unusual age!';
+
+alert( message );
+```
+
+1) le premier point d'interrogation vérifie si `age < 3` 
+2) Si vrai il retourne `Hi, baby!`, sinon il passe les `:` et vérifie si `age < 18`
+3) Si vrai retourne `Hello!`, sinon il passe les `:` et vérifie si `age < 100`
+4) Si vrai retourne `Greetings`, sinon il passe le dernier `:` et retourne `What an unusual age!`
+
+la même logique en utilisant else_if : 
+
+`if (age < 3) {
+  message = 'Hi, baby!';
+} else if (age < 18) {
+  message = 'Hello!';
+} else if (age < 100) {
+  message = 'Greetings!';
+} else {
+  message = 'What an unusual age!';
+}`
+
 
 
