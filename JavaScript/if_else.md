@@ -27,3 +27,13 @@ if (year == 2015) {
 ```
 
 mais il est recommandé de mettre le code entre les accolades même si il n'exécute qu'une seule instruction.
+
+## Conversion Booléenne : 
+
+Un nombre `0` une chaîne de caractères vide `""`, `null`, `undefined` et `NaN` deviennent false 
+
+les autres valeurs deviennent true.
+
+## La clause else : 
+
+L'instruction if peut contenir un bloc `else`il s'éxecue lorsque la condition est incorrecte.
