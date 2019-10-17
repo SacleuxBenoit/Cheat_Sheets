@@ -91,8 +91,8 @@ alert( message );
 4) Si vrai retourne `Greetings`, sinon il passe le dernier `:` et retourne `What an unusual age!`
 
 la même logique en utilisant else_if : 
-
-`if (age < 3) {
+```
+if (age < 3) {
   message = 'Hi, baby!';
 } else if (age < 18) {
   message = 'Hello!';
@@ -100,7 +100,8 @@ la même logique en utilisant else_if :
   message = 'Greetings!';
 } else {
   message = 'What an unusual age!';
-}`
+}
+```
 
 
 
