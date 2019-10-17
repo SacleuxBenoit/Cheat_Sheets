@@ -36,4 +36,9 @@ les autres valeurs deviennent true.
 
 ## La clause else : 
 
-L'instruction if peut contenir un bloc `else`il s'éxecue lorsque la condition est incorrecte.
+L'instruction if peut contenir un bloc `else` il s'éxecute lorsque la condition est incorrecte.
+
+## Plusieurs conditions : "else if" : 
+
+Quand nous voulons tester plusieurs conditions, nous devons utiliser la clause `else if`
+il peut y avoir plusieurs else if dans le même block, le dernier else est optionnel.
