@@ -1,3 +1,3 @@
 # la doc JavaScript est composé pour le moment d'une partie : 
 
-*[if_else](if_else.md)
+* [if_else](if_else.md)
