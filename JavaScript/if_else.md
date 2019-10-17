@@ -42,3 +42,32 @@ L'instruction if peut contenir un bloc `else` il s'éxecute lorsque la condition
 
 Quand nous voulons tester plusieurs conditions, nous devons utiliser la clause `else if`
 il peut y avoir plusieurs else if dans le même block, le dernier else est optionnel.
+
+## Opérateur ternaire "?" :
+
+Parfois nous devons attribuer une variable à une condition
+
+L'opérateur ternaire ou dit "point d'interrogation" nous permet de le faire plus simplement et plus rapidement.
+
+L'opérateur est représenté par un point d'interrogation : `?` il est appellé ternaire parce que l'opérateur a 3 opérandes,
+
+c'est le seul opérateur en JavaScript qui en a autant. 
+
+le syntaxe est : 
+```
+let resul = condition ? value1 : value2
+```
+
+La condition est évaluée, si elle est true, value1 est donc retournée, sinon c'est value2.
+
+par exemple : 
+```
+let Access = (Age > 18) ? true : false; 
+```
+
+nous pouvons omettre les parenthèses autour de `age > 18` l'opérateur point d'interrogation a une faible précédence, il s'éxecute donc après la comparaison >.
+
+mais les parenthèses facilite la lisibilité du code, il est donc conseillé des les utiliser.
+
+
+
