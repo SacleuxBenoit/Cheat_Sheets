@@ -72,3 +72,4 @@ Comme les fonctions fléchés sont liées au context parent, this ne sera pas l'
 vous y attendre, et vous rencontrerez alors des erreurs. !!!!!
 
 
+!(images/lifecycle.png)
