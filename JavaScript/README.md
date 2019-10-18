@@ -4,4 +4,4 @@
 
 * [variables](variables.md)
 
-* [Alert Prompt et Confirm](AlertPromptConfirl.md)
+* [Alert Prompt et Confirm](AlertPromptConfirm.md)
