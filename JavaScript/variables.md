@@ -30,12 +30,12 @@ Nous pouvons déclarer la variable sur une seul ligne :
 let message = "Hello";
 ```
 
-Nous pouvons aussi déclarer plusieurs variable sur la même ligne : 
+Nous pouvons aussi déclarer plusieurs variables sur la même ligne : 
 ```
 let user = "Gérard", age = "21", message = "Hello";
 ```
 
-ça peut sembler plus court, mais ce n'est pas recommandé, pour une meilleurs visibilité il faut utiliser 1 ligne par variable.
+ça peut sembler plus court, mais ce n'est pas recommandé, pour une meilleure visibilité il faut utiliser 1 ligne par variable.
 La variable multiligne est un peu plus longue mais est plus facile à lire : 
 ```
 let user = "Gérard";
