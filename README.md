@@ -1,7 +1,13 @@
 # Cheat_Sheets
 
-## le Cheat_Sheets est pour le moment composé de 2 grande parties : 
+## le Cheat_Sheets est composé de 5 parties : 
 
 * [vue js](framework/vue.js)
 
 * [JavaScript](JavaScript)
+
+* [DOM]
+
+* [Html]
+
+* [Css]
