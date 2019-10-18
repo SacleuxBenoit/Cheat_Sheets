@@ -1,3 +1,5 @@
+# JavaScript
+
 ## Les variables 
 
 Une variable est un "stockage nommé" pour les données. Nous pouvons utiliser des variables pour stocker des goodies, des visiteurs et
