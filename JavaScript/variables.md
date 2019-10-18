@@ -41,4 +41,7 @@ let age = "21";
 let message = "Hello";
 ```
 
+le mot-clé `var` est presque identique à `let`. Il déclare également une variable, mais d'une manière légèrement différente, en mode "old school".
+
+
 
