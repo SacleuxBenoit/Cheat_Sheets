@@ -27,7 +27,19 @@ la fonction prompt accepte 2 arguments, elle affiche une fenêtre modale avec 2 
 
 `defaut` c'est un autre paramètre mais qui est facultatif c'est pour donner la valeur initial du champ
 
-le prompt renvoie `Null` si ont appuye sur le touche `echap`.
+le prompt renvoie `Null` si ont appuye sur la touche `echap`.
+
+### Confirm : 
+
+La syntaxe de confirm :
+```
+result = prompt(question)
+```
+
+Confirm affiche une fenêtre modale avec 2 boutons : `ok` et `annuler`.
+
+c'est true si `ok` est appuyé et false si `annuler` est appuyé.
+
 
 
 
