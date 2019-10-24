@@ -4,11 +4,6 @@
 
 Les types numériques sont constitués d'entiers de deux, quatre ou huit octets, de nombre à virgule flottante de quatre ou huit octets
 et de décimaux dont la précision peut être indiquée.
-```
-|| |
-
-
-```
 
 | nom  | Taille de stockage| Description | Etendue |
 | :--------------- |:---------------:| -----:|-------:|
