@@ -11,6 +11,7 @@ Si nous voulons voir la liste des utilisateurs existants il faut faire la comman
 ```
 \du
 ```
+## Suppression d'un compte utilisateur
 
 Pour supprimer un compte utilisateur existant il faut utiliser la commande : 
 ```
