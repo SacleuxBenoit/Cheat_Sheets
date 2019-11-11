@@ -39,7 +39,9 @@ Pour supprimer une base de données on utilise la commande :
 DROP DATABASE name_db;
 ```
 
-## Retrouver une information dans une base de données
+## Retrouver une information dans une base de données : 
+
+Pour retrouver une information dans une base de données il faut faire : 
 ```
 SELECT name_column FROM name_table WHERE "what we need"
 ```
