@@ -8,5 +8,6 @@
 
 * [SQL](SQL)
 
-* [DOM]
+* [algo](algo)
 
+* [DOM]
