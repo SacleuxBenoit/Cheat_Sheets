@@ -51,3 +51,8 @@ SELECT name_column FROM name_table WHERE "what we need"
 \c name_db
 ```
 
+## Voir les utilisateurs : 
+```
+\du
+```
+
