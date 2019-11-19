@@ -67,3 +67,10 @@ Si nous voulons voir la liste pour les bases de données existantes ont utilise 
 ```
 \l
 ```
+
+## Quitter psql
+
+Pour quitter PSQL il faut faire la commande : 
+```
+\q
+```
