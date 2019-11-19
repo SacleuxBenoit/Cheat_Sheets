@@ -27,7 +27,12 @@ Pour créer une base de données on utilise la commande :
 CREATE DATABASE name_db;
 ```
 
+## Créer une database avec un propriétaire (OWNER) : 
 
+Pour créer une database avec un OWNER il faut faire la commande suivante :
+```
+CREATE DATABASE name_db OWNER name_user;
+```
 
 ## Suppression d'une base de données : 
 
