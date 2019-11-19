@@ -47,4 +47,4 @@ function RandomInt(min, max) {
 
         insertionSort(arr);
         console.log(arr);
-    </script>
+  
