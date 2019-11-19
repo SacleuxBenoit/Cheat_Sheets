@@ -46,3 +46,8 @@ Pour retrouver une information dans une base de données il faut faire :
 SELECT name_column FROM name_table WHERE "what we need"
 ```
 
+## Entrer dans une base de données : 
+```
+\c name_db
+```
+
