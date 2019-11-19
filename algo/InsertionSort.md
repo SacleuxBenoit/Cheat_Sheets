@@ -2,20 +2,22 @@
 
 ## InsertionSort
 
+ arr = [4818, 4918, 11, 171, 1261]
+        const insertionSort = arr => {
+            const len = arr.length;
+            for (let i = 0; i < len; i++) {
+                let el = arr[i];
+                let j;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                for (j = i - 1; j >= 0 && arr[j] > el; j--) {
+                    arr[j + 1] = arr[j];
+                }
+                arr[j + 1] = el;
+            }
+            return arr;
+        };
+        insertionSort(arr);
+        console.log(arr);
 
 ## Donne des nombres aléatoires entre 1 et 1000
 
