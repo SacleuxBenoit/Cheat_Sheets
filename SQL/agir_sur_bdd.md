@@ -47,11 +47,15 @@ SELECT name_column FROM name_table WHERE "what we need"
 ```
 
 ## Entrer dans une base de données : 
+
+Pour entrer dans une base de données il faut faire : 
 ```
 \c name_db
 ```
 
 ## Voir les utilisateurs : 
+
+Pour voir les utilisateurs il faut faire : 
 ```
 \du
 ```
