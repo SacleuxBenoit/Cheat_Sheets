@@ -7,3 +7,5 @@
 * [Alert Prompt et Confirm](AlertPromptConfirm.md)
 
 * [function expressions arrows](function_expressions_arrows.md)
+
+* [Strict_mode](strict_mode.md)
