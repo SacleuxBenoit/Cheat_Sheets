@@ -37,3 +37,16 @@ Ainsi, TypeScript, contrairement à JavaScript, peut être considéré comme un 
 définition par MDN d'un typage statique : 
 
 Un langage à typage statique est un langage (comme Java, C ou C++) avec lequel les types des variables sont connus lors de la compilation et doivent être spécifiés expressément par le programmeur.
+
+## Fonction 
+
+Le langage TypeScript permet de préciser le type du résultat attendu lors de la déclaration de la fonction.
+
+Par défaut et sans l'instruction return, le type de résultat d'une fonction est `void` (aucun résultat).
+```
+function double(n:number) :number{
+    return 2 * n;
+}
+```
+
+La fonction double ci-dessus prend est déclarée comme prenant un paramètre de type number et renvoyent une valeur de type number.
