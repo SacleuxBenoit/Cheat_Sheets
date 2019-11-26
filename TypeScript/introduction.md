@@ -8,8 +8,8 @@ Le principal atout de TypeScript c'est d'associer facultativement un type à une
 ```
 let pi: number;
 let message: string;
-var flag: boolean;
-var joker: any;
+let flag: boolean;
+let joker: any;
 ```
 
 Dans l'exemple ci-dessus quatre variables sont déclarées sans être initialisées.
@@ -22,3 +22,18 @@ Dans l'exemple ci-dessus quatre variables sont déclarées sans être initialis�
 
 * La variable joker a pour type any : c'est le type par défaut que TypeScript attribue pour une variable globale si il ne parviens pas à
 déterminer son type lors de la déclaration
+
+il est tout à fait possible d'initialiser une variable quand on la déclare : 
+```
+let pi = 3.14;
+let message = "Hi";
+let flag = true;
+let joker = null;  
+```
+Lors de la première initialisation TypeScript en infère automatiquement le type sans qu'il soit nécessaire de le mentionner.
+
+Ainsi, TypeScript, contrairement à JavaScript, peut être considéré comme un langage à typage statique.
+
+définition par MDN d'un typage statique : 
+
+Un langage à typage statique est un langage (comme Java, C ou C++) avec lequel les types des variables sont connus lors de la compilation et doivent être spécifiés expressément par le programmeur.
