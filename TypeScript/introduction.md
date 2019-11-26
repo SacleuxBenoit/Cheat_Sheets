@@ -42,7 +42,7 @@ Un langage à typage statique est un langage (comme Java, C ou C++) avec lequel 
 
 Le langage TypeScript permet de préciser le type du résultat attendu lors de la déclaration de la fonction.
 
-Par défaut et sans l'instruction return, le type de résultat d'une fonction est `void` (aucun résultat).
+Par défaut, et sans l'instruction return, le type de résultat d'une fonction est `void` (aucun résultat).
 ```
 function double(n:number) :number{
     return 2 * n;
@@ -50,3 +50,46 @@ function double(n:number) :number{
 ```
 
 La fonction double ci-dessus prend est déclarée comme prenant un paramètre de type number et renvoyent une valeur de type number.
+
+## Classe 
+
+```
+class Animal {
+    name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+    shout(): string{
+        return"...";
+    }
+}
+```
+comme ont peut le voir ci-dessus une classe Animal y est définis d'une façon proche de la plupart des langages orientés objet.
+
+La classe Animal possède un attribut `name` elle définit un `constructor` et une méthode `shout` son instanciation se fait à l'aide de 
+l'opérateur new : 
+```
+var animal = new Animal("Pokemon");
+```
+
+TypeScript implémente aussi la notion d'héritage simple avec l'utilisation du mot-clés `extends`
+
+L'extension de la classe Animal de l'exemple précédent se fait ainsi : 
+```
+class Lion extends Animal{
+    sex: string;
+    
+constructor(name : string, sex: string){
+    super(name);
+}
+shout(): string {
+    return "Rooooaaaarrr"
+}
+}
+```
+
+La classe Lion ajoute un attribut sex à la class Animal et redéfinit la méthod SHOUT.
+
+dans TypeScript toutes les classes sont considérées comme de nouveaux types, donc pour l'exemple ci-dessus 
+la classe Lion est de type Lion et avec l'héritage elle est aussi du type Animal 
