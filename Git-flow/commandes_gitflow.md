@@ -77,3 +77,8 @@ il ne faut pas oublier de pousser les étiquettes avec git push --tags
 
 * Ils peuvent se baser sur l'étiquette de la branche master indiquand la version en production.
 
+## commencer un hotfix 
+
+Pour commencer un hotfix il faut faire : `git flow hotfix start VERSION [BASENAME]`
+
+Le paramètre `VERSION` indique le nom de la future release corrigée. ont peut spécifier si besoin quelle release s'appliquera le hotfix
