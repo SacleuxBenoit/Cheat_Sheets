@@ -82,3 +82,7 @@ il ne faut pas oublier de pousser les étiquettes avec git push --tags
 Pour commencer un hotfix il faut faire : `git flow hotfix start VERSION [BASENAME]`
 
 Le paramètre `VERSION` indique le nom de la future release corrigée. ont peut spécifier si besoin quelle release s'appliquera le hotfix
+
+## Terminer un hotfix 
+
+quand on termine un hotfix, il est fusionné dans les branches develop et master, de plus la fusion vers master est etiquetée par la version du hotfix.
