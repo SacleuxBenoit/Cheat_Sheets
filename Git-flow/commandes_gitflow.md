@@ -54,3 +54,19 @@ Il est préférable de publier la branche de livraison après l'avoir créée po
 
 Pour suivre une livraison sur le serveur distant il faut utiliser : 
 `git flow release track RELEASE`
+
+## Terminer une livraison
+
+Quand on termine une livraison plusieurs actions sont réalisées : 
+
+* Fusionne la branche de livraison dans la branche master
+
+* Etiquette la livraison par son nom 
+
+* Fusionne la livraison dans la branche `develop`
+
+* Supprime la branche de livraison
+
+la commande est : `git flow release finish RELEASE`
+
+il ne faut pas oublier de pousser les étiquettes avec git push --tags
