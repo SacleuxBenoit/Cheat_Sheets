@@ -26,3 +26,15 @@ cette commande fait :
 
 * nous fait passer sur la branch develop
 
+## Publier une fonctionnalité 
+
+Pour publier une fonctionnalité sur le server distant pour qu'elle puisse être utilisé par les autres utilisateurs il faut faire : 
+`git flow feature publish MYFEATURE`
+
+## Récupérer une fonctionnalité publiée 
+
+Pour récupérer une fonctionnalité publiée par un autre utilisateur il faut faire la commande suivante :
+`git flow feature pull origin MYFEATURE`
+
+Ont peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
+
