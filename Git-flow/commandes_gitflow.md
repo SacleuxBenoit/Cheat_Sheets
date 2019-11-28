@@ -38,3 +38,19 @@ Pour récupérer une fonctionnalité publiée par un autre utilisateur il faut f
 
 Ont peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
 
+# Livraison (release)
+
+* Prépare la sortie d'une nouvelle version de production
+
+* Permet les corrections de bugs mineurs et la préparation des métadonnées de la release
+
+## Commencer une livraison 
+
+Pour commencer une livraison, on crée une branche basée sur la branche de développement : `git flow release strat RELEASE [BASE]`
+
+Vous pouvez si besoin ajouter le paramètre `base` le hash d'un commit à partir duquel commencera la livraison. Ce commit doit faire partie de la branche de développement.
+
+Il est préférable de publier la branche de livraison après l'avoir créée pour permettre aux autres développeurs de commiter dessus. De la même manière que pour les fonctionnalités on utilise cette commande : `git flow release publish RELEASE`
+
+Pour suivre une livraison sur le serveur distant il faut utiliser : 
+`git flow release track RELEASE`
