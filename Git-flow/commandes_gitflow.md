@@ -85,4 +85,4 @@ Le paramètre `VERSION` indique le nom de la future release corrigée. ont peut 
 
 ## Terminer un hotfix 
 
-quand on termine un hotfix, il est fusionné dans les branches develop et master, de plus la fusion vers master est etiquetée par la version du hotfix.
+quand on termine un hotfix, il est fusionné dans les branches develop et master, de plus la fusion vers master est etiquetée par la version du hotfix. Il faut faire la commande `git flow hotfix finish VERSION `
