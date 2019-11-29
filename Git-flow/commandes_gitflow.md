@@ -101,3 +101,22 @@ Cette commande va afficher un avertissement si la branche n'a pas été totaleme
 git branch -D [Nom_de_la_branche]
 ```
 
+Pour supprimer la branche située sur le déôt distant, il faut faire : 
+```
+git push [nom_du_dépot_distant] : [Nom_de_la_branche]
+```
+
+Si ont à utilisé git clone pour créer la branche, celle_ci attribue par défaut le nom origin au dépôt distant. la commande devient :
+```
+git push origin : [Nom_de_la_branche]
+```
+
+Si ont utilise une version de git plus récente, la syntaxe de la commande a était simplifiée : 
+```
+git push origin --delete [Nom_de_la_branche]
+```
+
+Une fois cette commande effectuée, il faut faire la commande suivante sur tous les autres ordinateurs afin de propager le changement : 
+```
+ git fetch -all -prune
+```
