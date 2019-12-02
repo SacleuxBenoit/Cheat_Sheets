@@ -13,5 +13,3 @@
 * [Gitflow](Git_flow)
 
 * [TypeScript](TypeScript)
-
-* [DOM]
