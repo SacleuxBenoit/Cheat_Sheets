@@ -1,6 +1,6 @@
 # Cheat_Sheets
 
-## le Cheat_Sheets est composé de 4 parties : 
+## le Cheat_Sheets est composé de 6 parties : 
 
 * [vue js](framework/vue.js)
 
@@ -11,5 +11,7 @@
 * [algo](algo)
 
 * [Gitflow](Git_flow)
+
+* [TypeScript](TypeScript)
 
 * [DOM]
