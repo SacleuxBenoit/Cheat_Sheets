@@ -34,3 +34,7 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -lhS` Affiche les informations des fichiers, avec les tailles et ordonnée du plus grand au plus petit.
 
+`ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de ficher.
+
+ 
+
