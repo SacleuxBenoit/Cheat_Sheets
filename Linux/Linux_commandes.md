@@ -45,3 +45,6 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `tail` Fait le contraire de `head` cette commande permet d'afficher la fin d'un fichier (par défaut elle affiche les 10 dernières lignes). Par exemple `tail README.md` ça affiche les 10 dernières ligne du readme.
 
+ `wc Linux_commandes` Affiche le nombres de lignes + mots + caractères du fichier Linux_commandes.
+
+ `date` Affiche la date, le mois, l'heure et l'année.
