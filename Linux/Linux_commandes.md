@@ -40,5 +40,8 @@ La commande `ls` permet de lister le contenu du répértoire
 ## Autres
 
 `man` Permet d'afficher le manuel d'aide de n'importe quelle commande par exemple `man ls` affiche le manuel d'aide de la commande ls
- 
+
+`head` Permet d'afficher le début d'un fichier (par défaut elle affiche les 10 premières lignes). Par exemple `head README.md` ça affiche les 10 premières ligne du readme.
+
+`tail` Fait le contraire de `head` cette commande permet d'afficher la fin d'un fichier (par défaut elle affiche les 10 dernières lignes). Par exemple `tail README.md` ça affiche les 10 dernières ligne du readme.
 
