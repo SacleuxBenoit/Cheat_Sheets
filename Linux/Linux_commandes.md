@@ -49,5 +49,9 @@ La commande `ls` permet de lister le contenu du répértoire
 
  `date` Affiche la date, le mois, l'heure et l'année.
 
-`!!` Exécute la dernière commande utilisé dans le terminal
+`!!` Exécute la dernière commande utilisé dans le terminal.
+
+`cat` Affiche le fichier texte dans le terminal.
+
+`less` Simillaire à `cat` mais affiche le fichier page par page.
 
