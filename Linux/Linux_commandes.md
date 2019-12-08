@@ -55,3 +55,8 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `less` Simillaire à `cat` mais affiche le fichier page par page.
 
+`touch inxdex.html` Crée un fichier index.html
+
+`mkdir projet` Crée un dossier projet. 
+
+
