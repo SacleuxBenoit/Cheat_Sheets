@@ -48,3 +48,6 @@ La commande `ls` permet de lister le contenu du répértoire
  `wc Linux_commandes` Affiche le nombres de lignes + mots + caractères du fichier Linux_commandes.
 
  `date` Affiche la date, le mois, l'heure et l'année.
+
+`!!` Exécute la dernière commande utilisé dans le terminal
+
