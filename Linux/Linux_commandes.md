@@ -59,4 +59,10 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `mkdir projet` Crée un dossier projet. 
 
+`cp` Fait une copie d'un fichier, l'option `-R` permet des copies de dossiers entiers.
+
+`rm` Supprime des fichiers, l'option `-f` force la suppresion, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers.
+
+
+
 
