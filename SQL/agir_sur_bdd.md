@@ -42,6 +42,13 @@ Pour retrouver une information dans une base de données il faut faire :
 SELECT name_column FROM name_table WHERE "what we need"
 ```
 
+# Database : 
+
+Pour renommer une database il faut faire :
+```
+ALTER TABLE table_name RENAME TO new_table_name;
+```
+
 # Commande : 
 
 ## Entrer dans une base de données : 
