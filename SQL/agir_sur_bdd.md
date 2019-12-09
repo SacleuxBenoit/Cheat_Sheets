@@ -44,6 +44,14 @@ SELECT name_column FROM name_table WHERE "what we need"
 
 # Database : 
 
+Pour créer une database il faut faire la commande suivante : 
+```
+CREATE TABLE table_name (
+column_name TYPE column_constraint,
+table_constraint table_constraint
+);
+```
+
 Pour renommer une database il faut faire :
 ```
 ALTER TABLE table_name RENAME TO new_table_name;
