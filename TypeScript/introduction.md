@@ -2,6 +2,13 @@
 
 ## Introduction
 
+## Installation de TypeScript
+
+Pour installer TypeScript il faut faire : 
+```
+npm install -g typescript
+```
+
 ## Les variables dans TypeScript
 
 Le principal atout de TypeScript c'est d'associer facultativement un type à une données.
