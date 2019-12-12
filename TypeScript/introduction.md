@@ -9,6 +9,12 @@ Pour installer TypeScript il faut faire :
 npm install -g typescript
 ```
 
+Cette installation donne accès à la commande `tsc`, La commande permettra de Transpiler le code en JavaScript (ES3, ES5 ou ES2015)
+```
+tsc index.ts
+```
+
+
 ## Les variables dans TypeScript
 
 Le principal atout de TypeScript c'est d'associer facultativement un type à une données.
