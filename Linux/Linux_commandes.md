@@ -63,6 +63,14 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `rm` Supprime des fichiers, l'option `-f` force la suppresion, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers.
 
+`echo "ceci est un test"` Affiche `ceci est un test` sur la console.
+
+Quelque cas pratique de `echo` : 
+
+-> `echo "ceci est un test" >> monfichier` grâce au signe `>>`, ça va écrire le texte à la fin du fichier `monficher` sans en écraser le contenu
+
+-> `echo "ceci est un test" > monfichier` Par contre pour écraser un fichier, en effaçant tout son contenu, on utilise le signe `>`.
+
 
 
 
