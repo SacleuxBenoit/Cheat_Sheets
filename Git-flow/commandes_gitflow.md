@@ -46,7 +46,7 @@ Ont peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flo
 
 ## Commencer une livraison 
 
-Pour commencer une livraison, on crée une branche basée sur la branche de développement : `git flow release strat RELEASE [BASE]`
+Pour commencer une livraison, on crée une branche basée sur la branche de développement : `git flow release start RELEASE [BASE]`
 
 Vous pouvez si besoin ajouter le paramètre `base` le hash d'un commit à partir duquel commencera la livraison. Ce commit doit faire partie de la branche de développement.
 
