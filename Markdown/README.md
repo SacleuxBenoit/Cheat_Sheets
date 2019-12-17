@@ -123,3 +123,14 @@ Alors que pour afficher du code en markdown il faut faire :
 ```<h1>un titre ici</h1>```
 ```
 
+## Les liens
+
+Pour faire un lien en html il faut faire : 
+```
+<a href="https://github.com/SacleuxBenoit">Mon Github</a>
+```
+
+Alors que pour le Markdown, ont dois mettre le texte du lien entre crochets suivis du lien entre parenthèses :
+```
+[Mon Github](https://github.com/SacleuxBenoit)
+```
