@@ -112,7 +112,7 @@ Pour ne pas éxecuter du code en html on dois faire :
 ```
 
 
-Alors que pour afficher du code en markdown il faut l'entourer de : ```
+Alors que pour afficher du code en markdown il faut faire : 
 ```
-`<h1>un titre ici</h1>`
+```<h1>un titre ici</h1>```
 ```
