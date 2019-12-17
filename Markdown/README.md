@@ -68,3 +68,20 @@ Alors qu'en Markdown il suffit de faire :
 ```
 
 il existe même une autre syntaxe pour les titres de niveau 4 et plus
+
+## Les listes à puces
+
+Pour faire une liste à puce en HTML il faut faire :
+```
+<ul>
+<li>Une puce</li>
+<li>Une autre puce</li>
+<li>Et la dernière puce</li>
+</ul>
+```
+et en markdown il faut faire :
+```
+* Une puce
+* Une autre puce
+* et la dernière puce
+```
