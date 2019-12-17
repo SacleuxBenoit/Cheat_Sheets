@@ -103,3 +103,16 @@ Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros d
 2. Une autre puce
 3. Et la dernière puce
 ```
+
+## Code non exécuté
+
+Pour ne pas éxecuter du code en html on dois faire : 
+```
+<code><h1>un titre ici</h1></code>
+```
+
+
+Alors que pour afficher du code en markdown il faut l'entourer de : ```
+```
+`<h1>un titre ici</h1>`
+```
