@@ -50,3 +50,21 @@ c'est un **mot** important.
 
 c'est un __mot__ important.
  ```
+
+ ## Les Titres
+
+ pour écrire un titre en html on fait : 
+ ```
+<h1>C'est un titre de niveau1</h1>
+<h2>C'est un titre de niveau2</h2>
+<h3>C'est un titre de niveau3</h3>
+ ```
+
+Alors qu'en Markdown il suffit de faire :
+```
+# C'est un titre de niveau1
+## C'est un titre de niveau2
+### C'est un titre de niveau3
+```
+
+il existe même une autre syntaxe pour les titres de niveau 4 et plus
