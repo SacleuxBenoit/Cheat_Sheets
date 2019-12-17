@@ -2,6 +2,12 @@
 
 ## Dans ce cheat_sheet nous allons comparer comment écrire en Markdown par rapport au html
 
+### note : 
+
+même si ce cheat_sheet est une comparaison entre le HTML et le Markdown, il faut savoir que le Markdown est exporté en html 
+vous pouvez donc utiliser du HTML dans vos pages Markdown.
+Les fichiers Markdown sont enregistrés avec l'extension `.md` ou `.markdown`
+
 ## Comment faire un paragraphe en Markdown ?
 
 Pour faire un paragraphe en HTML il faut faire : 
@@ -116,3 +122,4 @@ Alors que pour afficher du code en markdown il faut faire :
 ```
 ```<h1>un titre ici</h1>```
 ```
+
