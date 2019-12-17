@@ -146,3 +146,28 @@ Pour le markdown c'est la même chose que les liens sauf que l'on rajoute un `!`
 ```
 ![mon image](mon_image.png)
 ```
+
+## Les tableaux
+
+Pour faire un tableau en html il faut faire :
+```
+<table>
+   <tr>
+       <td>Maison</td>
+       <td>4 pièces</td>
+       <td>États-Unis</td>
+   </tr>
+   <tr>
+       <td>Studio</td>
+       <td>2 pièces</td>
+       <td>France</td>
+   </tr>
+</table>
+```
+
+et en Markdown :
+```
+| Maison | 4 pièces | États-Unis |
+| ----------- | ----------- | ----------- |
+| Studio | 2 pièces | France |
+```
