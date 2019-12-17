@@ -134,3 +134,15 @@ Alors que pour le Markdown, ont dois mettre le texte du lien entre crochets suiv
 ```
 [Mon Github](https://github.com/SacleuxBenoit)
 ```
+
+## Les images
+
+Pour l'html : 
+```
+<img src="mon_image.png" alt="mon image"/>
+```
+
+Pour le markdown c'est la même chose que les liens sauf que l'on rajoute un `!` devant les crochets : 
+```
+![mon image](mon_image.png)
+```
