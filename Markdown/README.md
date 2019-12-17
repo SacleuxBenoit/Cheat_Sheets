@@ -85,3 +85,21 @@ et en markdown il faut faire :
 * Une autre puce
 * et la dernière puce
 ```
+
+## Les listes à puces numérotées 
+
+Pour faire une liste à puce numéroté en html il faut faire :
+```
+<ol>
+<li>Une puce</li>
+<li>Une autre puce</li>
+<li>Et la dernière puce</li>
+</ol>
+```
+
+Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros devant les puces !
+```
+1. Une puce
+2. Une autre puce
+3. Et la dernière puce
+```
