@@ -26,6 +26,8 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -la` Affiche tous les fichiers, même les fichiers cachés.
 
+`ls /etc/` Affiche le contenu du répértoire /etc/
+
 `ls -r` Tri de façon inversé.
 
 `ls -t` Tri les fichiers du plus récent au plus ancien.
