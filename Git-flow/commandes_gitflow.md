@@ -2,7 +2,7 @@
 
 ## Installation
 
-Pour installer Git-flow sur linux il faut faire la commande suivante dans le terminal : `apt-get install git-flow`
+Pour installer Git-flow sur Linux il faut faire la commande suivante dans le terminal : `apt-get install git-flow`
 
 ## Initialisation
 
@@ -10,13 +10,13 @@ Pour initialiser git-flow dans un dépôt git il faut faire : `git flow init`
 
 il va falloir répondre à quelques questions concernant les conventions, il est recommandé d'utiliser les valeurs par défaut.
 
-## Passer sur une nouvelle branche basé sur la develop
+## Passer sur une nouvelle branche basée sur la develop
 
-Pour passer sur une nouvelle branche basé sur la develop il faut faire la commande suivante : `git flow feature start MYFEATURE`
+Pour passer sur une nouvelle branch basée sur la develop il faut faire la commande suivante : `git flow feature start MYFEATURE`
 
 ## fusionner la branche avec la develop
 
-Pour fusionner la branche créer avec la branch develop il faut faire : `git flow feature finish MYFEATURE`
+Pour fusionner la branche créée avec la branch develop il faut faire : `git flow feature finish MYFEATURE`
 
 cette commande fait :
 
@@ -28,7 +28,7 @@ cette commande fait :
 
 ## Publier une fonctionnalité 
 
-Pour publier une fonctionnalité sur le server distant pour qu'elle puisse être utilisé par les autres utilisateurs il faut faire : 
+Pour publier une fonctionnalité sur le server distant pour qu'elle puisse être utilisée par les autres utilisateurs il faut faire : 
 `git flow feature publish MYFEATURE`
 
 ## Récupérer une fonctionnalité publiée 
@@ -36,13 +36,13 @@ Pour publier une fonctionnalité sur le server distant pour qu'elle puisse être
 Pour récupérer une fonctionnalité publiée par un autre utilisateur il faut faire la commande suivante :
 `git flow feature pull origin MYFEATURE`
 
-Ont peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
+On peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
 
 # Livraison (release)
 
 * Prépare la sortie d'une nouvelle version de production
 
-* Permet les corrections de bugs mineurs et la préparation des métadonnées de la release
+* Permets les corrections de bugs mineurs et la préparation des métadonnées de la release
 
 ## Commencer une livraison 
 
@@ -75,17 +75,17 @@ il ne faut pas oublier de pousser les étiquettes avec git push --tags
 
 * Les correctifs sont utiles quand il est nécessaire de corriger immédiatement l'état incorrect de la version en production.
 
-* Ils peuvent se baser sur l'étiquette de la branche master indiquand la version en production.
+* Ils peuvent se baser sur l'étiquette de la branche master indiquant la version en production.
 
 ## commencer un hotfix 
 
 Pour commencer un hotfix il faut faire : `git flow hotfix start VERSION [BASENAME]`
 
-Le paramètre `VERSION` indique le nom de la future release corrigée. ont peut spécifier si besoin quelle release s'appliquera le hotfix
+Le paramètre `VERSION` indique le nom de la future release corrigée. on peut spécifier si besoin quelle release s'appliquera le hotfix
 
 ## Terminer un hotfix 
 
-quand on termine un hotfix, il est fusionné dans les branches develop et master, de plus la fusion vers master est etiquetée par la version du hotfix. Il faut faire la commande `git flow hotfix finish VERSION `
+quand on termine un hotfix, il est fusionné dans les branches develop et master, de plus la fusion vers master est étiquetée par la version du hotfix. Il faut faire la commande `git flow hotfix finish VERSION `
 
 ## Supprimer complètement une branche au sein d'un dépôt git
 
@@ -96,22 +96,22 @@ Pour supprimer la branche qui est en locale il faut faire :
 git branch -d [Nom_de_la_branche]
 ```
 
-Cette commande va afficher un avertissement si la branche n'a pas été totalement fusionnée avec le répertoire principal du déôt. Pour passer outre on utilise :
+Cette commande va afficher un avertissement si la branche n'a pas été totalement fusionnée avec le répertoire principal du dépôt. Pour passer outre on utilise :
 ```
 git branch -D [Nom_de_la_branche]
 ```
 
-Pour supprimer la branche située sur le déôt distant, il faut faire : 
+Pour supprimer la branche située sur le dépôt distant, il faut faire : 
 ```
 git push [nom_du_dépot_distant] : [Nom_de_la_branche]
 ```
 
-Si ont à utilisé git clone pour créer la branche, celle_ci attribue par défaut le nom origin au dépôt distant. la commande devient :
+Si ont à utilisé git clone pour créer la branche, celle-ci attribue par défaut le nom origin au dépôt distant. la commande devient :
 ```
 git push origin : [Nom_de_la_branche]
 ```
 
-Si ont utilise une version de git plus récente, la syntaxe de la commande a était simplifiée : 
+Si on utilise une version de git plus récente, la syntaxe de la commande a était simplifiée : 
 ```
 git push origin --delete [Nom_de_la_branche]
 ```
