@@ -94,7 +94,7 @@ et en markdown il faut faire :
 
 ## Les listes à puces numérotées 
 
-Pour faire une liste à puce numéroté en html il faut faire :
+Pour faire une liste à puces numérotées en html il faut faire :
 ```
 <ol>
 <li>Une puce</li>
@@ -112,7 +112,7 @@ Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros d
 
 ## Code non exécuté
 
-Pour ne pas éxecuter du code en html on dois faire : 
+Pour ne pas exécuter du code en html on doit faire : 
 ```
 <code><h1>un titre ici</h1></code>
 ```
@@ -130,7 +130,7 @@ Pour faire un lien en html il faut faire :
 <a href="https://github.com/SacleuxBenoit">Mon Github</a>
 ```
 
-Alors que pour le Markdown, ont dois mettre le texte du lien entre crochets suivis du lien entre parenthèses :
+Alors que pour le Markdown, ont doit mettre le texte du lien entre crochets suivis du lien entre parenthèses :
 ```
 [Mon Github](https://github.com/SacleuxBenoit)
 ```
