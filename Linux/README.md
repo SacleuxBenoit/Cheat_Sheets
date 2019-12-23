@@ -72,3 +72,7 @@ Quelque cas pratique de `echo` :
 -> `echo "ceci est un test" >> monfichier` grâce au signe `>>`, ça va écrire le texte à la fin du fichier `monficher` sans en écraser le contenu
 
 -> `echo "ceci est un test" > monfichier` Par contre pour écraser un fichier, en effaçant tout son contenu, on utilise le signe `>`.
+
+`uptime` La principale fonction de la commande `uptime` c'est d'indiquer depuis combien de temps le système fonctionne, 
+il affiche : l'heure actuelle, le temps depuis lequel le system est en marceh
+le nombre de user de connectés et la charge du system
