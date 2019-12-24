@@ -6,6 +6,8 @@
 
 * [Data Types](Data_types.md)
 
+* [Type conversions](Type_conversions.md)
+
 * [Alert Prompt et Confirm](AlertPromptConfirm.md)
 
 * [function expressions arrows](function_expressions_arrows.md)
