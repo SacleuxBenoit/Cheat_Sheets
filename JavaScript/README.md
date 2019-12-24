@@ -4,6 +4,8 @@
 
 * [variables](variables.md)
 
+* [Data Types](Data_types.md)
+
 * [Alert Prompt et Confirm](AlertPromptConfirm.md)
 
 * [function expressions arrows](function_expressions_arrows.md)
