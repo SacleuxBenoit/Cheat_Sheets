@@ -12,3 +12,10 @@ Pour l'installer il suffit de faire :
 npm install -g sass
 ```
 
+## Comment faire fonctionner le compilateur de SASS ? 
+
+l'objectif est de créer un fichier SASS et de le compiler, pour ce faire nous allons créer un dossier `Projet`, dedans nous allons
+ajouter 2 sous dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de 
+la compilation.
+
+Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
