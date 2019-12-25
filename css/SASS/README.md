@@ -19,3 +19,5 @@ ajouter 2 sous dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le
 la compilation.
 
 Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
+
+(à noter que les noms des dossiers n'ont pas d'importance, et que l'on peut mettre ce que l'on veut)
