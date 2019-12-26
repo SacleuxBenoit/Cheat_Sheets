@@ -28,3 +28,27 @@ pour compiler le fichier `style.scss` nous allons vérifier le fichier édité a
 et écrire `sass --watch scss:css` dans le terminal.
 
 Un fichier `style.css` sera donc créer dans le dossier css, il va être actualisé après chaque sauvegarde du fichier `style.scss`
+
+## Les variables 
+
+avec SASS les variables sont préfixés (comme en php) par un dollar 
+
+Exemple : 
+
+```
+$red:#FF0000;
+$colorbrick:#B22222;
+
+.cancel{
+    border:solid 1px $red;
+    background-color: $colorbrick;
+}
+```
+Après la ccompilation ont obtient en css : 
+```
+.cancel{
+    border:solid 1px #FF0000;
+    background-color: #B22222
+}
+```
+
