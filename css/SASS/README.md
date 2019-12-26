@@ -56,3 +56,29 @@ Après la ccompilation ont obtient en css :
 
 Pour qu'une variable soit globale il faut la déclarer en dehors d'un bloc de code, car si on déclare la variable dans un bloc de code
 elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclaré dans le bloc.
+```
+$red:#FF0000;
+$colorbrick:#B22222;
+
+.cancel{
+    $green:#0F0 !global;
+    border:solid 1px $red;
+    background-color: $colorbrick;
+}
+.validate{
+    border:solid 1px $green;
+    background-color: $colorbrick; 
+}
+```
+
+Apès la compilation on va obtenir : 
+```
+.cancel{
+    border:solid 1px #FF0000;
+    background-color: #B22222;
+}
+.validate{
+    border:solid 1px #0F0;
+    background-color: #B22222; 
+}
+```
