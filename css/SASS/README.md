@@ -52,3 +52,7 @@ Après la ccompilation ont obtient en css :
 }
 ```
 
+## Les variables globales : 
+
+Pour qu'une variable soit globale il faut la déclarer en dehors d'un bloc de code, car si on déclare la variable dans un bloc de code
+elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclaré dans le bloc.
