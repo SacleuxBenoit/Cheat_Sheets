@@ -82,3 +82,26 @@ Apès la compilation on va obtenir :
     background-color: #B22222; 
 }
 ```
+
+## Le nesting
+
+Le nesting avec SASS permet d'imbriquer le selecteur d'une manière proche de celui du HTML.
+
+Exemple : 
+```
+header{ 
+    div{   
+        p{
+            background-color:red;
+        }
+    }
+}
+```
+
+Après compilation on va obtenir : 
+
+```
+header div p{
+    background-color:red;
+}
+```
