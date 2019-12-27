@@ -149,3 +149,27 @@ h1{
     color:red;
 }
 ```
+
+ont peut même lui passer des arguments ! :
+
+```
+@mixin myTransition($property,$duration,$timing){
+   transition-property: $property;
+   transition-duration: $duration;
+   transition-timing-function: $timing;
+}
+
+div{
+   &:hover{
+      @include myTransition(all, 2s, ease);
+   }
+} 
+```
+après la compilation : 
+```
+div:hover {
+   transition-property: all;
+   transition-duration: 2s;
+   transition-timing-function: ease;
+} 
+```
