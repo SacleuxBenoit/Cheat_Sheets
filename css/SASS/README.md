@@ -124,3 +124,28 @@ h1 {
    font-variant: small-caps;
 } 
 ```
+
+## Le mixin 
+
+Le mixin est très utile avec SASS, il s'agit d'un ensemble de style CSS réutilisable.
+
+dans cette exemple nous allons déclarer un mixin du nom de `test` : 
+```
+@mixin test{
+    color :red;
+}
+```
+
+maintenant que nous avons notre mixin, il suffit de la rapeller la ou on en a besoin :
+```
+h1{
+    @include test;
+}
+```
+
+après compilation on obtient : 
+```
+h1{
+    color:red;
+}
+```
