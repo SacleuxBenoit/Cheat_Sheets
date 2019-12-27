@@ -105,3 +105,22 @@ header div p{
     background-color:red;
 }
 ```
+il est possible de restructurer les propriétés CSS composées comme (font) :
+```
+h1{
+   font:{ // Ne pas oublier les deux points
+      size:15px;
+      weight:normal;
+      variant:small-caps;
+   }
+} 
+```
+ce qui donne après compilation : 
+
+```
+h1 {
+   font-size: 15px;
+   font-weight: normal;
+   font-variant: small-caps;
+} 
+```
