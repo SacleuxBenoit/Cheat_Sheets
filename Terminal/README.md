@@ -1,4 +1,4 @@
-# Linux
+# Terminal
 
 ## CD
 
