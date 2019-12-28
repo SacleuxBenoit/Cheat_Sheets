@@ -31,3 +31,22 @@ switch(x){
 
 * si aucun 'case' ne correspond alors le 'defaut' sera exécuté.
 
+## Un exemple : 
+
+Un exemple concret de `switch` : 
+
+```
+let a = 2 + 2;
+
+switch(a){
+    case 3:
+      alert('too small');
+      break;
+    case 4:
+      alert('exactly');
+    case 5:
+      alert('too large');
+    default:
+    alert('I don't know this values');
+}
+```
