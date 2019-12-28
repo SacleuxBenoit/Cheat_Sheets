@@ -7,7 +7,7 @@ une syntaxe simple et un code réutilisable.
 
 ## Comment l'installer ?
 
-Pour l'installer il suffit de faire :
+Pour l'installer avec Linux, il suffit de faire :
 ```
 npm install -g sass
 ```
