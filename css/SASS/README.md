@@ -12,6 +12,11 @@ Pour l'installer avec Linux, il suffit de faire :
 npm install -g sass
 ```
 
+et pour l'installer avec Mac : 
+```
+brew install sass/sass/sass
+```
+
 ## Comment faire fonctionner le compilateur de SASS ? 
 
 l'objectif est de créer un fichier SASS et de le compiler, pour ce faire nous allons créer un dossier `Projet`, dedans nous allons
