@@ -4,6 +4,8 @@
 
 Pour installer Git-flow sur Linux il faut faire la commande suivante dans le terminal : `apt-get install git-flow`
 
+Pour l'installer sur Mac il faut faire : `brew install git-flow`
+
 ## Initialisation
 
 Pour initialiser git-flow dans un dépôt git il faut faire : `git flow init`
