@@ -35,3 +35,19 @@ alert(map.size); // 3
 ```
 
 Comme nous pouvons le voir, contrairement aux objets, les clés ne sont pas convertis en string. Tout type de clé est possible
+
+Map peut aussi utiliser des objets comme clés.
+
+par exemple : 
+```
+let john = { name : "john"};
+
+let visitsCountMap = new Map();
+
+visitsCountMap.set(john,123);
+
+alert(visitsCountMap.get(john) ); // 123 
+```
+
+l'utilisation d'objets comme clés est l'une des fonctionnalités Map les plus importantes.
+
