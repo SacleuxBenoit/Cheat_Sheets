@@ -1,6 +1,6 @@
 # algo
 
-## Le dossier algo est pour le moment composé d'une seul partie : 
+## Le dossier algo est pour le moment composé de 2 parties : 
 
 [BubbleSort](BubbleSort.md)
 
