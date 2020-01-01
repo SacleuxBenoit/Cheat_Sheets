@@ -14,11 +14,11 @@ il va falloir répondre à quelques questions concernant les conventions, il est
 
 ## Passer sur une nouvelle branche basée sur la develop
 
-Pour passer sur une nouvelle branch basée sur la develop il faut faire la commande suivante : `git flow feature start MYFEATURE`
+Pour passer sur une nouvelle branche basée sur la develop il faut faire la commande suivante : `git flow feature start MYFEATURE`
 
 ## fusionner la branche avec la develop
 
-Pour fusionner la branche créée avec la branch develop il faut faire : `git flow feature finish MYFEATURE`
+Pour fusionner la branche créée avec la branche develop il faut faire : `git flow feature finish MYFEATURE`
 
 cette commande fait :
 
@@ -26,7 +26,7 @@ cette commande fait :
 
 * supprime la branche MYFEATURE
 
-* nous fait passer sur la branch develop
+* nous fait passer sur la branche develop
 
 ## Publier une fonctionnalité 
 
