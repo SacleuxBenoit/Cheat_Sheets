@@ -21,13 +21,15 @@ Pour ouvrir l'invite de commandes de Windows, il appuyer sur la touche `windows 
 
 `tree` Affiche graphiquement la structure d'un répertoire ou d'un disque
 
-`shutdown`Arrête ou redémarre l'ordinateur
+`shutdown`Arrête ou local ou distant de l'ordinateur
 
 `ren`ou `rename`Change le nom d'un fichier ou d'un ensemble de fichiers.
 
 `ver` Affiche le numéro de version de Windows
 
 `rmdir` Supprime un dossier 
+
+`erase` Supprime un ou plusieurs fichier?
 
 `move` Déplace un ou plusieurs fichiers d'un répertoire à un autre
 
@@ -36,5 +38,21 @@ Pour ouvrir l'invite de commandes de Windows, il appuyer sur la touche `windows 
 `cmd` Éxecutre une nouvelle instande de l'invite de commandes
 
 `color` Modifie les couleurs du premier plan et de l'arrière plan de la console
+
+`comp` Compare le contenus de deux fichiers ou groupes de fichiers
+
+`date` Affiche la date
+
+`openfiles` Affiche les fichiers partagés ouvers à distance par les utilisateurs
+
+`pause` Interrompt l'exécution d'un fichier de commandes et affiche un message 
+
+`taskkill` Termine ou interrompt un processus ou une application en cours d'éxecution
+
+`title` Définit le titre de la fenêtre pour une session CMD.EXE
+
+
+
+
 
 
