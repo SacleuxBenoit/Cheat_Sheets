@@ -25,4 +25,16 @@ Pour ouvrir l'invite de commandes de Windows, il appuyer sur la touche `windows 
 
 `ren`ou `rename`Change le nom d'un fichier ou d'un ensemble de fichiers.
 
+`ver` Affiche le numéro de version de Windows
+
+`rmdir` Supprime un dossier 
+
+`move` Déplace un ou plusieurs fichiers d'un répertoire à un autre
+
+`help` Affiche des informations sur les commandes de Windows
+
+`cmd` Éxecutre une nouvelle instande de l'invite de commandes
+
+`color` Modifie les couleurs du premier plan et de l'arrière plan de la console
+
 
