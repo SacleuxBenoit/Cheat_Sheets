@@ -11,19 +11,19 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 
 `dir` Affiche la liste des fichiers et des dossiers contenus dans le répertoire.
 
-`cls`Efface le contenu de la fenêtre d'invite de commande
+`cls` Efface le contenu de la fenêtre d'invite de commande
 
 `exit` Permet de quitter le programme (cmd.exe)
 
 `del` supprime un ou plusieurs fichiers
 
-`md` ou `mkdir`crée un dossier ou un sous dossier.
+`md` ou `mkdir` crée un dossier ou un sous dossier.
 
 `tree` Affiche graphiquement la structure d'un répertoire ou d'un disque
 
-`shutdown`Arrête ou local ou distant de l'ordinateur
+`shutdown` Arrête ou local ou distant de l'ordinateur
 
-`ren`ou `rename`Change le nom d'un fichier ou d'un ensemble de fichiers.
+`ren` ou `rename` Change le nom d'un fichier ou d'un ensemble de fichiers.
 
 `ver` Affiche le numéro de version de Windows
 
