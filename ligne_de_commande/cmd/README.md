@@ -5,7 +5,7 @@
 ## Comment ouvrir CMD ?
 
 Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `windows + R`, ça va ouvrir la fenêtre
-`Éxécuter`et la il faut taper : `CMD`
+`Éxécuter` et la il faut taper : `CMD`
 
 ## Commandes :
 
@@ -21,7 +21,7 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 
 `tree` Affiche graphiquement la structure d'un répertoire ou d'un disque
 
-`shutdown` Arrête ou local ou distant de l'ordinateur
+`shutdown` Arrête local ou distant de l'ordinateur
 
 `ren` ou `rename` Change le nom d'un fichier ou d'un ensemble de fichiers.
 
@@ -50,6 +50,19 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 `taskkill` Termine ou interrompt un processus ou une application en cours d'éxecution
 
 `title` Définit le titre de la fenêtre pour une session CMD.EXE
+
+`vol` Affiche le nom et le numéro de série d'un volume de disque
+
+`type` Affiche le contenu d'un fichier texte
+
+`verify` Demande à Windows de vérifier si vos fichiers sont correctement écris sur le disque
+
+`tasklist` Affiche toutes les tâches en cours d'exécution, y compris les services
+
+`systeminfo` Affiche les propriétés et la configuration spécifique de l'ordinateur
+
+
+
 
 
 
