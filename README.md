@@ -18,6 +18,6 @@
 
 * [Gitflow](Git_flow)
 
-* [Terminal](Terminal)
+* [ligne de commande](ligne_de_commande)
 
 * [Markdown](Markdown)
