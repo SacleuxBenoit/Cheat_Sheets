@@ -17,3 +17,8 @@
 * pour l'évolutivité les bases de données SQL sont évolutives verticalement, on peut gérer l'augmentation de la charge en augmentant le processeur, la RAM, le SSD etc sur un seul serveur tandis que pour NoSQL les bases de données sont évolutives horizontalement, on peut ajouter quelques serveurs supplémentaires facilement dans une infrastructure de base de données NoSQL pour gérer le trafic important.
 
 * Pour les propriétés les bases de données SQL mettent l'accent sur les propriétés ACID (Atomicité, cohérence, Isolation et Durabilité) tandis que le NoSQL suit le théorème de Brewers CAP (Cohérence, Disponibilité et Tolérance de partition).
+
+# Pourquoi utiliser la base de données SQL ?
+
+SQL protège activement l'intégrité de la base de données en fournissant la conformité ACID, de plus SQL est l'option la plus recommandée par de nombreuse entreprises en raison de sa structure et de ses schémas prédéfinis.
+
