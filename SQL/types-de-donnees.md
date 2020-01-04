@@ -1,5 +1,13 @@
 # SQL
 
+## !!! Cheat_sheets en cours de développement !!! :
+
+note : 
+ 
+* n = la taille
+
+* d = le nombre de chiffre après la virgule
+
 ## Les données de type texte
 
 `CHAR(n)` Peut contenir une chaine de caractère, elle peut contenir jusqu'à 255 caractères
