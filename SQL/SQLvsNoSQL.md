@@ -22,3 +22,6 @@
 
 SQL protège activement l'intégrité de la base de données en fournissant la conformité ACID, de plus SQL est l'option la plus recommandée par de nombreuse entreprises en raison de sa structure et de ses schémas prédéfinis.
 
+# Pourquoi utiliser la base de données NoSQL ?
+
+il gagne en popularité en permettant de stocker différents types de données ensemble et on peut facilement évoluer en répartissant plusieurs serveur, si on a besoin de développer une application dans un délais imparti, nous devons opter pour NoSQL, qui accélérera les performances grâce à sa phase de développement rapide.
