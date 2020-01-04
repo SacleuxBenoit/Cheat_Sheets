@@ -42,3 +42,14 @@ note :
 
 `DECIMAL(n,d)` Peut contenir un type `DOUBLE(n,d)`, mais sous forme d'une chaine de caractère
 
+## Les données de type date
+
+`DATE` Peut contenir une date au format AAAA-MM-JJ (par exemple 2020-01-04), les dates peuvent aller de 1000-01-01 à 9999-12-31
+
+`DATETIME` Peut contenir une date et une heure au formet AAAA-MM-JJ HH:MI:SS (par exemple 2020-01-04 22:32:19) 
+
+`TIMESTAMP` c'est un compteur numérique qui représente le temps écoulé depuis un instant de référence, par exemple pour l'heure Unix elle a commencé le 1er Janvier 1970 à minuit 
+
+`TIME` Peut contenir une heure au format HH:MI:SS
+
+`YEAR` Peut contenir une année allant de l'an 1901 à l'an 2155
