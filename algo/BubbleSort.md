@@ -1,7 +1,7 @@
 # algo
 
-## En quoi consite le tri à bulles ?
-Le tri à bulles consiste à comparer répétitivement les éléments consécutifs d'un tableau et à les permuter lorsqu'ils sont mal triés, il dois son nom au faite qu'il déplace les plus grands éléments à la fin du tableau, comme des bulles d'air qui remonteraient à la surface d'un liquide.
+## En quoi consiste le tri à bulles ?
+Le tri à bulles consiste à comparer répétitivement les éléments consécutifs d'un tableau et à les permuter lorsqu'ils sont mal triés, il doit son nom au fait qu'il déplace les plus grands éléments à la fin du tableau, comme des bulles d'air qui remonteraient à la surface d'un liquide.
 
 ## Bubble Sort
 
