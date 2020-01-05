@@ -1,5 +1,10 @@
 # algo
 
+## C'est quoi le tri par insertion ?
+
+Le tri par insertion est beaucoup plus lent que d'autres algorithmes comme le `quick sort` pour traiter des grandes séquences,
+il est cependant considéré comme le tri le plus éfficace sur des entrées de petites taille, il est aussi rapide quand les données sont déjà presque triés.
+
 ## InsertionSort
 
  arr = [4818, 4918, 11, 171, 1261]
