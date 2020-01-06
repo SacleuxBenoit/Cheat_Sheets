@@ -1,6 +1,6 @@
 # JavaScript
 
-## Les types de données : 
+## Les types de données  
 
 En JavaScript une variable peut contenir n'importe quelle type de donnnée, elle peut être à un moment une chaine de caractère, et à un autre
 moment une valeur numérique.
@@ -15,7 +15,7 @@ mais que les variables sont liées à aucun d'entre eux.
 
 Il existe 7 types de données de base en JavaScript.
 
-## Number : 
+## Number 
 
 Le type Number sert à la fois pour des nombres entiers comme pour des nombres à virgule.
 
