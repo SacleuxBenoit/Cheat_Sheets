@@ -7,6 +7,7 @@ il est cependant considéré comme le tri le plus efficace sur des entrées de p
 
 ## InsertionSort
 
+```
  arr = [4818, 4918, 11, 171, 1261]
         const insertionSort = arr => {
             const len = arr.length;
@@ -23,9 +24,11 @@ il est cependant considéré comme le tri le plus efficace sur des entrées de p
         };
         insertionSort(arr);
         console.log(arr);
+```
 
 ## Donne des nombres aléatoires entre 1 et 1000
 
+```
 const insertionSort = arr => {
             const len = arr.length;
             for (i = 0; i < len; i++) {
@@ -52,4 +55,4 @@ function RandomInt(min, max) {
 
         insertionSort(arr);
         console.log(arr);
-  
+```
