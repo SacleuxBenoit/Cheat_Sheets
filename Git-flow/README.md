@@ -22,11 +22,11 @@ Pour fusionner la branche créée avec la branche develop il faut faire : `git f
 
 cette commande fait :
 
-* fusionne la branche MYFEATURE avec la develop
+*   fusionne la branche MYFEATURE avec la develop
 
-* supprime la branche MYFEATURE
+*   supprime la branche MYFEATURE
 
-* nous fait passer sur la branche develop
+*   nous fait passer sur la branche develop
 
 ## Publier une fonctionnalité 
 
@@ -42,9 +42,9 @@ On peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow
 
 # Livraison (release)
 
-* Prépare la sortie d'une nouvelle version de production
+*   Prépare la sortie d'une nouvelle version de production
 
-* Permets les corrections de bugs mineurs et la préparation des métadonnées de la release
+*   Permets les corrections de bugs mineurs et la préparation des métadonnées de la release
 
 ## Commencer une livraison 
 
@@ -75,9 +75,9 @@ il ne faut pas oublier de pousser les étiquettes avec git push --tags
 
 ## Correctifs / Hotfixes
 
-* Les correctifs sont utiles quand il est nécessaire de corriger immédiatement l'état incorrect de la version en production.
+*   Les correctifs sont utiles quand il est nécessaire de corriger immédiatement l'état incorrect de la version en production.
 
-* Ils peuvent se baser sur l'étiquette de la branche master indiquant la version en production.
+*   Ils peuvent se baser sur l'étiquette de la branche master indiquant la version en production.
 
 ## commencer un hotfix 
 
