@@ -61,13 +61,13 @@ Pour suivre une livraison sur le serveur distant il faut utiliser :
 
 Quand on termine une livraison plusieurs actions sont réalisées : 
 
-* Fusionne la branche de livraison dans la branche master
+*   Fusionne la branche de livraison dans la branche master
 
-* Etiquette la livraison par son nom 
+*   Etiquette la livraison par son nom 
 
-* Fusionne la livraison dans la branche `develop`
+*   Fusionne la livraison dans la branche `develop`
 
-* Supprime la branche de livraison
+*   Supprime la branche de livraison
 
 la commande est : `git flow release finish RELEASE`
 
