@@ -2,7 +2,7 @@
 
 ## Interaction : Alert, Prompt, Confirm.
 
-### Alert : 
+### Alert 
 
 La syntaxe de `Alert` :
 ```
@@ -14,7 +14,7 @@ alert(message);
 la mini-fenêtre qui s'ouvre s'appelle une fenêtre modale, le "modale" signifie que le visiteur ne peut pas interagir avec le reste de la ppage
 tant qu'il n'a pas appuyé sur le bouton "ok".
 
-### Prompt :
+### Prompt 
 
 la syntaxe de `Prompt` : 
 ```
@@ -29,7 +29,7 @@ la fonction prompt accepte 2 arguments, elle affiche une fenêtre modale avec 2 
 
 le prompt renvoie `Null` si ont appuie sur la touche `echap`.
 
-### Confirm : 
+### Confirm  
 
 La syntaxe de confirm :
 ```
