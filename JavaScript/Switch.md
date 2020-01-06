@@ -31,7 +31,7 @@ switch(x){
 
 * si aucun `case` ne correspond alors le `default` sera exécuté.
 
-## Un exemple : 
+## Un exemple 
 
 Un exemple concret de `switch` : 
 
