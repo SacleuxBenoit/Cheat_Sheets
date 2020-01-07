@@ -120,5 +120,5 @@ git push origin --delete [Nom_de_la_branche]
 
 Une fois cette commande effectuée, il faut faire la commande suivante sur tous les autres ordinateurs afin de propager le changement : 
 ```
- git fetch -all -prune
+ git fetch -all --prune
 ```
