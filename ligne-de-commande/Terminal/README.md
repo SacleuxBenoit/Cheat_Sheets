@@ -76,7 +76,7 @@ Quelque cas pratique de `echo` :
 `uptime` La principale fonction de la commande `uptime` c'est d'indiquer depuis combien de temps le système fonctionne, 
 cette commande affiche : 
  
- *   l'heure actuelle
- *   le temps depuis lequel le system est en marche
- *   le nombre d'utilisateurs de connectés 
- *   et la charge du system
+ *  l'heure actuelle
+ *  le temps depuis lequel le system est en marche
+ *  le nombre d'utilisateurs de connectés 
+ *  et la charge du system
