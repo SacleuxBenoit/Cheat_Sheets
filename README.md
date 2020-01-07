@@ -1,23 +1,23 @@
 # Cheat_Sheets
 
-## Bienvenue sur mon Cheat_Sheets, il est pour le moment composé de 10 parties : 
+## Bienvenue sur mon Cheat_Sheets, il est pour le moment composé de 10 parties  
 
-* [css](css)
+*   [css](css)
 
-* [SASS](css/SASS)
+*   [SASS](css/SASS)
 
-* [JavaScript](JavaScript)
+*   [JavaScript](JavaScript)
 
-* [algo](algo)
+*   [algo](algo)
 
-* [TypeScript](TypeScript)
+*   [TypeScript](TypeScript)
 
-* [Framework](framework)
+*   [Framework](framework)
 
-* [SQL](SQL)
+*   [SQL](SQL)
 
-* [Gitflow](Git_flow)
+*   [Gitflow](Git_flow)
 
-* [ligne de commande](ligne_de_commande)
+*   [ligne de commande](ligne_de_commande)
 
-* [Markdown](Markdown)
+*   [Markdown](Markdown)
