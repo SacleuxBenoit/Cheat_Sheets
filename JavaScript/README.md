@@ -1,20 +1,20 @@
-# la doc JavaScript est composé pour le moment de 8 parties : 
+# la doc JavaScript est composé pour le moment de 8 parties 
 
-* [if else](if_else.md)
+*   [if else](if_else.md)
 
-* [variables](variables.md)
+*   [variables](variables.md)
 
-* [Data Types](Data_types.md)
+*   [Data Types](Data_types.md)
 
-* [Type conversions](Type_conversions.md)
+*   [Type conversions](Type_conversions.md)
 
-* [Alert Prompt et Confirm](AlertPromptConfirm.md)
+*   [Alert Prompt et Confirm](AlertPromptConfirm.md)
 
-* [Strict mode](strict_mode.md)
+*   [Strict mode](strict_mode.md)
 
-* [Map and Set](MapAndSet.md)
+*   [Map and Set](MapAndSet.md)
 
-* [Switch](Switch.md)
+*   [Switch](Switch.md)
 
 
 
