@@ -32,4 +32,19 @@ une fois cette commande effectué, plusieurs questions nous sont demandés :
 *   Choose test framework
 *   Choose rendering mode
 
-Une fois que c'est finit, il suffit de faire cd <project-name> et faire `yarn dev`
+Une fois que c'est finit, il suffit de faire cd <project-name> et faire `yarn dev`.
+
+On peut désormais accéder à l'application avec `http://localhost:3000`
+
+note : NuxtJs surveille les modifications faites au fichier, il n'y a pas besoin de reload le server
+
+# Structure des répértoires 
+
+## Le répértoire assets
+
+Le répértoire assets contient des ressources NON compilés, tels que des fichiers stylus ou sass, même des images et des polices.
+
+## Le répértoire components 
+
+Le répertoire components contient les composants vue.js, on ne peut pas utiliser les méthodes `asyncData` ou `fetch`
+
