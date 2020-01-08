@@ -21,7 +21,7 @@ les Methods et les properties sont :
 *   map.size() - renvoie le nombre d'éléments actuel
 
 Par exemple : 
-```
+```javascript
 let map = new Map();
 
 map.set('1', 'str1'); // a string key
@@ -38,7 +38,7 @@ Comme nous pouvons le voir, contrairement aux objets, les clés ne sont pas conv
 Map peut aussi utiliser des objets comme clés.
 
 par exemple : 
-```
+```javascript
 let john = { name : "john"};
 
 let visitsCountMap = new Map();
