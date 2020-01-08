@@ -10,7 +10,7 @@ nous devons donc utiiliser l'instruction if et l'opérateur conditionnel '?'
 l'instruction if vérifie une condition entre parenthèses, si le résultat est true il exécute le bloc de code
 
 par exemple : 
-```
+```javascript
 let year = prompt('In which year was ECMAScript-2015 specification published?', '');
 if (year == 2015) alert( 'You are right!' );
 ```
@@ -19,7 +19,7 @@ Dans l'exemple ci-dessus, la condition vérifie une égalité simple (year == 20
 
 si il y a + d'exécution à exécuter nous devons alors écrire le code entre des accolades :
 
-```
+```javascript
 if (year == 2015) {
   alert( "That's correct!" );
   alert( "You're so smart!" );
@@ -54,14 +54,14 @@ L'opérateur est représenté par un point d'interrogation : `?` il est appellé
 c'est le seul opérateur en JavaScript qui en a autant. 
 
 le syntaxe est : 
-```
+```javascript
 let resul = condition ? value1 : value2
 ```
 
 La condition est évaluée, si elle est true, value1 est donc retournée, sinon c'est value2.
 
 par exemple : 
-```
+```javascript
 let Access = (Age > 18) ? true : false; 
 ```
 
@@ -74,7 +74,7 @@ mais les parenthèses facilite la lisibilité du code, il est donc conseillé de
 Une séquence d'opérateurs `?` permettent de renvoyer une valeur qui dépend de plusieurs conditions.
 
 par exemple : 
-```
+```javascript
 let age = prompt('age?', 18);
 
 let message = (age < 3) ? 'Hi, baby!' :
@@ -91,7 +91,7 @@ alert( message );
 4) Si vrai retourne `Greetings`, sinon il passe le dernier `:` et retourne `What an unusual age!`
 
 la même logique en utilisant else_if : 
-```
+```javascript
 if (age < 3) {
   message = 'Hi, baby!';
 } else if (age < 18) {
