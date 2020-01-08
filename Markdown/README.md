@@ -2,13 +2,13 @@
 
 ## Dans ce cheat_sheet nous allons comparer comment écrire en Markdown par rapport au html
 
-### note : 
+### note 
 
 même si ce cheat_sheet est une comparaison entre le HTML et le Markdown, il faut savoir que le Markdown est exporté en html 
 vous pouvez donc utiliser du HTML dans vos pages Markdown.
 Les fichiers Markdown sont enregistrés avec l'extension `.md` ou `.markdown`
 
-## Comment faire un paragraphe en Markdown ?
+## Comment faire un paragraphe en Markdown 
 
 Pour faire un paragraphe en HTML il faut faire : 
 ```
@@ -29,7 +29,7 @@ un autre paragraphe ici
 Pour faire de l'emphase (de la mise en valeur), il faut entourer le / les mots de notre choix par `*` ou `_`.
 Il y a 2 types d'emphase : l'emphase faible, généralement affichée en italique et l'emphase forte, généralement affichée en gras.
 
-### Emphase faible :
+### Emphase faible 
 
 En html ce sera : 
 ```
@@ -43,7 +43,7 @@ c'est un *mot* important.
 c'est un _mot_ important.
 ```
 
-### Emphase forte :
+### Emphase forte 
 
 en html ce sera : 
 ```
@@ -122,7 +122,6 @@ Alors que pour afficher du code en markdown il faut faire :
 ```
 ```<h1>un titre ici</h1>```
 ```
-
 ## Les liens
 
 Pour faire un lien en html il faut faire : 

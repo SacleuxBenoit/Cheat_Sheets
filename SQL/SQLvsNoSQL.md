@@ -1,6 +1,6 @@
 # SQL
 
-## Différence entre SQL et NoSQL : 
+## Différence entre SQL et NoSQL 
 
 *   Les bases de données SQL sont appelées bases de données relationnelles alors que la base de données NoSQL est appelée base de données distribuée ou non relationnelle.
 
@@ -18,10 +18,10 @@
 
 *   Pour les propriétés les bases de données SQL mettent l'accent sur les propriétés ACID (Atomicité, cohérence, Isolation et Durabilité) tandis que le NoSQL suit le théorème de Brewers CAP (Cohérence, Disponibilité et Tolérance de partition).
 
-# Pourquoi utiliser la base de données SQL ?
+# Pourquoi utiliser la base de données SQL 
 
 SQL protège activement l'intégrité de la base de données en fournissant la conformité ACID, de plus SQL est l'option la plus recommandée par de nombreuses entreprises en raison de sa structure et de ses schémas prédéfinis.
 
-# Pourquoi utiliser la base de données NoSQL ?
+# Pourquoi utiliser la base de données NoSQL 
 
 il gagne en popularité en permettant de stocker différents types de données ensemble et on peut facilement évoluer en répartissant plusieurs serveurs, si on a besoin de développer une application dans un délai imparti, nous devons opter pour NoSQL, qui accélérera les performances grâce à sa phase de développement rapide.

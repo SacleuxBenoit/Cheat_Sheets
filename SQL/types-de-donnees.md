@@ -1,12 +1,11 @@
 # SQL
 
-## !!! Cheat_sheets en cours de développement !!! :
+## !!! Cheat_sheets en cours de développement !!! 
 
 note : 
  
-* n = la taille
-
-* d = le nombre de chiffre après la virgule
+*   n = la taille
+*   d = le nombre de chiffre après la virgule
 
 ## Les données de type texte
 

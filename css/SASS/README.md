@@ -1,11 +1,11 @@
 # SASS
 
-## c'est quoi SASS ?
+## c'est quoi SASS 
 
 SASS (qui signifie Syntactically Awesome Style Sheets) est un pré-processeur du langage CSS, il permet de générer du code CSS toute en offrant 
 une syntaxe simple et un code réutilisable.
 
-## Comment l'installer ?
+## Comment installer SASS
 
 Pour l'installer avec Linux, il suffit de faire :
 ```
@@ -17,7 +17,7 @@ et pour l'installer avec Mac :
 brew install sass/sass/sass
 ```
 
-## Comment faire fonctionner le compilateur de SASS ? 
+## Comment faire fonctionner le compilateur de SASS 
 
 l'objectif est de créer un fichier SASS et de le compiler, pour ce faire nous allons créer un dossier `Projet`, dedans nous allons
 ajouter 2 sous dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de 
@@ -27,7 +27,7 @@ Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
 
 (à noter que les noms des dossiers n'ont pas d'importance, et que l'on peut mettre ce que l'on veut)
 
-### La compilation : 
+### La compilation  
 
 pour compiler le fichier `style.scss` nous allons vérifier le fichier édité avec `watch`, pour cela on va se mettre dans le dossier `Projet`
 et écrire `sass --watch scss:css` dans le terminal.
@@ -57,7 +57,7 @@ Après la ccompilation ont obtient en css :
 }
 ```
 
-## Les variables globales : 
+## Les variables globales 
 
 Pour qu'une variable soit globale il faut la déclarer en dehors d'un bloc de code, car si on déclare la variable dans un bloc de code
 elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclaré dans le bloc.
