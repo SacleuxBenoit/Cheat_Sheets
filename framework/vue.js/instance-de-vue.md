@@ -2,7 +2,7 @@
 
 ## Instance de vue 
 
-### créer un instance de vue  
+## créer un instance de vue  
 
 pour créer un instance de vue il faut faire : 
 ```
