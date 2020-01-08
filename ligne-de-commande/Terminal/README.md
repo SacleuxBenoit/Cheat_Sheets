@@ -38,7 +38,6 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de ficher.
 
-
 ## Autres
 
 `man` Permet d'afficher le manuel d'aide de n'importe quelle commande par exemple `man ls` affiche le manuel d'aide de la commande ls
