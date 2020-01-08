@@ -68,3 +68,24 @@ note : ce répertoire ne peut pas être rennomé sans configuration supplémenta
 
 Le répertoire plugin contient les plugins JavaScript que l'ont souhaite exécuter avant d'instancier l'application vue.js racine, c'est l'endroit pour mettre les composants globaux et injecté des fonctions ou constantes.
 
+## Le répertoire statics
+
+Le répertoire static est directement relié au chemin racine du serveur (/static/test.txt est accessible à l'adresse http://localhost:3000/test.txt) et contient des fichiers que l'on ne veut pas modifier (par ex. le favicon)
+
+note : ce répertoire ne peut pas être rennomé sans configuration supplémentaires.
+
+## Le répertoire des stores
+
+ce répertoire contient les fichiers ce store vuex. les stores vuex sont implémenté de manière optionnelle dans le framework Nuxt.js. La création d'`index.js` dans ce répertoire active automatiquement l'option dans le framework
+
+note : ce répertoire ne peut pas être rennomé sans configuration supplémentaires.
+
+## le fichier nuxt.config.js 
+
+ce fichier contient les configurations personnalisée concernant Nuxt.js
+
+## le fichier package.json
+
+le fichier package.json contient les dépendances et scripts de l'application
+
+note : ce fichier ne peut pas être rennomé 
