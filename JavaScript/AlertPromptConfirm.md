@@ -5,7 +5,7 @@
 ### Alert 
 
 La syntaxe de `Alert` :
-```
+```javascript
 alert(message);
 ```
 
@@ -17,7 +17,7 @@ tant qu'il n'a pas appuyé sur le bouton "ok".
 ### Prompt 
 
 la syntaxe de `Prompt` : 
-```
+```javascript
 result = prompt(title [default]);
 ```
 
@@ -32,17 +32,10 @@ le prompt renvoie `Null` si ont appuie sur la touche `echap`.
 ### Confirm  
 
 La syntaxe de confirm :
-```
+```javascript
 result = prompt(question)
 ```
 
 Confirm affiche une fenêtre modale avec 2 boutons : `ok` et `annuler`.
 
 c'est true si `ok` est appuyé et false si `annuler` est appuyé.
-
-
-
-
-
-
-
