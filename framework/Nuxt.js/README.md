@@ -127,3 +127,27 @@ Cette option nous permet d'ajouter des modules Nuxt à notre projet
 ## modulesDir 
 
 Cette option nous permet de définir le répertoir node_modules de notre application Nuxt.js
+
+## plugins
+
+Cette option nous permet de définir des plugins JavaScript qui seront exécutés avant d'instancier la racine de l'application Vue.js
+
+## rootDir 
+
+Cette option nous permet de définir l'espace de travail de notre application Nuxt.js
+
+## router
+
+Avec l'option `router`, on modifie la configuration Nuxt.js par défaut de vue router
+
+## server
+
+Cette option nous permet de configurer les variables de connexion à l'instance du serveur de notre application Nuxt.js
+
+## dir 
+
+cette option nous permet de définir les répertoires personnalisés de notre application Nuxt.js
+
+## transition 
+
+Cette option nous permet de définir les propriétés par défaut des transitions de pages.
