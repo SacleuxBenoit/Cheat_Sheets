@@ -1,8 +1,8 @@
-# Vue Js : 
+# Vue Js 
 
-## Instance de vue :
+## Instance de vue 
 
-### créer un instance de vue : 
+## créer un instance de vue  
 
 pour créer un instance de vue il faut faire : 
 ```
@@ -10,9 +10,9 @@ var vm = new Vue({
   // options
 })
 ```
-* Par convention, nous utilisons souvent la variable vm (abréviation pour ViewModel) pour faire référence au instances de Vue.
+*   Par convention, nous utilisons souvent la variable vm (abréviation pour ViewModel) pour faire référence au instances de Vue.
 
-## Données et Méthodes : 
+## Données et Méthodes  
 
 quand une instance de vue est créée, ça ajoute toutes les propriétés trouvés dans son objet data au système réactif de vue.
 Quand une valeur de ces propriétés change, la vue va "réagir", se mettant à jour pour concorder avec les nouvelles valeurs.
@@ -70,6 +70,5 @@ Tous ces hooks de cycle de vie sont appelés avec leur this pointant sur l'insta
 !!!!! Ne pas utiliser les fonctions fléchés sur une propriété ou fonction de rappel d'une instance.
 Comme les fonctions fléchés sont liées au context parent, this ne sera pas l'instance de vue comme vous pourriez
 vous y attendre, et vous rencontrerez alors des erreurs. !!!!!
-
 
 ![alt text](images/lifecycle.png)
