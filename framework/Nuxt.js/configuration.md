@@ -1,61 +1,61 @@
-# configuration 
+# Configuration 
 
 ## Build
 
-Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuaration de `webpack` et de `transpilation
+Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuration de `webpack` et de `transpilation
 
-## css
+## Css
 
 Cette option nous permet de définir les fichiers css, modules et bibliothèques que nous voulons inclure en global
 
-## dev 
+## Dev 
 
 Cette option nous permet de définir le mode `development` ou le mode `production`.
 
-## env
+## Env
 
-Cette option nous permet de définir des variables d'environnement disponnible côté client et côté serveur.
+Cette option nous permet de définir des variables d'environnement disponible côté client et côté serveur.
 
-## generate 
+## Generate 
 
 Cette option nous permet de définir chaque paramètre pour chaque route dynamique de notre application qui sera transformée en fichier HTML par nuxt.js 
 
-## head 
+## Head 
 
 Cette option nous permet de définir les balises meta par défaut de notre application 
 
-## loading 
+## Loading 
 
 Cette option nous permet de personnaliser le composant de chargement par défaut chargé par nuxt.js
 
-## modules
+## Modules
 
 Cette option nous permet d'ajouter des modules Nuxt à notre projet
 
-## modulesDir 
+## ModulesDir 
 
-Cette option nous permet de définir le répertoir node_modules de notre application Nuxt.js
+Cette option nous permet de définir le répertoire node_modules de notre application Nuxt.js
 
-## plugins
+## Plugins
 
-Cette option nous permet de définir des plugins JavaScript qui seront exécutés avant d'instancier la racine de l'application Vue.js
+Cette option nous permet de définir des plugins Javascript qui seront exécutés avant d'instancier la racine de l'application Vue.js
 
-## rootDir 
+## RootDir 
 
 Cette option nous permet de définir l'espace de travail de notre application Nuxt.js
 
-## router
+## Router
 
 Avec l'option `router`, on modifie la configuration Nuxt.js par défaut de vue router
 
-## server
+## Server
 
 Cette option nous permet de configurer les variables de connexion à l'instance du serveur de notre application Nuxt.js
 
-## dir 
+## Dir 
 
 cette option nous permet de définir les répertoires personnalisés de notre application Nuxt.js
 
-## transition 
+## Transition 
 
 Cette option nous permet de définir les propriétés par défaut des transitions de pages.
