@@ -96,3 +96,34 @@ note : ce fichier ne peut pas être rennomé
 
 Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuaration de `webpack` et de `transpilation
 
+## css
+
+Cette option nous permet de définir les fichiers css, modules et bibliothèques que nous voulons inclure en global
+
+## dev 
+
+Cette option nous permet de définir le mode `development` ou le mode `production`.
+
+## env
+
+Cette option nous permet de définir des variables d'environnement disponnible côté client et côté serveur.
+
+## generate 
+
+Cette option nous permet de définir chaque paramètre pour chaque route dynamique de notre application qui sera transformée en fichier HTML par nuxt.js 
+
+## head 
+
+Cette option nous permet de définir les balises meta par défaut de notre application 
+
+## loading 
+
+Cette option nous permet de personnaliser le composant de chargement par défaut chargé par nuxt.js
+
+## modules
+
+Cette option nous permet d'ajouter des modules Nuxt à notre projet
+
+## modulesDir 
+
+Cette option nous permet de définir le répertoir node_modules de notre application Nuxt.js
