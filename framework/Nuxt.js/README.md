@@ -89,3 +89,10 @@ ce fichier contient les configurations personnalisée concernant Nuxt.js
 le fichier package.json contient les dépendances et scripts de l'application
 
 note : ce fichier ne peut pas être rennomé 
+
+# configuration 
+
+## Build
+
+Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuaration de `webpack` et de `transpilation
+
