@@ -5,7 +5,7 @@
 En JavaScript une variable peut contenir n'importe quelle type de donnnée, elle peut être à un moment une chaine de caractère, et à un autre
 moment une valeur numérique.
 
-```
+```javascript
 let message = "Hello";
 message = 12346;
 ```
@@ -26,7 +26,7 @@ Il existe aussi des "valeurs numérique spéciales" qui appartiennent également
 `Infinity` reprèsente l'infini en mathématique. C'est une valeur qui est plus grande que n'importe quel nombre.
 
 Nous pouvons l'obtenir à la suite d'une division par zéro, ou encore en le mentionnant directement :
-```
+```javascript
 alert(Infinity);
 ```
 
