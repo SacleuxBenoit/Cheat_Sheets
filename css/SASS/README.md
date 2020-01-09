@@ -40,7 +40,7 @@ avec SASS les variables sont préfixés (comme en php) par un dollar
 
 Exemple : 
 
-```
+```scss
 $red:#FF0000;
 $colorbrick:#B22222;
 
@@ -50,7 +50,7 @@ $colorbrick:#B22222;
 }
 ```
 Après la ccompilation ont obtient en css : 
-```
+```css
 .cancel{
     border:solid 1px #FF0000;
     background-color: #B22222
@@ -61,7 +61,7 @@ Après la ccompilation ont obtient en css :
 
 Pour qu'une variable soit globale il faut la déclarer en dehors d'un bloc de code, car si on déclare la variable dans un bloc de code
 elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclaré dans le bloc.
-```
+```scss
 $red:#FF0000;
 $colorbrick:#B22222;
 
@@ -77,7 +77,7 @@ $colorbrick:#B22222;
 ```
 
 Apès la compilation on va obtenir : 
-```
+```css
 .cancel{
     border:solid 1px #FF0000;
     background-color: #B22222;
@@ -93,7 +93,7 @@ Apès la compilation on va obtenir :
 Le nesting avec SASS permet d'imbriquer le selecteur d'une manière proche de celui du HTML.
 
 Exemple : 
-```
+```scss
 header{ 
     div{   
         p{
@@ -105,13 +105,13 @@ header{
 
 Après compilation on va obtenir : 
 
-```
+```css
 header div p{
     background-color:red;
 }
 ```
 il est possible de restructurer les propriétés CSS composées comme (font) :
-```
+```scss
 h1{
    font:{ // Ne pas oublier les deux points
       size:15px;
@@ -122,7 +122,7 @@ h1{
 ```
 ce qui donne après compilation : 
 
-```
+```css
 h1 {
    font-size: 15px;
    font-weight: normal;
@@ -135,21 +135,21 @@ h1 {
 Le mixin est très utile avec SASS, il s'agit d'un ensemble de style CSS réutilisable.
 
 dans cette exemple nous allons déclarer un mixin du nom de `test` : 
-```
+```scss
 @mixin test{
     color :red;
 }
 ```
 
 maintenant que nous avons notre mixin, il suffit de la rapeller la ou on en a besoin :
-```
+```scss
 h1{
     @include test;
 }
 ```
 
 après compilation on obtient : 
-```
+```css
 h1{
     color:red;
 }
@@ -157,7 +157,7 @@ h1{
 
 ont peut même lui passer des arguments ! :
 
-```
+```scss
 @mixin myTransition($property,$duration,$timing){
    transition-property: $property;
    transition-duration: $duration;
@@ -171,7 +171,7 @@ div{
 } 
 ```
 après la compilation : 
-```
+```css
 div:hover {
    transition-property: all;
    transition-duration: 2s;

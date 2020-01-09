@@ -38,7 +38,6 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de ficher.
 
-
 ## Autres
 
 `man` Permet d'afficher le manuel d'aide de n'importe quelle commande par exemple `man ls` affiche le manuel d'aide de la commande ls
@@ -75,8 +74,7 @@ Quelque cas pratique de `echo` :
 
 `uptime` La principale fonction de la commande `uptime` c'est d'indiquer depuis combien de temps le système fonctionne, 
 cette commande affiche : 
- 
- *  l'heure actuelle
- *  le temps depuis lequel le system est en marche
- *  le nombre d'utilisateurs de connectés 
- *  et la charge du system
+*   l'heure actuelle
+*   le temps depuis lequel le system est en marche
+*   le nombre d'utilisateurs de connectés 
+*   et la charge du system
