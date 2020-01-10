@@ -12,5 +12,3 @@ alert("some code")
 'use strict'
 ```
 il n'y a aucun moyen de l'annuler une fois qu'ont la utilisé, il n'y a pas de retour! 
-
-
