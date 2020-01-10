@@ -2,12 +2,12 @@
 
 ## !!! Cheat_sheets en cours de développement !!! :
 
-## Comment ouvrir CMD ?
+## Comment ouvrir CMD 
 
 Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `windows + R`, ça va ouvrir la fenêtre
 `Éxécuter` et la il faut taper : `CMD`
 
-## Commandes :
+## Commandes 
 
 `dir` Affiche la liste des fichiers et des dossiers contenus dans le répertoire.
 
@@ -60,11 +60,3 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 `tasklist` Affiche toutes les tâches en cours d'exécution, y compris les services
 
 `systeminfo` Affiche les propriétés et la configuration spécifique de l'ordinateur
-
-
-
-
-
-
-
-
