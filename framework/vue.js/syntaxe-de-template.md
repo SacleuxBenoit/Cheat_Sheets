@@ -4,7 +4,7 @@
 
 Vue js utilise une syntaxe de template basée sur le HTML, elle permet de lier déclarativement le DOM rendu au données de l'instance sous-jacente de vue. Tous les templates de vue sont du HTML valide qui peut être interprété par les navigateurs et les interpréteurs HTML.
 
-# Interpolations 
+## Interpolations 
 
 ## texte 
 
@@ -37,7 +37,7 @@ Utilisez l'interpolation HTML uniquement sur du contenu de confiance et jamais s
 Ont ne peut pas utiliser les "moustaches" dans les attributs HTML, il faut utiliser la directive v-bind.
 Pour les booléens avec une valeur de true, v-bind fonctionne un peu différement voir l'exemple ci-dessous
 
-```
+```js
 <button v-bind:disabled="isButtonDisabled">Button</button>
 ```
 
@@ -51,11 +51,11 @@ Chacune des liaisons ne peut contenir qu'une seul expression.
 Les expressions de template sont isolées et ont seulement accès à une liste blanche de globales telles que `Math` et `Date`. Vous ne devriez pas tenter d’accéder à des variables globales définies par l’utilisateur dans les expressions de template.
 !!!
 
-# Directives
+## Directives
 
 les directives sont des attributs spécieux avec le préfixe -v les valeurs attendus sont UNIQUEMENT une unique expression en JavaScript.
 à l'exception de v-for. Le job d'une directive c'est d'appliquer réactivement des effets secondaires au DOM quand la valeur de son expression change.
 
-# Arguments
+## Arguments
 
 certaines directives peuvent prendre un argument indiqué par ":" après le nom de la directive 
