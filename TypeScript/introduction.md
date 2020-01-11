@@ -10,15 +10,14 @@ npm install -g typescript
 ```
 
 Cette installation donne accès à la commande `tsc`, La commande permettra de Transpiler le code en JavaScript (ES3, ES5 ou ES2015)
-```
+```typescript
 tsc index.ts
 ```
-
 
 ## Les variables dans TypeScript
 
 Le principal atout de TypeScript c'est d'associer facultativement un type à une données.
-```
+```typescript
 let pi: number;
 let message: string;
 let flag: boolean;
@@ -36,7 +35,7 @@ Dans l'exemple ci-dessus quatre variables sont déclarées sans être initialis�
 déterminer son type lors de la déclaration
 
 il est tout à fait possible d'initialiser une variable quand on la déclare : 
-```
+```typescript
 let pi = 3.14;
 let message = "Hi";
 let flag = true;
@@ -55,7 +54,7 @@ Un langage à typage statique est un langage (comme Java, C ou C++) avec lequel 
 Le langage TypeScript permet de préciser le type du résultat attendu lors de la déclaration de la fonction.
 
 Par défaut, et sans l'instruction return, le type de résultat d'une fonction est `void` (aucun résultat).
-```
+```typescript
 function double(n:number) :number{
     return 2 * n;
 }
@@ -65,7 +64,7 @@ La fonction double ci-dessus prend est déclarée comme prenant un paramètre de
 
 ## Classe 
 
-```
+```typescript
 class Animal {
     name: string;
 
@@ -81,14 +80,14 @@ comme ont peut le voir ci-dessus une classe Animal y est définis d'une façon p
 
 La classe Animal possède un attribut `name` elle définit un `constructor` et une méthode `shout` son instanciation se fait à l'aide de 
 l'opérateur new : 
-```
+```typescript
 var animal = new Animal("Pokemon");
 ```
 
 TypeScript implémente aussi la notion d'héritage simple avec l'utilisation du mot-clés `extends`
 
 L'extension de la classe Animal de l'exemple précédent se fait ainsi : 
-```
+```typescript
 class Lion extends Animal{
     sex: string;
     
