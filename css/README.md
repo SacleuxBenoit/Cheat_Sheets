@@ -1,5 +1,5 @@
 # CSS
 
-## La partie CSS est pour le moment composé de :
+## La partie Css est composée de
 
 [SASS](SASS)
