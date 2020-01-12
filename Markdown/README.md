@@ -11,7 +11,7 @@ Les fichiers Markdown sont enregistrés avec l'extension `.md` ou `.markdown`
 ## Comment faire un paragraphe en Markdown 
 
 Pour faire un paragraphe en HTML il faut faire : 
-```
+```html
 <p>un paragraphe ici</p>
 
 <p>un autre paragraphe ici</p>
@@ -32,7 +32,7 @@ Il y a 2 types d'emphase : l'emphase faible, généralement affichée en italiqu
 ### Emphase faible 
 
 En html ce sera : 
-```
+```html
 <p>c'est un <em>mot</em> important</p>
 ```
 
@@ -46,7 +46,7 @@ c'est un _mot_ important.
 ### Emphase forte 
 
 en html ce sera : 
-```
+```html
 <p>c'est un <strong>mot</strong> important</p>
 ```
 
@@ -60,7 +60,7 @@ c'est un __mot__ important.
  ## Les Titres
 
  pour écrire un titre en html on fait : 
- ```
+ ```html
 <h1>C'est un titre de niveau1</h1>
 <h2>C'est un titre de niveau2</h2>
 <h3>C'est un titre de niveau3</h3>
@@ -78,7 +78,7 @@ il existe même une autre syntaxe pour les titres de niveau 4 et plus
 ## Les listes à puces
 
 Pour faire une liste à puce en HTML il faut faire :
-```
+```html
 <ul>
 <li>Une puce</li>
 <li>Une autre puce</li>
@@ -95,7 +95,7 @@ et en markdown il faut faire :
 ## Les listes à puces numérotées 
 
 Pour faire une liste à puces numérotées en html il faut faire :
-```
+```html
 <ol>
 <li>Une puce</li>
 <li>Une autre puce</li>
@@ -113,19 +113,18 @@ Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros d
 ## Code non exécuté
 
 Pour ne pas exécuter du code en html on doit faire : 
-```
+```html
 <code><h1>un titre ici</h1></code>
 ```
 
-
 Alors que pour afficher du code en markdown il faut faire : 
 ```
-```<h1>un titre ici</h1>```
+``` # un titre ici```
 ```
 ## Les liens
 
 Pour faire un lien en html il faut faire : 
-```
+```html
 <a href="https://github.com/SacleuxBenoit">Mon Github</a>
 ```
 
@@ -137,7 +136,7 @@ Alors que pour le Markdown, ont doit mettre le texte du lien entre crochets suiv
 ## Les images
 
 Pour l'html : 
-```
+```html
 <img src="mon_image.png" alt="mon image"/>
 ```
 
@@ -149,7 +148,7 @@ Pour le markdown c'est la même chose que les liens sauf que l'on rajoute un `!`
 ## Les tableaux
 
 Pour faire un tableau en html il faut faire :
-```
+```html
 <table>
    <tr>
        <td>Maison</td>
