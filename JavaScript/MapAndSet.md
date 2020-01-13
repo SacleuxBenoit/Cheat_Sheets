@@ -49,4 +49,3 @@ alert(visitsCountMap.get(john) ); // 123
 ```
 
 l'utilisation d'objets comme clés est l'une des fonctionnalités Map les plus importantes.
-
