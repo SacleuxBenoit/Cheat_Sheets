@@ -16,7 +16,7 @@ note : ce répertoire ne peut pas être renommé sans configuration supplémenta
 
 ## Le répertoire des middlewares
 
-Le répertoire middlewares contient les middleswares, il permet de définir une fonction qui sera éxecuté avant de faire le rendu d'une mise en page, ou d'un groupe de mise en page.
+Le répertoire middlewares contient les middlewares, il permet de définir une fonction qui sera éxecuté avant de faire le rendu d'une mise en page, ou d'un groupe de mise en page.
 
 ## Le répertoire des pages
 
