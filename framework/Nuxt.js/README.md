@@ -15,7 +15,7 @@ il viens avec c'est package :
 ## Installation de Nuxt.js
 
 Pour installer Nuxt.js il faut faire la commande suivante :
-```
+```terminal
 yarn create nuxt-app <project-name>
 ```
 
@@ -37,5 +37,3 @@ Une fois que c'est fini, il suffit de faire cd <project-name> et faire `yarn dev
 On peut désormais accéder à l'application avec `http://localhost:3000`
 
 note : NuxtJs surveille les modifications faites au fichier, il n'y a pas besoin de reload le server
-
-
