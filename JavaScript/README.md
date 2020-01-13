@@ -8,6 +8,3 @@
 *   [Strict mode](strict_mode.md)
 *   [Map and Set](MapAndSet.md)
 *   [Switch](Switch.md)
-
-
-
