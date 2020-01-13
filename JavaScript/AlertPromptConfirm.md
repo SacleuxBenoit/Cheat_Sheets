@@ -1,6 +1,6 @@
 # JavaScript
 
-## Interaction : Alert, Prompt, Confirm.
+## Interaction : Alert, Prompt, Confirm
 
 ### Alert 
 
