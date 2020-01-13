@@ -2,7 +2,7 @@
 
 ## Build
 
-Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuration de `webpack` et de `transpilation
+Cette option permet de configurer différents paramètres pour l'étape de `build`, incluant les `loaders`, `filenames` et la configuration de `webpack` et de `transpilation`
 
 ## Css
 
