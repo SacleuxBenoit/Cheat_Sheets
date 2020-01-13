@@ -1,10 +1,10 @@
-# Structure des répértoires 
+# Structure des répertoires 
 
-## Le répértoire assets
+## Le répertoire assets
 
 Le répertoire assets contient des ressources NON compilés, tels que des fichiers stylus ou sass, même des images et des polices.
 
-## Le répértoire components 
+## Le répertoire components 
 
 Le répertoire components contient les composants vue.js, on ne peut pas utiliser les méthodes `asyncData` ou `fetch`
 
