@@ -34,7 +34,7 @@ Un nombre `0` une chaîne de caractères vide `""`, `null`, `undefined` et `NaN`
 
 les autres valeurs deviennent true.
 
-## La clause else : 
+## La clause else  
 
 L'instruction if peut contenir un bloc `else` il s'éxecute lorsque la condition est incorrecte.
 
@@ -102,6 +102,3 @@ if (age < 3) {
   message = 'What an unusual age!';
 }
 ```
-
-
-
