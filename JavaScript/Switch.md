@@ -9,7 +9,7 @@ Switch peut remplacer plusieurs `if`, il donne un moyen plus descriptif de compa
 le `switch` a une ou plusieurs `case` et un défaut optionnel.
 
 la syntaxe ressemble à ça :
-```
+```javascript
 switch(x){
     case 'valeur1': // if (x === 'valeur1')
     ...
@@ -35,7 +35,7 @@ switch(x){
 
 Un exemple concret de `switch` : 
 
-```
+```javascript
 let a = 2 + 2;
 
 switch(a){
@@ -47,6 +47,6 @@ switch(a){
     case 5:
       alert('too large');
     default:
-    alert('I don't know this values');
+    alert('I dont know this values');
 }
 ```
