@@ -8,12 +8,12 @@ une syntaxe simple et un code réutilisable.
 ## Comment installer SASS
 
 Pour l'installer avec Linux, il suffit de faire :
-```
+```bash
 npm install -g sass
 ```
 
 et pour l'installer avec Mac : 
-```
+```bash
 brew install sass/sass/sass
 ```
 
