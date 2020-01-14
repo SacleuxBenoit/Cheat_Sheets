@@ -1,11 +1,11 @@
 # algo
 
-## En quoi consiste le tri à bulles ?
+## En quoi consiste le tri à bulles 
 Le tri à bulles consiste à comparer répétitivement les éléments consécutifs d'un tableau et à les permuter lorsqu'ils sont mal triés, il doit son nom au fait qu'il déplace les plus grands éléments à la fin du tableau, comme des bulles d'air qui remonteraient à la surface d'un liquide.
 
 ## Bubble Sort
 
-```
+```javascript
 const arr = [3, 45, 67, 98, 78, 25, 17];
 
 const bubbleSort = arr => {
@@ -28,7 +28,7 @@ Pratique :
 
 ## Donne des nombres aléatoires entre 1 et 1000
 
-```
+```javascript
  const BubbleSort = arr => {
             for (i = 0; i < arr.length - 1; i++) {
                 for (j = 0; j < arr.length - (i + 1); j++) {
