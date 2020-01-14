@@ -5,7 +5,7 @@
 ## créer un instance de vue  
 
 pour créer un instance de vue il faut faire : 
-```
+```js
 var vm = new Vue({
   // options
 })
@@ -16,7 +16,7 @@ var vm = new Vue({
 
 quand une instance de vue est créée, ça ajoute toutes les propriétés trouvés dans son objet data au système réactif de vue.
 Quand une valeur de ces propriétés change, la vue va "réagir", se mettant à jour pour concorder avec les nouvelles valeurs.
-```
+```js
 // Notre objet de données
 var data = { a: 1 }
 
@@ -42,7 +42,7 @@ quand ces données changent, le rendu de la vue est refait. il est à noter que 
 si elles existaient quand l'instance a été créée.
 
 si vous savez que vous allez avoir besoin d'une propriété plus tard qui n'a pas de valeur dès le début, vous avez juste besoin de la créer avec n'importe quelle valeur initiale, par exemple : 
-```
+```js
 data: {
   newTodoText: '',
   visitCount: 0,
