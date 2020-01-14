@@ -10,7 +10,7 @@ Vue js utilise une syntaxe de template basée sur le HTML, elle permet de lier d
 
 la forme la plus élémentaire de la liaison de données est l'interpolation de texte en utilisant la syntaxe "mustache" 
 
-```
+```js
 <span>Message: {{ msg }}</span>
 ```
 La balise moustache sera remplacée par la valeur de la propriété msg de l'objet data correspondant.
@@ -20,7 +20,7 @@ Nous pouvons également réaliser des interpolations à usage unique qui ne se m
 modification des données en utilisant la directive v-once, mais il faut garder à l'esprit que cela affectera 
 toutes les liaisons de données présentes sur le même noeud
 
-```
+```js
 <span v-once>Ceci ne changera jamais : {{ msg }} </span>
 ```
 
