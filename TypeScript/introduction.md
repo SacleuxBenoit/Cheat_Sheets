@@ -5,7 +5,7 @@
 ## Installation de TypeScript
 
 Pour installer TypeScript il faut faire : 
-```
+```bash
 npm install -g typescript
 ```
 
