@@ -26,9 +26,7 @@ switch(x){
 ```
 
 *   La valeur de `x` est vérifiée avec une égalité strict, pour le 1er case, puis le 2iem etc ...
-
 *   Si l'égalité est trouvée, `switch` commence à exécuter le code commençant par le `case` correspondant, jusqu'au `break` le plus proche ou jusqu'à la fin du `switch`
-
 *   si aucun `case` ne correspond alors le `default` sera exécuté.
 
 ## Un exemple 
