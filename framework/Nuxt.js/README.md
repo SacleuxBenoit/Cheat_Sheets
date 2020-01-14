@@ -32,7 +32,7 @@ une fois cette commande effectué, plusieurs questions nous sont demandées :
 *   Choose test framework
 *   Choose rendering mode
 
-Une fois que c'est fini, il suffit de faire cd <project-name> et faire `yarn dev`.
+Une fois que c'est fini, il suffit de faire cd `<project-name>` et faire `npm run dev`.
 
 On peut désormais accéder à l'application avec `http://localhost:3000`
 
