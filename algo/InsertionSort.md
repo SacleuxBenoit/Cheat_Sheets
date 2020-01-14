@@ -1,13 +1,13 @@
 # algo
 
-## C'est quoi le tri par insertion ?
+## C'est quoi le tri par insertion 
 
 Le tri par insertion est beaucoup plus lent que d'autres algorithmes comme le `quick sort` pour traiter des grandes séquences,
 il est cependant considéré comme le tri le plus efficace sur des entrées de petite taille, il est aussi rapide quand les données sont déjà presque triées.
 
 ## InsertionSort
 
-```
+```javascript
  arr = [4818, 4918, 11, 171, 1261]
         const insertionSort = arr => {
             const len = arr.length;
@@ -28,7 +28,7 @@ il est cependant considéré comme le tri le plus efficace sur des entrées de p
 
 ## Donne des nombres aléatoires entre 1 et 1000
 
-```
+```javascript
 const insertionSort = arr => {
             const len = arr.length;
             for (i = 0; i < len; i++) {
