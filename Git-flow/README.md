@@ -40,7 +40,7 @@ Pour récupérer une fonctionnalité publiée par un autre utilisateur il faut f
 
 On peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
 
-# Livraison (release)
+## Livraison (release)
 
 *   Prépare la sortie d'une nouvelle version de production
 
@@ -120,6 +120,6 @@ git push origin --delete [Nom_de_la_branche]
 
 Une fois cette commande effectuée, il faut faire la commande suivante sur tous les autres ordinateurs afin de propager le changement : 
 
-```
+```bash
  git fetch --all --prune
 ```
