@@ -12,6 +12,13 @@ Pour mettre à jours python :
 brew upgrade python
 ```
 
+## Pour l'installer sur Linux
+
+Pour installer python sur Linux il faut faire : 
+```
+sudo apt-get install python3
+```
+
 ## Les variables
 
 Avec python, pour déclarer une variable il suffit de faire : 
