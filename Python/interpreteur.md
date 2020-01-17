@@ -58,13 +58,13 @@ il existe 2 autres opérateurs qui permettent de connaître le résultat d'une d
 ```
 
 Le premier opérateur utilise le symbole `//`, ça permet d'obtenir la partie entière d'une division.
-```
+```bash
 >>> 10 / 3
  3
 ```
 
 le deuxième opérateur `%` (modulo), permet d'obtenir le reste de la division
-```
+```bash
 >>> 10 / 3
 1
 ```
