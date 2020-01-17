@@ -19,9 +19,36 @@ Type "help", "copyright", "credits" or "license" for more information.
 ### Saisir un nombre 
 
 Vous pouvez saisir un nombre après les `>>>` par exemple si on écris 2 voila ce que ça donne
-```
+```bash
 >>> 2
 2
 ```
 
 on saisit un nombre et l'interpreteur le renvoie, on peut aussi mettre des nombres à virgules, comme des nombres négatifs.
+
+## Addition, soustraction, multiplication et division
+
+Pour effectuer les opérations il faut utiliser les opérations suivantes `+` `-` `*` et `/`, par exemple :
+```bash
+>>> 2 + 2
+4
+```
+
+## Division entière et modulo 
+
+le résultat d'une division est données avec un nombre flottant :
+
+```bash
+>>> 10 / 5
+2.0
+>>> 10 / 3
+3.3333333333333335
+```
+
+il existe 2 autres opérateurs qui permettent de connaître le résultat d'une division entière et le reste de la division : 
+```bash
+>>> 10 / 5
+2.0
+>>> 10 / 3
+3.3333333333333335
+```
