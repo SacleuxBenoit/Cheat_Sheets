@@ -52,3 +52,15 @@ il existe 2 autres opérateurs qui permettent de connaître le résultat d'une d
 >>> 10 / 3
 3.3333333333333335
 ```
+
+Le premier opérateur utilise le symbole `//`, ça permet d'obtenir la partie entière d'une division.
+```
+>>> 10 / 3
+ 3
+```
+
+le deuxième opérateur `%` (modulo), permet d'obtenir le reste de la division
+```
+>>> 10 / 3
+1
+```
