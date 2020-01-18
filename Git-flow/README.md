@@ -94,27 +94,27 @@ quand on termine un hotfix, il est fusionné dans les branches develop et master
 Pour supprimer complètement une branche il faut la supprimer en locale et sur le dépôt distant.
 
 Pour supprimer la branche qui est en locale il faut faire :
-```
+```bash
 git branch -d [Nom_de_la_branche]
 ```
 
 Cette commande va afficher un avertissement si la branche n'a pas été totalement fusionnée avec le répertoire principal du dépôt. Pour passer outre on utilise :
-```
+```bash
 git branch -D [Nom_de_la_branche]
 ```
 
 Pour supprimer la branche située sur le dépôt distant, il faut faire : 
-```
+```bash
 git push [nom_du_dépot_distant] : [Nom_de_la_branche]
 ```
 
 Si ont à utilisé git clone pour créer la branche, celle-ci attribue par défaut le nom origin au dépôt distant. la commande devient :
-```
+```bash
 git push origin : [Nom_de_la_branche]
 ```
 
 Si on utilise une version de git plus récente, la syntaxe de la commande a était simplifiée : 
-```
+```bash
 git push origin --delete [Nom_de_la_branche]
 ```
 
