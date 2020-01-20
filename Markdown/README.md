@@ -164,7 +164,7 @@ Pour faire un tableau en html il faut faire :
 ```
 
 et en Markdown :
-```
+```markdown
 | Maison | 4 pièces | États-Unis |
 | ----------- | ----------- | ----------- |
 | Studio | 2 pièces | France |
