@@ -18,7 +18,7 @@ Pour faire un paragraphe en HTML il faut faire :
 ```
 
 Alors que pour faire un paragraphe en Markdown, il suffit de séparer le texte par des lignes vides :
-```
+```markdown
 un paragraphe ici
 
 un autre paragraphe ici
@@ -37,7 +37,7 @@ En html ce sera :
 ```
 
 alors qu'en Markdown :
-```
+```markdown
 c'est un *mot* important.
 
 c'est un _mot_ important.
@@ -51,7 +51,7 @@ en html ce sera :
 ```
 
 alors qu'en Markdown : 
- ```
+ ```markdown
 c'est un **mot** important.
 
 c'est un __mot__ important.
@@ -67,7 +67,7 @@ c'est un __mot__ important.
  ```
 
 Alors qu'en Markdown il suffit de faire :
-```
+```markdown
 # C'est un titre de niveau1
 ## C'est un titre de niveau2
 ### C'est un titre de niveau3
@@ -86,7 +86,7 @@ Pour faire une liste à puce en HTML il faut faire :
 </ul>
 ```
 et en markdown il faut faire :
-```
+```markdown
 * Une puce
 * Une autre puce
 * et la dernière puce
@@ -104,7 +104,7 @@ Pour faire une liste à puces numérotées en html il faut faire :
 ```
 
 Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros devant les puces !
-```
+```markdown
 1. Une puce
 2. Une autre puce
 3. Et la dernière puce
@@ -118,7 +118,7 @@ Pour ne pas exécuter du code en html on doit faire :
 ```
 
 Alors que pour afficher du code en markdown il faut faire : 
-```
+```markdown
 ``` # un titre ici```
 ```
 ## Les liens
@@ -129,7 +129,7 @@ Pour faire un lien en html il faut faire :
 ```
 
 Alors que pour le Markdown, ont doit mettre le texte du lien entre crochets suivis du lien entre parenthèses :
-```
+```markdown
 [Mon Github](https://github.com/SacleuxBenoit)
 ```
 
@@ -141,7 +141,7 @@ Pour l'html :
 ```
 
 Pour le markdown c'est la même chose que les liens sauf que l'on rajoute un `!` devant les crochets : 
-```
+```markdown
 ![mon image](mon_image.png)
 ```
 
