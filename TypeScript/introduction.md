@@ -1,4 +1,5 @@
 # TypeScript
+## Cette partie du cheat-sheets est en cours de développement
 
 ## Introduction
 
