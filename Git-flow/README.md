@@ -76,7 +76,6 @@ il ne faut pas oublier de pousser les étiquettes avec git push --tags
 ## Correctifs / Hotfixes
 
 *   Les correctifs sont utiles quand il est nécessaire de corriger immédiatement l'état incorrect de la version en production.
-
 *   Ils peuvent se baser sur l'étiquette de la branche master indiquant la version en production.
 
 ## commencer un hotfix 
