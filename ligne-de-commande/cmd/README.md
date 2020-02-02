@@ -3,8 +3,8 @@
 
 ## Comment ouvrir CMD 
 
-Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `windows + R`, ça va ouvrir la fenêtre
-`Éxécuter` et la il faut taper : `CMD`
+Pour ouvrir l'invite de commande de Windows, il faut appuyer sur la touche `Windows + R`, ça va ouvrir la fenêtre
+`Exécuter` et là il faut taper : `CMD`
 
 ## Commandes 
 
@@ -28,23 +28,23 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 
 `rmdir` Supprime un dossier 
 
-`erase` Supprime un ou plusieurs fichier
+`erase` Supprime un ou plusieur fichier
 
 `move` Déplace un ou plusieurs fichiers d'un répertoire à un autre
 
 `help` Affiche des informations sur les commandes de Windows
 
-`cmd` Éxecutre une nouvelle instande de l'invite de commandes
+`cmd` Execute une nouvelle instance de l'invite de commandes
 
 `color` Modifie les couleurs du premier plan et de l'arrière plan de la console
 
-`comp` Compare le contenus de deux fichiers ou groupes de fichiers
+`comp` Compare le contenu de deux fichiers ou groupes de fichiers
 
 `date` Affiche la date
 
-`openfiles` Affiche les fichiers partagés ouvers à distance par les utilisateurs
+`openfiles` Affiche les fichiers partagés ouverts à distance par les utilisateurs
 
-`pause` Interrompt l'exécution d'un fichier de commandes et affiche un message 
+`pause` Interrompt l'exécution d'un fichier de commande et affiche un message 
 
 `taskkill` Termine ou interrompt un processus ou une application en cours d'éxecution
 
@@ -54,7 +54,7 @@ Pour ouvrir l'invite de commandes de Windows, il faut appuyer sur la touche `win
 
 `type` Affiche le contenu d'un fichier texte
 
-`verify` Demande à Windows de vérifier si vos fichiers sont correctement écris sur le disque
+`verify` Demande à Windows de vérifier si vos fichiers sont correctement écrits sur le disque
 
 `tasklist` Affiche toutes les tâches en cours d'exécution, y compris les services
 
