@@ -7,7 +7,7 @@ Pour installer Python il faut faire la commande :
 brew install python
 ```
 
-Pour mettre à jours python : 
+Pour mettre à jour python : 
 ```bash
 brew upgrade python
 ```
