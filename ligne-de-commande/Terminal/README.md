@@ -2,23 +2,23 @@
 
 ## CD
 
-Pour naviguer dans un répértoire on utilise la commande `cd` succédée du nom du répértoire.
+Pour naviguer dans un répertoire on utilise la commande `cd` succédée du nom du répertoire.
 
 `cd /` Permet de se retrouver à la racine du site.
 
-`cd ~` ou `cd` Permet d'accéder au répértoire de l'utilisateur.
+`cd ~` ou `cd` Permet d'accéder au répertoire de l'utilisateur.
 
-`cd sites/prod` permet d'aller dans le répértoire prod.
+`cd sites/prod` permet d'aller dans le répertoire prod.
 
-`cd ..` Remonte dans le répértoire parent à partir de l'endroit ou vous avez utilisé cette commande.
+`cd ..` Remonte dans le répertoire parent à partir de l'endroit ou vous avez utilisé cette commande.
 
-`cd -` Permet de revenir au répértoire précédent.
+`cd -` Permet de revenir au répertoire précédent.
 
-`pwd` Renvoie le chemin absolu du répértoire.
+`pwd` Renvoie le chemin absolu du répertoire.
 
 ## LS
 
-La commande `ls` permet de lister le contenu du répértoire
+La commande `ls` permet de lister le contenu du répertoire
 
 `ls -a` Affiche les fichiers cachés.
 
@@ -26,7 +26,7 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -la` Affiche tous les fichiers, même les fichiers cachés.
 
-`ls /etc/` Affiche le contenu du répértoire /etc/
+`ls /etc/` Affiche le contenu du répertoire /etc/
 
 `ls -r` Tri de façon inversé.
 
@@ -36,7 +36,7 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `ls -lhS` Affiche les informations des fichiers, avec les tailles et ordonnée du plus grand au plus petit.
 
-`ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de ficher.
+`ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de fichier.
 
 ## Autres
 
@@ -46,11 +46,11 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `tail` Fait le contraire de `head` cette commande permet d'afficher la fin d'un fichier (par défaut elle affiche les 10 dernières lignes). Par exemple `tail README.md` ça affiche les 10 dernières ligne du readme.
 
- `wc Linux_commandes` Affiche le nombres de lignes + mots + caractères du fichier Linux_commandes.
+ `wc Linux_commandes` Affiche le nombre de ligne + mots + caractères du fichier Linux_commandes.
 
  `date` Affiche la date, le mois, l'heure et l'année.
 
-`!!` Exécute la dernière commande utilisé dans le terminal.
+`!!` Exécute la dernière commande utilisée dans le terminal.
 
 `cat` Affiche le fichier texte dans le terminal.
 
@@ -62,7 +62,7 @@ La commande `ls` permet de lister le contenu du répértoire
 
 `cp` Fait une copie d'un fichier, l'option `-R` permet des copies de dossiers entiers.
 
-`rm` Supprime des fichiers, l'option `-f` force la suppresion, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers.
+`rm` Supprime des fichiers, l'option `-f` force la suppression, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers.
 
 `echo "ceci est un test"` Affiche `ceci est un test` sur la console.
 
