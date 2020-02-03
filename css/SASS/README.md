@@ -2,7 +2,7 @@
 
 ## c'est quoi SASS 
 
-SASS (qui signifie Syntactically Awesome Style Sheets) est un pré-processeur du langage CSS, il permet de générer du code CSS toute en offrant 
+SASS (qui signifie Syntactically Awesome Style Sheets) est un préprocesseur du langage CSS, il permet de générer du code CSS toute en offrant 
 une syntaxe simple et un code réutilisable.
 
 ## Comment installer SASS
@@ -20,7 +20,7 @@ brew install sass/sass/sass
 ## Comment faire fonctionner le compilateur de SASS 
 
 l'objectif est de créer un fichier SASS et de le compiler, pour ce faire nous allons créer un dossier `Projet`, dedans nous allons
-ajouter 2 sous dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de 
+ajouter 2 sous-dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de 
 la compilation.
 
 Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
@@ -32,11 +32,11 @@ Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
 pour compiler le fichier `style.scss` nous allons vérifier le fichier édité avec `watch`, pour cela on va se mettre dans le dossier `Projet`
 et écrire `sass --watch scss:css` dans le terminal.
 
-Un fichier `style.css` sera donc créer dans le dossier css, il va être actualisé après chaque sauvegarde du fichier `style.scss`
+Un fichier `style.css` sera donc créé dans le dossier `CSS`, il va être actualisé après chaque sauvegarde du fichier `style.scss`
 
 ## Les variables 
 
-avec SASS les variables sont préfixés (comme en php) par un dollar 
+avec SASS les variables sont préfixées (comme en Php) par un dollar 
 
 Exemple : 
 
@@ -49,7 +49,7 @@ $colorbrick:#B22222;
     background-color: $colorbrick;
 }
 ```
-Après la ccompilation ont obtient en css : 
+Après la compilation on obtient en Css : 
 ```css
 .cancel{
     border:solid 1px #FF0000;
@@ -60,7 +60,7 @@ Après la ccompilation ont obtient en css :
 ## Les variables globales 
 
 Pour qu'une variable soit globale il faut la déclarer en dehors d'un bloc de code, car si on déclare la variable dans un bloc de code
-elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclaré dans le bloc.
+elle sera uniquement disponible pour ce bloc en question, SAUF si on fait `!global` après la variable déclarée dans le bloc.
 ```scss
 $red:#FF0000;
 $colorbrick:#B22222;
@@ -76,7 +76,7 @@ $colorbrick:#B22222;
 }
 ```
 
-Apès la compilation on va obtenir : 
+Après la compilation on va obtenir : 
 ```css
 .cancel{
     border:solid 1px #FF0000;
@@ -90,7 +90,7 @@ Apès la compilation on va obtenir :
 
 ## Le nesting
 
-Le nesting avec SASS permet d'imbriquer le selecteur d'une manière proche de celui du HTML.
+Le nesting avec SASS permet d'imbriquer le sélecteur d'une manière proche de celui du HTML.
 
 Exemple : 
 ```scss
@@ -141,7 +141,7 @@ dans cette exemple nous allons déclarer un mixin du nom de `test` :
 }
 ```
 
-maintenant que nous avons notre mixin, il suffit de la rapeller la ou on en a besoin :
+maintenant que nous avons notre mixin, il suffit de la rappler là où on en a besoin :
 ```scss
 h1{
     @include test;
@@ -155,7 +155,7 @@ h1{
 }
 ```
 
-ont peut même lui passer des arguments ! :
+on peut même lui passer des arguments ! :
 
 ```scss
 @mixin myTransition($property,$duration,$timing){
