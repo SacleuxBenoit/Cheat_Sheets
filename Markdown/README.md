@@ -1,10 +1,10 @@
 # Markdown
 
-## Dans ce cheat_sheet nous allons comparer comment écrire en Markdown par rapport au html
+## Dans ce cheat sheet nous allons comparer comment écrire en Markdown par rapport au HTML
 
 ### note 
 
-même si ce cheat_sheet est une comparaison entre le HTML et le Markdown, il faut savoir que le Markdown est exporté en html 
+même si ce cheat sheet est une comparaison entre le HTML et le Markdown, il faut savoir que le Markdown est exporté en html 
 vous pouvez donc utiliser du HTML dans vos pages Markdown.
 Les fichiers Markdown sont enregistrés avec l'extension `.md` ou `.markdown`
 
@@ -77,7 +77,7 @@ il existe même une autre syntaxe pour les titres de niveau 4 et plus
 
 ## Les listes à puces
 
-Pour faire une liste à puce en HTML il faut faire :
+Pour faire une liste à puces en HTML il faut faire :
 ```html
 <ul>
 <li>Une puce</li>
@@ -103,7 +103,7 @@ Pour faire une liste à puces numérotées en html il faut faire :
 </ol>
 ```
 
-Alors que pour le Markdown c'est assez intuitif, il suffit mettre des numéros devant les puces !
+Alors que pour le Markdown c'est assez intuitif, il suffit de mettre des numéros devant les puces !
 ```markdown
 1. Une puce
 2. Une autre puce
