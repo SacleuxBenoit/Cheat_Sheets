@@ -5,7 +5,7 @@
 note : 
  
 *   n = la taille
-*   d = le nombre de chiffre après la virgule
+*   d = le nombre de chiffres après la virgule
 
 ## Les données de type texte
 
