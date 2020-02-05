@@ -1,11 +1,11 @@
-# JavaScript
+# Javascript
 
 ## Les variables 
 
 Une variable est un "stockage nommé" pour les données. Nous pouvons utiliser des variables pour stocker des goodies, des visiteurs et
 d'autres données.
 
-Pour créer une variable en JavaScript, nous devons utiliser le mot `let`.
+Pour créer une variable en Javascript, nous devons utiliser le mot `let`.
 
 L'instruction ci-dessous déclare une variable avec le nom "message".
 ```js
@@ -25,7 +25,7 @@ message = "Hello";
 alert(message); //afficher le contenu de le variable
 ```
 
-Nous pouvons déclarer la variable sur une seul ligne : 
+Nous pouvons déclarer la variable sur une seule ligne : 
 ```js
 let message = "Hello";
 ```
