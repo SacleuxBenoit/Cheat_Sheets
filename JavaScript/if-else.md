@@ -1,13 +1,13 @@
-# JavaScript
+# Javascript
 
 ## Opérateurs Conditionnels : if '?'
 
-Parfois, nous devons effectuer différentes actions en fonctions d'une condition,
-nous devons donc utiiliser l'instruction if et l'opérateur conditionnel '?'
+Parfois, nous devons effectuer différentes actions en fonction d'une condition,
+nous devons donc utiliser l'instruction if et l'opérateur conditionnel '?'
 
 ## L'instruction if 
 
-l'instruction if vérifie une condition entre parenthèses, si le résultat est true il exécute le bloc de code
+l'instruction if vérifie une condition entre parenthèses, si le résultat est `true` il exécute le bloc de code
 
 par exemple : 
 ```javascript
@@ -17,7 +17,7 @@ if (year == 2015) alert( 'You are right!' );
 
 Dans l'exemple ci-dessus, la condition vérifie une égalité simple (year == 2015)
 
-si il y a + d'exécution à exécuter nous devons alors écrire le code entre des accolades :
+s'il y a + d'exécution à exécuter nous devons alors écrire le code entre des accolades :
 
 ```javascript
 if (year == 2015) {
@@ -49,9 +49,9 @@ Parfois nous devons attribuer une variable à une condition
 
 L'opérateur ternaire ou dit "point d'interrogation" nous permet de le faire plus simplement et plus rapidement.
 
-L'opérateur est représenté par un point d'interrogation : `?` il est appellé ternaire parce que l'opérateur a 3 opérandes,
+L'opérateur est représenté par un point d'interrogation : `?` il est appelé ternaire parce que l'opérateur a 3 opérandes,
 
-c'est le seul opérateur en JavaScript qui en a autant. 
+c'est le seul opérateur en Javascript qui en a autant. 
 
 le syntaxe est : 
 ```javascript
@@ -67,7 +67,7 @@ let Access = (Age > 18) ? true : false;
 
 nous pouvons omettre les parenthèses autour de `age > 18` l'opérateur point d'interrogation a une faible précédence, il s'éxecute donc après la comparaison >.
 
-mais les parenthèses facilite la lisibilité du code, il est donc conseillé des les utiliser.
+mais les parenthèses facilitent la lisibilité du code, il est donc conseillé des les utiliser.
 
 ## Multiple "?" 
 
@@ -90,7 +90,7 @@ alert( message );
 3) Si vrai retourne `Hello!`, sinon il passe les `:` et vérifie si `age < 100`
 4) Si vrai retourne `Greetings`, sinon il passe le dernier `:` et retourne `What an unusual age!`
 
-la même logique en utilisant else_if : 
+la même logique en utilisant else if : 
 ```javascript
 if (age < 3) {
   message = 'Hi, baby!';
