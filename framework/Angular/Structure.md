@@ -19,3 +19,14 @@ Voici à quoi ressemble la structure :
 *   `main.ts` C'est le fichier de démarrage de l'application Angular
 
 *   `polyfills.ts` c'est un fichier pour permettre à l'application de fonctionner sur casiment tous les navigateurs
+
+*   `style.css` c'est le fichier global css pour l'application
+
+*   `test.ts` c'est un fichier pour tester l'application
+
+*   `tsconfig.app.json` c'est le fichier de configuration pour le language Typescript
+
+*   `tsconfig.spec.json` c'est le fichier de configuration de Typescript pour les tests
+
+*   `.editorconfig` c'est le fichier de config pour l'éditeur de code
+
