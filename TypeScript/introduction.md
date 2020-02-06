@@ -1,24 +1,24 @@
-# TypeScript
+# Typescript
 ## Cette partie du cheat-sheets est en cours de développement
 
 ## Introduction
 
-## Installation de TypeScript
+## Installation de Typescript
 
-Pour installer TypeScript il faut faire : 
+Pour installer Typescript il faut faire : 
 ```bash
-npm install -g typescript
+npm install -g Typescript
 ```
 
 Cette installation donne accès à la commande `tsc`, La commande permettra de Transpiler le code en JavaScript (ES3, ES5 ou ES2015)
-```typescript
+```Typescript
 tsc index.ts
 ```
 
-## Les variables dans TypeScript
+## Les variables dans Typescript
 
-Le principal atout de TypeScript c'est d'associer facultativement un type à une données.
-```typescript
+Le principal atout de Typescript c'est d'associer facultativement un type à une donnée.
+```Typescript
 let pi: number;
 let message: string;
 let flag: boolean;
@@ -32,19 +32,19 @@ Dans l'exemple ci-dessus quatre variables sont déclarées sans être initialis�
 
 *   La variable flag a pour type : boolean il peut prendre true or false
 
-*   La variable joker a pour type any : c'est le type par défaut que TypeScript attribue pour une variable globale si il ne parviens pas à
+*   La variable joker a pour type any : c'est le type par défaut que Typescript attribue pour une variable globale si il ne parviens pas à
 déterminer son type lors de la déclaration
 
 il est tout à fait possible d'initialiser une variable quand on la déclare : 
-```typescript
+```Typescript
 let pi = 3.14;
 let message = "Hi";
 let flag = true;
 let joker = null;  
 ```
-Lors de la première initialisation TypeScript en infère automatiquement le type sans qu'il soit nécessaire de le mentionner.
+Lors de la première initialisation Typescript en infère automatiquement le type sans qu'il soit nécessaire de le mentionner.
 
-Ainsi, TypeScript, contrairement à JavaScript, peut être considéré comme un langage à typage statique.
+Ainsi, Typescript, contrairement à JavaScript, peut être considéré comme un langage à typage statique.
 
 définition par MDN d'un typage statique : 
 
@@ -52,20 +52,20 @@ Un langage à typage statique est un langage (comme Java, C ou C++) avec lequel 
 
 ## Fonction 
 
-Le langage TypeScript permet de préciser le type du résultat attendu lors de la déclaration de la fonction.
+Le langage Typescript permet de préciser le type du résultat attendu lors de la déclaration de la fonction.
 
 Par défaut, et sans l'instruction return, le type de résultat d'une fonction est `void` (aucun résultat).
-```typescript
+```Typescript
 function double(n:number) :number{
     return 2 * n;
 }
 ```
 
-La fonction double ci-dessus prend est déclarée comme prenant un paramètre de type number et renvoyent une valeur de type number.
+La fonction double ci-dessus prend est déclarée comme prenant un paramètre de type number et renvoie une valeur de type number.
 
 ## Classe 
 
-```typescript
+```Typescript
 class Animal {
     name: string;
 
@@ -81,14 +81,14 @@ comme ont peut le voir ci-dessus une classe Animal y est définis d'une façon p
 
 La classe Animal possède un attribut `name` elle définit un `constructor` et une méthode `shout` son instanciation se fait à l'aide de 
 l'opérateur new : 
-```typescript
+```Typescript
 var animal = new Animal("Pokemon");
 ```
 
-TypeScript implémente aussi la notion d'héritage simple avec l'utilisation du mot-clés `extends`
+Typescript implémente aussi la notion d'héritage simple avec l'utilisation du mot-clés `extends`
 
 L'extension de la classe Animal de l'exemple précédent se fait ainsi : 
-```typescript
+```Typescript
 class Lion extends Animal{
     sex: string;
     
@@ -101,7 +101,7 @@ shout(): string {
 }
 ```
 
-La classe Lion ajoute un attribut sex à la class Animal et redéfinit la méthod SHOUT.
+La classe Lion ajoute un attribut sex à la class Animal et redéfinit la méthode SHOUT.
 
-dans TypeScript toutes les classes sont considérées comme de nouveaux types, donc pour l'exemple ci-dessus 
+dans Typescript toutes les classes sont considérées comme de nouveaux types, donc pour l'exemple ci-dessus 
 la classe Lion est de type Lion et avec l'héritage elle est aussi du type Animal 
