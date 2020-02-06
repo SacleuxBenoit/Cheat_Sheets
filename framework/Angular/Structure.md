@@ -30,3 +30,8 @@ Voici à quoi ressemble la structure :
 
 *   `.editorconfig` c'est le fichier de config pour l'éditeur de code
 
+*   `angular.json` c'est le fichier de configuration pour l'application Angular
+
+## Notes 
+
+Je prendrais le temps de détailler les pages plus tard
