@@ -13,3 +13,9 @@ Voici à quoi ressemble la structure :
 *   `environnements` Ce répertoire va permettre de définir l'environnement d'execution (production ou développement)
 
 *   `index.html` C'est le fichier qui héberge l'application Angular (c'est le seul fichier html).
+
+*   `karma.conf.js` C'est le fichier de configuration pour les tests
+
+*   `main.ts` C'est le fichier de démarrage de l'application Angular
+
+*   `polyfills.ts` c'est un fichier pour permettre à l'application de fonctionner sur casiment tous les navigateurs
