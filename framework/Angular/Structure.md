@@ -10,7 +10,7 @@ Voici à quoi ressemble la structure :
 
 *   `assets` Ce répertoire va contenir les contenus statiques, comme les images.
 
-*   `environnements` Ce répertoire va permettre de définir l'environnement d'execution (production ou développement)
+*   `environnements` Ce répertoire va permettre de définir l'environnement d'exécution (production ou développement)
 
 *   `index.html` C'est le fichier qui héberge l'application Angular (c'est le seul fichier html).
 
@@ -18,7 +18,7 @@ Voici à quoi ressemble la structure :
 
 *   `main.ts` C'est le fichier de démarrage de l'application Angular
 
-*   `polyfills.ts` c'est un fichier pour permettre à l'application de fonctionner sur casiment tous les navigateurs
+*   `polyfills.ts` c'est un fichier pour permettre à l'application de fonctionner sur quasiment tous les navigateurs
 
 *   `style.css` c'est le fichier global css pour l'application
 
