@@ -18,12 +18,12 @@ ng new my-app
 Une fois la commande effectué, les questions suivantes vous seront posées : 
 
 *   Would you like to add Angular Routing ? (y/N)
-    *   Which stylesheet format would you like to use?
-*   Css
-*   SCSS
-*   Sass
-*   Less
-*   Stylus
+*   Which stylesheet format would you like to use?
+    *   Css
+    *   SCSS
+    *   Sass
+    *   Less
+    *   Stylus
 
 
 ## Problème avec ng
