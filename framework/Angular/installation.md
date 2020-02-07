@@ -15,7 +15,7 @@ ng new my-app
 
 à la place de `my-app` vous mettez bien entendu ce que vous voulez.
 
-Une fois la commande effectué, les questions suivantes vous seront posés : 
+Une fois la commande effectué, les questions suivantes vous seront posées : 
 
 *   Would you like to add Angular Routing ? (y/N)
 *   Which stylesheet format would you like to use?
