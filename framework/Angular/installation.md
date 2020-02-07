@@ -6,3 +6,11 @@ Pour installer Angular il suffit d'aller dans votre terminal et de faire la comm
 ```
 npm install -g @angular/cli
 ```
+## Initialiser Angular
+
+Pour initialiser Angular il faut faire : 
+```
+ng new my-app
+```
+
+à la place de `my-app` vous mettez bien entendu ce que vous voulez.
