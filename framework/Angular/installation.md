@@ -15,6 +15,17 @@ ng new my-app
 
 à la place de `my-app` vous mettez bien entendu ce que vous voulez.
 
+Une fois la commande effectué, les questions suivantes vous seront posés : 
+
+*   Would you like to add Angular Routing ? (y/N)
+*   Which stylesheet format would you like to use?
+*   Css
+*   SCSS
+*   Sass
+*   Less
+*   Stylus
+
+
 ## Problème avec ng
 
 Si jamais vous rencontrez le message d'erreur : `ng: command not found` lorsque vous voulez initialiser le projet il faut d'aller dans votre
