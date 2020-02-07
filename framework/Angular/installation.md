@@ -28,7 +28,7 @@ Une fois la commande effectué, les questions suivantes vous seront posées :
 
 ## Problème avec ng
 
-Si jamais vous rencontrez le message d'erreur : `ng: command not found` lorsque vous voulez initialiser le projet il faut d'aller dans votre
+Si jamais vous rencontrez le message d'erreur : `ng: command not found` lorsque vous voulez initialiser le projet il faut aller dans votre
 fichier où sont tous vos alias et mettre la commande suivante : 
 ```
 alias ng="/Users/<user_name>/.npm-global/bin/ng"
