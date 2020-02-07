@@ -25,3 +25,8 @@ alias ng="/Users/<user_name>/.npm-global/bin/ng"
 
 il ne faut surtout pas oublier de changer le `<user_name>` par votre propre user_name, si jamais vous avez un doute il faut aller sur le terminal et faire :
 `cd /Users` une fois dans le dossier Users il ne reste plus qu'a faire un `ls` et regarder le nom du dossier qui apparaît.
+
+## Démarrer l'application
+
+Pour démarrer l'application il suffit d'aller dans le dossier que vous venez de créer en faisant `cd my-app` et de faire `ng serve`
+petit bonus : la commande `ng serve --open` permet de lancer le serveur et de directement ouvrir le localhost sur votre navigateur.
