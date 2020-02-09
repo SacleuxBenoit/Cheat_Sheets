@@ -27,6 +27,10 @@
     *   [Angular](Angular)
         *   [readme](Framework/Angular/README.md)
 
+    *   [Nuxtjs](Framework/Nuxt.js)
+        *   [configuration](Framework/Nuxt.js/configuration.md)
+        *   [structure](Framework/Nuxr.js/structure.md)
+
 *   [SQL](SQL)
     *   [agir sur BDD](SQL/agir-sur-bdd.md)
     *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
