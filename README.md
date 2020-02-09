@@ -24,6 +24,7 @@
     *   [Introduction](algo/Introduction.md)
 
 *   [Framework](framework)
+
 *   [SQL](SQL)
     *   [agir sur BDD](SQL/agir-sur-bdd.md)
     *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
@@ -31,6 +32,9 @@
     
 *   [Gitflow](Git_flow)
     *   [Readme](Git-flow/README.md)
+
 *   [ligne de commande](ligne_de_commande)
+
 *   [Markdown](Markdown)
+
 *   [Python](Python)
