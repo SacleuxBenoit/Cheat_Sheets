@@ -24,6 +24,8 @@
     *   [Introduction](algo/Introduction.md)
 
 *   [Framework](framework)
+    *   [Angular](Angular)
+        *   [readme](Framework/Angular/README.md)
 
 *   [SQL](SQL)
     *   [agir sur BDD](SQL/agir-sur-bdd.md)
