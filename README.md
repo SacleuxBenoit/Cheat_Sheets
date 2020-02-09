@@ -6,7 +6,7 @@
 *   [css](css)  
 *   [SASS](css/SASS)
 *   [JavaScript](JavaScript)
-    *   [AlertPromptConfirm](AlertPromptConfirm.md)
+    *   [AlertPromptConfirm](JavaScript/AlertPromptConfirm.md)
 *   [algo](algo)
 *   [TypeScript](TypeScript)
 *   [Framework](framework)
