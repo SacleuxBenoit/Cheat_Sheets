@@ -11,12 +11,15 @@
     *   [Strict-mode](JavaScript/strict-mode.md)
     *   [Switch](JavaScript/Switch.md)
     *   [variables](JavaScript/variables.md)
+
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
+
 *   [algo](algo)
     *   [Bubble Sort](algo/BubbleSort.md)
     *   [Insertion Sort](algo/InsertionSort.md)
     *   [Merge Sort](algo/MergeSort.md)
+    
 *   [TypeScript](TypeScript)
 *   [Framework](framework)
 *   [SQL](SQL)
