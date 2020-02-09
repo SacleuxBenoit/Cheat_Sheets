@@ -44,6 +44,11 @@
     *   [Readme](Git-flow/README.md)
 
 *   [ligne de commande](ligne_de_commande)
+    *   [Cmd](ligne-de-commande/cmd)
+        *   [Readme](ligne-de-commande/cmd/README.md)
+
+    *   [Terminal](ligne-de-commande/Terminal)
+        *   [Readme](ligne-de-commande/Terminal/README.md)
 
 *   [Markdown](Markdown)
     *   [Readme](Markdown/README.md)
