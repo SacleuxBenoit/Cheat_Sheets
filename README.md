@@ -36,5 +36,9 @@
 *   [ligne de commande](ligne_de_commande)
 
 *   [Markdown](Markdown)
+    *   [Readme](Markdown/README.md)
 
 *   [Python](Python)
+    *   [installation](Python/installation.md)
+    *   [interpreteur](Python/interpreteur.md)
+    *   [variables](Python/variables.md)
