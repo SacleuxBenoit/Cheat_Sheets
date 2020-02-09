@@ -31,6 +31,10 @@
         *   [configuration](Framework/Nuxt.js/configuration.md)
         *   [structure](Framework/Nuxr.js/structure.md)
 
+    *   [VueJS](Framework/vue.js)
+        *   [instance de vue](framework/vue.js/instance-de-vue.md)
+        *   [syntaxe de template](framework/vue.js/syntaxe-de-template.md)
+
 *   [SQL](SQL)
     *   [agir sur BDD](SQL/agir-sur-bdd.md)
     *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
