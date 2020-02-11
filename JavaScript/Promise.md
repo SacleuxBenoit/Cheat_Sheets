@@ -15,3 +15,7 @@ let promise = new Promise(function(resolve, reject) {
   // executor (the producing code)
 });
 ```
+
+La fonction après new Promise est appelée exécuteur. Quand une nouvelle promise est créee, l'exécuteur s'exécute automatiquement. Il contient le "code producteur" qui devrait éventuellement produire le résultat.
+
+Ses arguments `resolve` et `reject` sont des rappels fournis par javascript. Notre code est uniquement à l'interieur de l'exécuteur.
