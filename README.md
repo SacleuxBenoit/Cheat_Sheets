@@ -27,14 +27,14 @@
     *   [Introduction](algo/Introduction.md)
 
 *   [Framework](framework)
-    *   [Angular](Angular)
-        *   [readme](Framework/Angular/README.md)
+    *   [Angular](framework/Angular)
+        *   [readme](framework/Angular/README.md)
 
-    *   [Nuxtjs](Framework/Nuxt.js)
-        *   [configuration](Framework/Nuxt.js/configuration.md)
-        *   [structure](Framework/Nuxr.js/structure.md)
+    *   [Nuxtjs](framework/Nuxt.js)
+        *   [configuration](framework/Nuxt.js/configuration.md)
+        *   [structure](framework/Nuxr.js/structure.md)
 
-    *   [VueJS](Framework/vue.js)
+    *   [VueJS](framework/vue.js)
         *   [instance de vue](framework/vue.js/instance-de-vue.md)
         *   [syntaxe de template](framework/vue.js/syntaxe-de-template.md)
 
