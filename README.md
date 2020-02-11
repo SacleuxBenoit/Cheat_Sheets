@@ -11,6 +11,9 @@
     *   [Strict-mode](JavaScript/strict-mode.md)
     *   [Switch](JavaScript/Switch.md)
     *   [variables](JavaScript/variables.md)
+    *   [Promise](JavaScript/Promise.md)
+    *   [Async Await](JavaScript/AsyncAwait.md)
+
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
