@@ -24,7 +24,7 @@
     *   [Merge Sort](algo/MergeSort.md)
 
 *   [TypeScript](TypeScript)
-    *   [Introduction](algo/Introduction.md)
+    *   [Introduction](TypeScript/Introduction.md)
 
 *   [Framework](framework)
     *   [Angular](framework/Angular)
