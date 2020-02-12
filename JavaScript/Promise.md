@@ -30,4 +30,11 @@ Lorsque l'exécuteur obtient le résultat, que ce soit tôt ou tard, peu importe
 
 Donc pour résumer : l'exécuteur s'exécute automatiquement et tente d'effectuer un travail, une fois la tentative terminée, il appelle `resolve` si elle réussis
 ou `reject` en cas d'erreur.
+
+L'objet `promise` retourné par le constructeur `new promise` à ces propriétés interne : 
+
+*   `state` initiallement `pending`, puis `fulfilled` quand `resolve` est appellé ou `reject` quand reject est appellé
+
+*   `result` initiallement `undefined`, puis passe à `value` quand `resolve(value)` est appelé ou `error` quand `reject(error)` est appelé.
+
  
