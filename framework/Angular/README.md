@@ -3,13 +3,13 @@
 ## Installation d'Angular
 
 Pour installer Angular il suffit d'aller dans votre terminal et de faire la commande suivante : 
-```
+```bash
 npm install -g @angular/cli
 ```
 ## Initialiser Angular
 
 Pour initialiser Angular il faut faire : 
-```
+```bash
 ng new my-app
 ```
 
@@ -18,19 +18,24 @@ ng new my-app
 Une fois la commande effectué, les questions suivantes vous seront posées : 
 
 *   Would you like to add Angular Routing ? (y/N)
-*   Which stylesheet format would you like to use?
-    *   Css
-    *   SCSS
-    *   Sass
-    *   Less
-    *   Stylus
 
+*   Which stylesheet format would you like to use?
+
+    *   Css
+
+    *   SCSS
+
+    *   Sass
+    
+    *   Less
+
+    *   Stylus
 
 ## Problème avec ng
 
 Si jamais vous rencontrez le message d'erreur : `ng: command not found` lorsque vous voulez initialiser le projet il faut aller dans votre
 fichier où sont tous vos alias et mettre la commande suivante : 
-```
+```alias
 alias ng="/Users/<user_name>/.npm-global/bin/ng"
 ```
 
@@ -41,7 +46,6 @@ il ne faut surtout pas oublier de changer le `<user_name>` par votre propre user
 
 Pour démarrer l'application il suffit d'aller dans le dossier que vous venez de créer en faisant `cd my-app` et de faire `ng serve`
 petit bonus : la commande `ng serve --open` permet de lancer le serveur et de directement ouvrir le localhost sur votre navigateur.
-
 
 ## Structure d'un projet Angular
 
