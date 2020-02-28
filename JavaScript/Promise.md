@@ -37,4 +37,23 @@ L'objet `promise` retourné par le constructeur `new promise` à ces propriété
 
 *   `result` initialement `undefined`, puis passe à `value` quand `resolve(value)` est appelé ou `error` quand `reject(error)` est appelé.
 
- 
+Voice un exemple de constructeur promise et d'une simple fonction exécuteur avec un code qui prend du temps : 
+
+```
+let promise = new Promise(function(resolve, reject) {
+  // the function is executed automatically when the promise is constructed
+
+  // after 1 second signal that the job is done with the result "done"
+  setTimeout(() => resolve("done"), 2000);
+});
+```
+
+Nous pouvons voir 2 chose en lancant le code au dessus : 
+
+*   l'exécuteur est appelé automatiquement et immdédiatement par `new Promise`
+
+*   l'exécuteur reçoit 2 arguments `resolve` et `reject`. Ces fonctions sont prédéfinis par le moteur Javascript, nous n'avons donc pas besoin de les créer. Nous devons appelé l'un deux une fois prêt.
+
+Après 2 secondes de traitement l'exécuteur appele `resolve("done")` pour produire le résultat cela change l'état de l'objet de promise.
+
+
