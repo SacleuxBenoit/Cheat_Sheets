@@ -19,4 +19,14 @@ Ensuite, il va falloir créer un dossier, je vais l'apeller `test`, dans ce doss
 *   license : (ISC)
 *   Is this OK ? (Yes)
 
-Pour un test, je vais faire press la touch enter sur tout (pour prendre les paramètres par défaut) sauf pour l'entry point, je vais mettre `app.js`
+Pour un test, je vais faire appuyer la touche `enter` sur tout (pour prendre les paramètres par défaut) sauf pour l'entry point, je vais mettre `app.js`
+
+## Installer express 
+
+Nous pouvons désormais installer express, pour l'installer dans la liste des dépendances il faut faire la commande suivante : `npm install express --save`, par contre si nous voulons l'installer de façon temporaire il suffit de ne pas mettre le `--save`.
+
+lorsque nous l'installons avec le `--save`, dans le fichier package.json 2 lignes sont rajoutés : 
+  ````
+"dependencies": {
+    "express": "^4.17.1"
+```
