@@ -2,7 +2,7 @@
 
 ## Créer et démarrer une application 
 
-Tout d'abord, il faut créer un dossier,je vais l'appelé `test`, dedans il faut faire un npm init puis installer [Express](installation.md) en tant que dépandance.
+Tout d'abord, il faut créer un dossier, dedans il faut faire un npm init puis installer [Express](installation.md) en tant que dépendance.
 
 une fois fait, nous allons créer un fichier `app.js` et mettre le code ci-dessous dedans : 
 ```
