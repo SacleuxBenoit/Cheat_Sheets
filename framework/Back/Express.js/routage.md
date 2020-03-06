@@ -15,7 +15,7 @@ const app = express()
 
 *   PATH c'est le chemin sur le serveur
 
-*   et HANDLER c'est la fonction éxecuté lorsque la route est mise en correspondance.
+*   et HANDLER c'est la fonction éxecutée lorsque la route est mise en correspondance.
 
 ## Quelques exemples 
 
