@@ -33,7 +33,7 @@ app.post('/', function (req, res) {
 });
 ```
 
-Répond à une demande DELETE sur la route (/user)
+Réponse à une demande DELETE sur la route (/user)
 ```
 app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user');
