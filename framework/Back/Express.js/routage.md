@@ -17,3 +17,25 @@ const app = express()
 
 *   et HANDLER c'est la fonction éxecuté lorsque la route est mise en correspondance.
 
+## Quelques exemples 
+
+Envoyer Hello World sur la page d'accueil :
+```
+app.get('/', function(req, send){
+    res.send('Hello World');
+})
+```
+
+Réponse à une demande POST à la racine (/)
+```
+app.post('/', function (req, res) {
+  res.send('Got a POST request');
+});
+```
+
+Répond à une demande DELETE sur la route (/user)
+```
+app.delete('/user', function (req, res) {
+  res.send('Got a DELETE request at /user');
+});
+```
