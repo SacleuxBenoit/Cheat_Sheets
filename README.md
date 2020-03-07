@@ -44,6 +44,8 @@
             *   [Installion](framework/Back/Express.js/installation.md)
             *   [Base](framework/Back/Express.js/base.md)
             *   [Routage](framework/Back/Express.js/routage.md)
+            *   [Express Generator](framework/Back/Express.js/generator.md)
+
 
 
 
