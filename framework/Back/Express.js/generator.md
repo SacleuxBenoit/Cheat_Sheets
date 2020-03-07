@@ -4,7 +4,7 @@ Pour installer epxress generator il suffit de faire :
 `npm install -g express-generator` 
 
 maintenant, nous pouvons afficher les options de commandes en faisant `express -h` dans le terminal, ceci va apparaître : 
-```
+```bash
   Usage: express [options][dir]
 
   Options:
