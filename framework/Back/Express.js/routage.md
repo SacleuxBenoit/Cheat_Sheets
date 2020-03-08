@@ -50,3 +50,7 @@ app.all('/article', function (req, res, next) {
 ```
 
 Alors, pour l'exemple ci-dessus le gestionnaire sera exécuté pour les demandes de /article, que l'on utilise .GET .POST .DELETE etc.
+
+## Notes
+
+Voici toutes les méthodes HTTP : : post, get, put, delete, head, options, trace, copy, lock, mkcol, move, purge, propfind, proppatch, unlock, report, mkactivity, checkout, merge, m-search, notify, subscribe, unsubscribe, patch, search, et connect.
