@@ -49,7 +49,7 @@ app.all('/article', function (req, res, next) {
 });
 ```
 
-Alors, pour l'exemple ci-dessus le gestionnaire sera exécuté pour les demandes de /article, que l'on utilise .GET .POST .DELETE etc.
+Alors, pour l'exemple ci-dessus le gestionnaire sera exécuté pour les demandes de /article, que l'on utilise .GET .POST .DELETE [etc](#etc*).
 
 ## Notes
 
