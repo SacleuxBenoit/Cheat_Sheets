@@ -38,3 +38,15 @@ app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user');
 });
 ```
+
+## Méthode de routage spéciale
+
+Il éxiste une méthode de routage spéciale qui n'est pas dérivée d'une methode HTTP : `app.all()`, elle est utilisée pour charger des fonctions middleware à un chemin d'accès pour toutes les methodes de demandes, par exemple :
+```js
+app.all('/article', function (req, res, next) {
+  console.log('Accessing the article section ...');
+  next(); // pass control to the next handler
+});
+```
+
+Alors, pour l'exemple ci-desus le gestionnaire sera exécuté pour les demandes de /article, que l'on utilise .GET .POST .DELETE etc.
