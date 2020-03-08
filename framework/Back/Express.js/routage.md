@@ -11,7 +11,7 @@ const express = require('express')
 const app = express()
 ```
 
-*   METHOD peut comprendre : .GET .POST .PUT .DELETE etc, c'est une méthode de [demande http](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+*   METHOD peut comprendre : .GET .POST .PUT .DELETE [etc](#etc*), c'est une méthode de [demande http](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 *   PATH c'est le chemin sur le serveur
 *   HANDLER c'est la fonction éxecutée lorsque la route est mise en correspondance.
@@ -53,4 +53,4 @@ Alors, pour l'exemple ci-dessus le gestionnaire sera exécuté pour les demandes
 
 ## Notes
 
-Voici toutes les méthodes HTTP : : post, get, put, delete, head, options, trace, copy, lock, mkcol, move, purge, propfind, proppatch, unlock, report, mkactivity, checkout, merge, m-search, notify, subscribe, unsubscribe, patch, search, et connect.
+<a id="etc*"></a> Voici toutes les méthodes HTTP : : post, get, put, delete, head, options, trace, copy, lock, mkcol, move, purge, propfind, proppatch, unlock, report, mkactivity, checkout, merge, m-search, notify, subscribe, unsubscribe, patch, search, et connect.
