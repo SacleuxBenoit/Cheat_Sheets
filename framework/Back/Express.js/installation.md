@@ -26,7 +26,7 @@ Pour un test, je vais faire appuyer la touche `enter` sur tout (pour prendre les
 Nous pouvons désormais installer express, pour l'installer dans la liste des dépendances il faut faire la commande suivante : `npm install express --save`, par contre si nous voulons l'installer de façon temporaire il suffit de ne pas mettre le `--save`.
 
 lorsque nous l'installons avec le `--save`, dans le fichier package.json 2 lignes sont rajoutées : 
-  ````
+  ````js
 "dependencies": {
     "express": "^4.17.1"
 ```
