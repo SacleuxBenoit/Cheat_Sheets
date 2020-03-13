@@ -7,17 +7,11 @@
 les Methods et les properties sont : 
 
 *   new Map() - crée la map.
-
 *   map.set(key, value) - stocke la valeur par la clé.
-
 *   map.get(key) - renvoie la valeur par la clé, non définie si la clé n'existe pas dans `Map`
-
 *   map.has(key) - retourne `true`si la clé existe, sinon retourne `false``
-
 *   map.delete(key) - supprime la valeur de la clé.
-
 *   map.clear() - supprime tout de `Map`
-
 *   map.size() - renvoie le nombre d'éléments actuel
 
 Par exemple : 
