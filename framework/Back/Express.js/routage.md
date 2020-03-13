@@ -1,7 +1,7 @@
 ## Routage
 
 La définition de la route via la doc officiel: 
-```
+```js
 app.METHOD(PATH, HANDLER)
 ```
 
@@ -12,7 +12,6 @@ const app = express()
 ```
 
 *   METHOD peut comprendre : .GET .POST .PUT .DELETE [etc](#etc*), c'est une méthode de [demande http](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-
 *   PATH c'est le chemin sur le serveur
 *   HANDLER c'est la fonction éxecutée lorsque la route est mise en correspondance.
 
