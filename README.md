@@ -68,3 +68,6 @@
     *   [installation](Python/installation.md)
     *   [interpreteur](Python/interpreteur.md)
     *   [variables](Python/variables.md)
+
+*   [Regex](regex)
+    *   [Readme](regex/README.md)
