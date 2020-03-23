@@ -51,8 +51,7 @@
     *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
     *   [types de données](SQL/types-de-donnees.md)
     
-*   [Gitflow](Git_flow)
-    *   [Readme](Git-flow/README.md)
+*   [Gitflow](Git_flow/README.md)
 
 *   [ligne de commande](ligne_de_commande)
     *   [Cmd](ligne-de-commande/cmd)
@@ -61,13 +60,11 @@
     *   [Terminal](ligne-de-commande/Terminal)
         *   [Readme](ligne-de-commande/Terminal/README.md)
 
-*   [Markdown](Markdown)
-    *   [Readme](Markdown/README.md)
+*   [Markdown](Markdown/README.md)
 
 *   [Python](Python)
     *   [installation](Python/installation.md)
     *   [interpreteur](Python/interpreteur.md)
     *   [variables](Python/variables.md)
 
-*   [Regex](regex)
-    *   [Readme](regex/README.md)
+*   [Regex](regex/README.md)
