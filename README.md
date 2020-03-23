@@ -16,8 +16,7 @@
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
-       *   [7.1](css/SASS/7.1)
-           *   [7.1](css/SASS/7.1/7.1.md)
+       *   [7.1](css/SASS/7.1/7.1.md)
 
 *   [algo](algo)
     *   [Bubble Sort](algo/BubbleSort.md)
@@ -29,8 +28,7 @@
 
 *   [Framework](framework)
     *   [Front](framework/Front)
-        *   [Angular](framework/Front/Angular)
-            *   [readme](framework/Angular/Front/README.md)
+        *   [Angular](framework/Front/Angular/README.md)
 
         *   [Nuxtjs](framework/Front/Nuxt.js)
             *   [configuration](framework/Nuxt.js/Front/configuration.md)
@@ -54,11 +52,9 @@
 *   [Gitflow](Git_flow/README.md)
 
 *   [ligne de commande](ligne_de_commande)
-    *   [Cmd](ligne-de-commande/cmd)
-        *   [Readme](ligne-de-commande/cmd/README.md)
+    *   [Cmd](ligne-de-commande/cmd/README.md)
 
-    *   [Terminal](ligne-de-commande/Terminal)
-        *   [Readme](ligne-de-commande/Terminal/README.md)
+    *   [Terminal](ligne-de-commande/Terminal/README.md)
 
 *   [Markdown](Markdown/README.md)
 
