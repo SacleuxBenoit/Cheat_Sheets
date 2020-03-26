@@ -13,6 +13,8 @@
     *   [variables](JavaScript/variables.md)
     *   [Promise](JavaScript/Promise.md)
     *   [Async Await](JavaScript/AsyncAwait.md)
+    *   [Math](JavaScript/Math.md)
+
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
