@@ -21,13 +21,18 @@
 
 Les méthodes sont : 
 
-*   Math.abs(x) ça retourne la valeur [absolue](https://fr.wikipedia.org/wiki/Valeur_absolue) d'un nombre 
+*   Math.abs(x) Retourne la valeur [absolue](https://fr.wikipedia.org/wiki/Valeur_absolue) d'un nombre
+*   Math.sqrt(x) Retourne la racine carré d'un nombre 
+*   Math.sin(x) Retourne le sinus d'un nombre
+*   Match.sinh(x) Retourne le sinus hyperbolique d'un nombre
 *   Math.cos(x) Retourne le cosinus d'un nombre
 *   Match.cosh(x) Retourne le cosinus hyperbolique d'un nombre
 *   Math.acos(x) Retourne l'arc cosinus d'un nombre
 *   Math.acosh(x) Retourne l'arc cosinus hyperbolique d'un nombre
 *   Math.asin(x) Retourne l'arc sinus d'un nombre
 *   Math.asinh(x) Retourne l'arc sinus hyperbolique d'un nombre
+*   Math.tan(x) Retourne la tangente d'un nombre
+*   Math.tah(x) Retourne la tangente hyperbolique d'un nombre
 *   Math.atan(x) Retourne l'arc tangente d'un nombre
 *   Math.atanh(x) Retourne l'arc tangente hyperbolique d'un nombre
 *   Math.atan2(y,x) Retourne l'arc tangente du quotient de ses arguments
@@ -36,4 +41,19 @@ Les méthodes sont :
 *   Math.clz32(x) Retourne le nombre de 0 qui préfixent un entier sur 32 bits
 *   Math.exp(x) Retourne l'exponentielle d'un nombre (E'nomre), E = la constante d'Euler
 *   Math.expml(x) Retourne le résultat de 1- l'exponentielle d'un nombre
-*   Math.floor(x) Retourn le plus grand entier inférieur ou égal à la valeur passé en paramètre
+*   Math.floor(x) Retourne le plus grand entier inférieur ou égal à la valeur passé en paramètre
+*   Math.fround(x) Retourne le nombre flottant exprimé sur 32 bits le plus proche de l'argument
+*   Math.hypot([x[,y[,...]]]) Retourne la racine carré de la somme des carrés des arguments
+*   Math.imul(x,y) Retourne le résultat de la multiplication d'entiers sur 32 bits
+*   Math.log(x) Retourne le logarithme naturel (log'e') d'un nombre
+*   Math.log1p(x) Retourne le logarithme naturel de 1+ d'un nombre
+*   Math.log10(x) Retourne le logarithme naturel en base 10 d'un nombre
+*   Math.log2(x) Retourne le logarithme naturel en base 2 d'un nombre
+*   Math.max([x[,y[...]]]) Retourne la plus grande valeur d'une liste de nombre
+*   Math.min([x[,y[...]]]) Retourne la plus petite valeur d'une liste de nombre
+*   Math.pow(x,y) Retourne le calcul de x à la puissnace y (x = la base et y = l'exposant)
+*   Math.random() Retourne un nombre aléatoire compris entre 0 et 1, 0 étant inclus et 1 exclu
+*   Math.round(x) Retourne l'arrondi d'un nombre 
+*   Math.sign(x) Retourne le signe d'un nombre, c'est à dire si il est positif négatif ou égal à zéro
+*   Math.toSource() Renvoie la chaine de caractères "Math"
+*   Math.trunc(x) Retourne la partie entière d'un nombre (la partie décimal est retirée)
