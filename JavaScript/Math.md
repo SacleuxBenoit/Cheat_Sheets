@@ -6,7 +6,7 @@
 
 ## Les propriétés
 
-`Math` est disponnible avec 8 propriétés : 
+`Math` est disponible avec 8 propriétés : 
 
 *   `Math.E` C'est une constante mathématique, le nombre dEuler vaut environ 2,71828
 *   `Math.LN2` ça représente la valeur du logarithme naturel de 2, c'est environ 0,693
@@ -14,8 +14,8 @@
 *   `Math.LOG2E` représente la valeur du logarithme en base 2 de e, environ 1,442 
 *   `Math.LOG10E` représente la valeur du logarithme en base 2 de e, environ 0,434 :
 *   `Math.PI`  c’est le rapport constant de la circonférence d’un cercle à son diamètre dans un plan euclidien, environ 3.141592
-*   `Math.SQRT1_2` c'est la racine carré de 1/2, environ 0,707
-*   `Math.SQRT2` c'est la racine carré de 2, envirin 1.414
+*   `Math.SQRT1_2` c'est la racine carrée de 1/2, environ 0,707
+*   `Math.SQRT2` c'est la racine carrée de 2, environ 1.414
 
 ## Méthodes
 
@@ -54,6 +54,6 @@ Les méthodes sont :
 *   Math.pow(x,y) Retourne le calcul de x à la puissnace y (x = la base et y = l'exposant)
 *   Math.random() Retourne un nombre aléatoire compris entre 0 et 1, 0 étant inclus et 1 exclu
 *   Math.round(x) Retourne l'arrondi d'un nombre 
-*   Math.sign(x) Retourne le signe d'un nombre, c'est à dire si il est positif négatif ou égal à zéro
-*   Math.toSource() Renvoie la chaine de caractères "Math"
-*   Math.trunc(x) Retourne la partie entière d'un nombre (la partie décimal est retirée)
+*   Math.sign(x) Retourne le signe d'un nombre, c'est-à-dire s'il est positif négatif ou égal à zéro
+*   Math.toSource() Retourne la chaine de caractères "Math"
+*   Math.trunc(x) Retourne la partie entière d'un nombre (la partie décimale est retirée)
