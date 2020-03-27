@@ -53,6 +53,16 @@ Les méthodes sont :
 *   `Math.min([x[,y[...]]])` Retourne la plus petite valeur d'une liste de nombre
 *   `Math.pow(x,y)` Retourne le calcul de x à la puissnace y (x = la base et y = l'exposant)
 *   `Math.random()` Retourne un nombre aléatoire compris entre 0 et 1, 0 étant inclus et 1 exclu
+
+Exemple : 
+```js
+function entierAleatoire(min,max){
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+const entier = entierAleatoire(1,10);
+console.log(entier) // Affiche un nombre aléatoire compris entre 1 et 10
+
+```
 *   `Math.round(x)` Retourne l'arrondi d'un nombre 
 *   `Math.sign(x)` Retourne le signe d'un nombre, c'est-à-dire s'il est positif négatif ou égal à zéro
 *   `Math.toSource()` Retourne la chaine de caractères "Math"
