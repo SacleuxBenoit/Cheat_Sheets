@@ -37,11 +37,21 @@ Les méthodes sont :
 *   `Math.atanh(x)` Retourne l'arc tangente hyperbolique d'un nombre
 *   `Math.atan2(y,x)` Retourne l'arc tangente du quotient de ses arguments
 *   `Math.cbrt(x)` Retourne la racine cubique d'un nombre
-*   `Math.ceil(x)` Retourne le plus petit entier supérieur ou égal à la valeur passé en paramètre
 *   `Math.clz32(x)` Retourne le nombre de 0 qui préfixent un entier sur 32 bits
 *   `Math.exp(x)` Retourne l'exponentielle d'un nombre (E'nomre), E = la constante d'Euler
 *   `Math.expml(x)` Retourne le résultat de 1- l'exponentielle d'un nombre
+*   `Math.ceil(x)` Retourne le plus petit entier supérieur ou égal à la valeur passé en paramètre
+
+Exemple : 
+```js
+console.log(Math.ceil(7.015)) // Affiche 8 dans la console
+```
 *   `Math.floor(x)` Retourne le plus grand entier inférieur ou égal à la valeur passé en paramètre
+
+Exemple : 
+```js
+console.log(Math.floor(7.915)) // Affiche 7 dans la console
+```
 *   `Math.fround(x)` Retourne le nombre flottant exprimé sur 32 bits le plus proche de l'argument
 *   `Math.hypot([x[,y[,...]]])` Retourne la racine carré de la somme des carrés des arguments
 *   `Math.imul(x,y)` Retourne le résultat de la multiplication d'entiers sur 32 bits
