@@ -38,7 +38,7 @@ Les méthodes sont :
 *   `Math.atan2(y,x)` Retourne l'arc tangente du quotient de ses arguments
 *   `Math.cbrt(x)` Retourne la racine cubique d'un nombre
 *   `Math.clz32(x)` Retourne le nombre de 0 qui préfixent un entier sur 32 bits
-*   `Math.exp(x)` Retourne l'exponentielle d'un nombre (E'nomre), E = la constante d'Euler
+*   `Math.exp(x)` Retourne l'exponentielle d'un nombre (E'nombre), E = la constante d'Euler
 *   `Math.expml(x)` Retourne le résultat de 1- l'exponentielle d'un nombre
 *   `Math.ceil(x)` Retourne le plus petit entier supérieur ou égal à la valeur passé en paramètre
 
@@ -61,11 +61,12 @@ console.log(Math.floor(7.915)) // Affiche 7 dans la console
 *   `Math.log2(x)` Retourne le logarithme naturel en base 2 d'un nombre
 *   `Math.max([x[,y[...]]])` Retourne la plus grande valeur d'une liste de nombre
 
-Exemple : 
+Exemple :
 ```js
 const arr = [-4, 5, -3, 15]
 console.log(Math.max(...arr)); // Affiche 15 dans la console
 ```
+
 *   `Math.min([x[,y[...]]])` Retourne la plus petite valeur d'une liste de nombre
 
 Exemple : 
@@ -86,7 +87,27 @@ const entier = entierAleatoire(1,10);
 console.log(entier) // Affiche un nombre aléatoire compris entre 1 et 10
 
 ```
+
 *   `Math.round(x)` Retourne l'arrondi d'un nombre 
+
+Exemple :
+```js
+console.log(Math.round(3.33)) // Affiche 3
+console.log(Math.round(3.5)) // Affiche 4
+console.log(Math.round(3.85)) // Affiche 4
+console.log(Math.round(3.85*100)/100) // Affiche 3.85
+```
+
 *   `Math.sign(x)` Retourne le signe d'un nombre, c'est-à-dire s'il est positif négatif ou égal à zéro
+
+`Math.sign()` peut renvoyer 5 valeurs : `1, -1, 0, -0, NaN`, qui indique respectivement que x est un nombre positif,négatif, zéro, la limite négative du zéro,et Not a Number
+Exemple : 
+```js
+console.log(Math.sign(2)) // Affiche 1
+console.log(Math.sign(-2)) // Affiche -1
+console.log(Math.sign(0)) // Affiche 0
+console.log(Math.sign(-0))  // Affiche -0
+console.log(Math.sign("test")) // Affiche NaN
+```
 *   `Math.toSource()` Retourne la chaine de caractères "Math"
 *   `Math.trunc(x)` Retourne la partie entière d'un nombre (la partie décimale est retirée)
