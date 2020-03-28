@@ -50,7 +50,20 @@ Les méthodes sont :
 *   `Math.log10(x)` Retourne le logarithme naturel en base 10 d'un nombre
 *   `Math.log2(x)` Retourne le logarithme naturel en base 2 d'un nombre
 *   `Math.max([x[,y[...]]])` Retourne la plus grande valeur d'une liste de nombre
+
+Exemple : 
+```js
+const arr = [-4, 5, -3, 15]
+console.log(Math.max(...arr)); // Affiche 15 dans la console
+```
 *   `Math.min([x[,y[...]]])` Retourne la plus petite valeur d'une liste de nombre
+
+Exemple : 
+```js
+const array = [-4, 5, -3, 15]
+console.log(Math.min(...array)); // Affiche -4 dans la console 
+```
+
 *   `Math.pow(x,y)` Retourne le calcul de x à la puissnace y (x = la base et y = l'exposant)
 *   `Math.random()` Retourne un nombre aléatoire compris entre 0 et 1, 0 étant inclus et 1 exclu
 
