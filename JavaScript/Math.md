@@ -76,6 +76,12 @@ console.log(Math.min(...array)); // Affiche -4 dans la console
 ```
 
 *   `Math.pow(x,y)` Retourne le calcul de x à la puissnace y (x = la base et y = l'exposant)
+
+Exemple : 
+```js
+console.log(Math.pow(4, 4)) // Affiche 256 = 4*4*4*4
+console.log(Math.pow(4, 6/3)) // Affiche 16
+```
 *   `Math.random()` Retourne un nombre aléatoire compris entre 0 et 1, 0 étant inclus et 1 exclu
 
 Exemple : 
@@ -100,7 +106,7 @@ console.log(Math.round(3.85*100)/100) // Affiche 3.85
 
 *   `Math.sign(x)` Retourne le signe d'un nombre, c'est-à-dire s'il est positif négatif ou égal à zéro
 
-`Math.sign()` peut renvoyer 5 valeurs : `1, -1, 0, -0, NaN`, qui indique respectivement que x est un nombre positif,négatif, zéro, la limite négative du zéro,et Not a Number
+`Math.sign()` peut renvoyer 5 valeurs : `1, -1, 0, -0, NaN`, qui indique respectivement que x est un nombre positif,négatif, zéro, la limite négative du zéro et Not a Number
 Exemple : 
 ```js
 console.log(Math.sign(2)) // Affiche 1
