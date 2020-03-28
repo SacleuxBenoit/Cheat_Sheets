@@ -14,6 +14,15 @@
 *   `Math.LOG2E` représente la valeur du logarithme en base 2 de e, environ 1,442 
 *   `Math.LOG10E` représente la valeur du logarithme en base 2 de e, environ 0,434 :
 *   `Math.PI`  c’est le rapport constant de la circonférence d’un cercle à son diamètre dans un plan euclidien, environ 3.141592
+```js
+console.log(Math.PI) // Affiche 3.141592653589793
+
+// Cette fonction utilise Math.PI pour calculer la circonférence d'un cercle avec un rayon donné
+function circonference(radius){
+return  Math.PI * (radius + radius);
+}
+console.log(circonference(2)); // Affiche 12.566370614359172
+```
 *   `Math.SQRT1_2` c'est la racine carrée de 1/2, environ 0,707
 *   `Math.SQRT2` c'est la racine carrée de 2, environ 1.414
 
