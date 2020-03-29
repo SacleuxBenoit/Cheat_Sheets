@@ -93,9 +93,37 @@ console.log(Math.sqrt(-0))
 console.log(Math.sqrt(-6)) // Affiche NaN
 ```
 *   `Math.sin(x)` Retourne le sinus d'un nombre
+
+Exemple : 
+```js
+console.log(Math.sin(8)) // Affiche 0.9893582466233818
+console.log(Math.sin(-8)) // Affiche -0.9893582466233818
+console.log(Math.sin(0)) // Affiche 0
+```
 *   `Match.sinh(x)` Retourne le sinus hyperbolique d'un nombre
+
+Exemple :
+```js
+console.log(Math.sinh(8)) // Affiche 1490.4788257895502
+console.log(Math.sinh(-8)) // Affiche -1490.4788257895502
+console.log(Math.sinh(0)) // Affiche 0
+```
 *   `Math.cos(x)` Retourne le cosinus d'un nombre
+
+Exemple :
+```js
+console.log(Math.cos(4)) // Affiche -0.6536436208636119
+console.log(Math.cos(-4)) // Affiche -0.6536436208636119
+console.log(Math.cos(0)) // Affiche 1
+```
 *   `Match.cosh(x)` Retourne le cosinus hyperbolique d'un nombre
+
+Exemple : 
+```js
+console.log(Math.cosh(4)) // Affiche 27.308232836016487
+console.log(Math.cosh(-4)) // Affiche 27.308232836016487
+console.log(Math.cosh(0)) // Affiche 1
+```
 *   `Math.acos(x)` Retourne l'arc cosinus d'un nombre
 *   `Math.acosh(x)` Retourne l'arc cosinus hyperbolique d'un nombre
 *   `Math.asin(x)` Retourne l'arc sinus d'un nombre
