@@ -125,9 +125,37 @@ console.log(Math.cosh(-4)) // Affiche 27.308232836016487
 console.log(Math.cosh(0)) // Affiche 1
 ```
 *   `Math.acos(x)` Retourne l'arc cosinus d'un nombre
-*   `Math.acosh(x)` Retourne l'arc cosinus hyperbolique d'un nombre
+
+Exemple :
+```js
+console.log(Math.acos(1)) // Affiche 0
+console.log(Math.acos(-1)) // Affiche 3.141592653589793
+console.log(Math.acos(0)) // Affiche 1.5707963267948966
+console.log(Math.acos(-2)) // Affiche NaN
+```
+*   `Math.acosh(x)` Retourne l'arc cosinus hyperbolique d'un nombre, retourne NaN si le nombre est plus petit que 1
+
+Exemple :
+```js
+console.log(Math.acosh(6)) // Affiche 2.477888730288475
+console.log(Math.acosh(0)) // Affiche NaN
+```
 *   `Math.asin(x)` Retourne l'arc sinus d'un nombre
+
+Exemple : 
+```js
+console.log(Math.asin(1)) // Affiche 1.5707963267948966
+console.log(Math.asin(-1)) // Affiche -1.5707963267948966
+console.log(Math.asin(0)) // Affiche 0
+```
 *   `Math.asinh(x)` Retourne l'arc sinus hyperbolique d'un nombre
+
+Exemple :
+```js
+console.log(Math.asinh(1)) // Affiche 0.881373587019543
+console.log(Math.asinh(-1)) // Affiche -0.881373587019543
+console.log(Math.asinh(0)) // Affiche 0
+```
 *   `Math.tan(x)` Retourne la tangente d'un nombre
 *   `Math.tah(x)` Retourne la tangente hyperbolique d'un nombre
 *   `Math.atan(x)` Retourne l'arc tangente d'un nombre
