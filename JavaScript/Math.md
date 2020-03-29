@@ -9,6 +9,11 @@
 `Math` est disponible avec 8 propriétés : 
 
 *   `Math.E` C'est une constante mathématique, le nombre d'Euler vaut environ 2,71828
+
+Exemple :
+```js
+console.log(Math.E) // Affiche 2.718281828459045
+```
 *   `Math.LN2` ça représente la valeur du logarithme naturel de 2, c'est environ 0,693
 
 Exemple : 
@@ -55,7 +60,18 @@ console.log(circonference(2)); // Affiche 12.566370614359172
 ```
 
 *   `Math.SQRT1_2` c'est la racine carrée de 1/2, environ 0,707
+
+Exemple :
+```js
+console.log(Math.SQRT1_2) // Affiche 0.7071067811865476
+
+```
 *   `Math.SQRT2` c'est la racine carrée de 2, environ 1.414
+
+Exemple :
+```js
+console.log(Math.SQRT2) // Affiche 1.4142135623730951
+```
 
 ## Méthodes
 
