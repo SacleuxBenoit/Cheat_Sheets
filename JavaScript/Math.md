@@ -78,7 +78,20 @@ console.log(Math.SQRT2) // Affiche 1.4142135623730951
 Les méthodes sont : 
 
 *   `Math.abs(x)` Retourne la valeur [absolue](https://fr.wikipedia.org/wiki/Valeur_absolue) d'un nombre
+
+Exemple :
+```js
+console.log(Math.abs(11)) // Affiche 11
+console.log(Math.abs(-11)) // Affiche 11
+```
 *   `Math.sqrt(x)` Retourne la racine carré d'un nombre 
+
+Exemple : 
+```js
+console.log(Math.sqrt(6)) // Affiche 2.449489742783178
+console.log(Math.sqrt(-0))
+console.log(Math.sqrt(-6)) // Affiche NaN
+```
 *   `Math.sin(x)` Retourne le sinus d'un nombre
 *   `Match.sinh(x)` Retourne le sinus hyperbolique d'un nombre
 *   `Math.cos(x)` Retourne le cosinus d'un nombre
