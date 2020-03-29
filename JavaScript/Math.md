@@ -8,12 +8,42 @@
 
 `Math` est disponible avec 8 propriétés : 
 
-*   `Math.E` C'est une constante mathématique, le nombre dEuler vaut environ 2,71828
+*   `Math.E` C'est une constante mathématique, le nombre d'Euler vaut environ 2,71828
 *   `Math.LN2` ça représente la valeur du logarithme naturel de 2, c'est environ 0,693
+
+Exemple : 
+```js
+console.log(Math.LN2); // Affiche 0.6931471805599453
+
+```
 *   `Math.LN10` représente la valeur du logarithme naturel de 10, c'est environ 2,302
-*   `Math.LOG2E` représente la valeur du logarithme en base 2 de e, environ 1,442 
-*   `Math.LOG10E` représente la valeur du logarithme en base 2 de e, environ 0,434 :
+
+Exemple :
+```js
+console.log(Math.LN10); // Affiche 2.302585092994046
+```
+
+*   `Math.log2(x)` représente la valeur du logarithme en base 2, environ 1,442 
+
+Exemple : 
+```js
+console.log(Math.log2(3)) // Affiche 1.584962500721156
+console.log(Math.log2(0)) // Affiche -infinity
+console.log(Math.log2(-3)) // Affiche NaN
+```
+
+*   `Math.log10(x)` représente la valeur du logarithme en base 10, environ 0,434 :
+
+Exemple : 
+```js
+console.log(Math.log10(3)) // Affiche 0.47712125471966244
+console.log(Math.log10(0)) // Affiche -infinity
+console.log(Math.log10(-3)) // Affiche NaN
+```
+
 *   `Math.PI`  c’est le rapport constant de la circonférence d’un cercle à son diamètre dans un plan euclidien, environ 3.141592
+
+Exemple :
 ```js
 console.log(Math.PI) // Affiche 3.141592653589793
 
@@ -23,6 +53,7 @@ return  Math.PI * (radius + radius);
 }
 console.log(circonference(2)); // Affiche 12.566370614359172
 ```
+
 *   `Math.SQRT1_2` c'est la racine carrée de 1/2, environ 0,707
 *   `Math.SQRT2` c'est la racine carrée de 2, environ 1.414
 
