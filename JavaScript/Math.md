@@ -237,8 +237,27 @@ console.log(Math.log(0)) // Affiche -Infinity
 console.log(Math.log(5)) // Affiche 1.6094379124341003
 ```
 *   `Math.log1p(x)` Retourne le logarithme naturel de 1+ d'un nombre
+
+```js
+console.log(Math.log1p(2)) // Affiche 1.0986122886681098
+console.log(Math.log1p(-1)) // Affiche -Infinity
+console.log(Math.log1p(5)) // Affiche 1.791759469228055
+```
 *   `Math.log10(x)` Retourne le logarithme naturel en base 10 d'un nombre
+
+```js
+console.log(Math.log10(2)) // Affiche 0.3010299956639812
+console.log(Math.log10(1)) // Affiche 0
+console.log(Math.log10(-1)) // Affiche NaN
+```
 *   `Math.log2(x)` Retourne le logarithme naturel en base 2 d'un nombre
+
+```js
+console.log(Math.log2(2)) // Affiche 1
+console.log(Math.log2(1)) // Affiche 0
+console.log(Math.log2(2048)) // Affiche 11
+console.log(Math.log2(-1)) // Affiche NaN
+```
 *   `Math.max([x[,y[...]]])` Retourne la plus grande valeur d'une liste de nombre
 
 ```js
