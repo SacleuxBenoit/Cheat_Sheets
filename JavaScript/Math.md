@@ -157,14 +157,12 @@ console.log(Math.asinh(-1)) // Affiche -0.881373587019543
 console.log(Math.asinh(0)) // Affiche 0
 ```
 *   `Math.tan(x)` Retourne la tangente d'un nombre
-*   `Math.tah(x)` Retourne la tangente hyperbolique d'un nombre
+*   `Math.tanh(x)` Retourne la tangente hyperbolique d'un nombre
 *   `Math.atan(x)` Retourne l'arc tangente d'un nombre
 *   `Math.atanh(x)` Retourne l'arc tangente hyperbolique d'un nombre
-*   `Math.atan2(y,x)` Retourne l'arc tangente du quotient de ses arguments
 *   `Math.cbrt(x)` Retourne la racine cubique d'un nombre
 *   `Math.clz32(x)` Retourne le nombre de 0 qui préfixent un entier sur 32 bits
 *   `Math.exp(x)` Retourne l'exponentielle d'un nombre (E'nombre), E = la constante d'Euler
-*   `Math.expml(x)` Retourne le résultat de 1- l'exponentielle d'un nombre
 *   `Math.ceil(x)` Retourne le plus petit entier supérieur ou égal à la valeur passé en paramètre
 
 Exemple : 
