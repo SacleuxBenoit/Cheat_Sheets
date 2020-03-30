@@ -206,9 +206,36 @@ console.log(Math.ceil(7.015)) // Affiche 8 dans la console
 console.log(Math.floor(7.915)) // Affiche 7 dans la console
 ```
 *   `Math.fround(x)` Retourne le nombre flottant exprimé sur 32 bits le plus proche de l'argument
+
+```js
+console.log(Math.fround(2)) // Affiche 2
+console.log(Math.fround(-2)) // Affiche -2
+console.log(Math.fround(2,788)) // Affiche 2
+console.log(Math.fround(false)) // Affiche 0
+```
 *   `Math.hypot([x[,y[,...]]])` Retourne la racine carré de la somme des carrés des arguments
+
+```js
+console.log(Math.hypot()) // Affiche 0
+console.log(Math.hypot(5, 7)) // Affiche 8.602325267042627
+console.log(Math.hypot(5, 7, "test")) // Affiche "NaN"
+console.log(Math.hypot(-4)) // Affiche 4
+```
 *   `Math.imul(x,y)` Retourne le résultat de la multiplication d'entiers sur 32 bits
+
+```js
+console.log(Math.imul(5, 7)) // Affiche 35
+console.log(Math.imul(-5, 7)) // Affiche -35
+console.log(Math.imul(0, 7)) // Affiche 0
+```
 *   `Math.log(x)` Retourne le logarithme naturel (log'e') d'un nombre
+
+```js
+console.log(Math.log(-2)) // Affiche NaN
+console.log(Math.log(2)) // Affiche 0.6931471805599453
+console.log(Math.log(0)) // Affiche -Infinity
+console.log(Math.log(5)) // Affiche 1.6094379124341003
+```
 *   `Math.log1p(x)` Retourne le logarithme naturel de 1+ d'un nombre
 *   `Math.log10(x)` Retourne le logarithme naturel en base 10 d'un nombre
 *   `Math.log2(x)` Retourne le logarithme naturel en base 2 d'un nombre
