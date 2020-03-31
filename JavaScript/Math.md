@@ -309,5 +309,10 @@ console.log(Math.sign(0)) // Affiche 0
 console.log(Math.sign(-0))  // Affiche -0
 console.log(Math.sign("test")) // Affiche NaN
 ```
-*   `Math.toSource()` Retourne la chaine de caractères "Math"
 *   `Math.trunc(x)` Retourne la partie entière d'un nombre (la partie décimale est retirée)
+
+```js
+console.log(Math.trunc(3.1415)) // Affiche 3
+console.log(Math.trunc(-3.1415)) // Affiche -3
+console.log(Math.trunc(37.149715)) // Affiche 37
+```
