@@ -8,3 +8,6 @@
 *   [Strict mode](strict_mode.md)
 *   [Map and Set](MapAndSet.md)
 *   [Switch](Switch.md)
+*   [Promise](Promise.md)
+*   [Math](Math.md)
+*   [Array](Array.md)
