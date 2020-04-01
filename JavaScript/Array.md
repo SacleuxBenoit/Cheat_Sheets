@@ -10,9 +10,9 @@ const arr = ["Elem1", "Elem2", "Elem3"]
 
 Il faut savoir que le premier élément d'un tableau est TOUJOURS l'index 0 ! 
 
-## connaître le nombre d'élément dans un tableau
+## connaître le nombre d'éléments dans un tableau
 
-Pour connaître le nombre d'élément dans un tableau c'est assez facile il suffit d'utiliser `.length` 
+Pour connaître le nombre d'éléments dans un tableau c'est assez facile il suffit d'utiliser `.length` 
 
 Exemple :
 
