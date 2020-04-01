@@ -2,7 +2,7 @@
 
 ## Description
 
-Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments sont fixes, puisque nous pouvons ajouter ou enlever des élements dedans.
+Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments n'est fixe, puisque nous pouvons ajouter ou enlever des éléments dedans.
 Voici la syntaxe : 
 ```js
 const arr = ["Elem1", "Elem2", "Elem3"]
