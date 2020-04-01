@@ -1,4 +1,4 @@
-# la doc JavaScript est composé pour le moment de 8 parties 
+# la doc JavaScript est pour le moment composé de : 
 
 *   [if else](if-else.md)
 *   [variables](variables.md)
