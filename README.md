@@ -14,6 +14,7 @@
     *   [Promise](JavaScript/Promise.md)
     *   [Async Await](JavaScript/AsyncAwait.md)
     *   [Math](JavaScript/Math.md)
+    *   [Array](JavaScript/Array.md)
 
 
 *   [css](css)  
