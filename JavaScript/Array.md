@@ -65,3 +65,23 @@ const addEnd = [2, 923, 2093]
 addEnd.push("apple")
 console.log(addEnd) // Affiche [2, 923, 2093, "apple"]
 ```
+
+## Supprimer un élément au début du tableau
+
+Il faut utiliser la propriété `shift` pour supprimer un élément au début du tableau
+
+```js
+const deleteStart = ["delete", "not delete"]
+deleteStart.shift()
+console.log(deleteStart) // Affiche ["not delete"]
+```
+
+## Supprimer un élément à la fin du tableau
+
+Pour supprimer un élément à la fin du tableau il faut utiliser la proprièté `pop`
+
+```js
+const deleteEnd = ["i am still here", "i am delete"]
+deleteEnd.pop()
+console.log(deleteEnd) // Affiche ["i am still here"]
+```
