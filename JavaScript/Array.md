@@ -36,3 +36,12 @@ console.log(findElem[1])
 ```
 
 dans la console `index1` va donc être affiché.
+
+## Trouver le dernier élément dans un tableau
+
+La propriété `length-1` va nous donner le dernier élément d'un tableau, pourquoi mettre `-1`? car un tableau commence toujours par l'index 0.
+
+```js
+const last = [3, 8, 238, 278]
+console.log(last[last.length-1]) // Affiche 278
+```
