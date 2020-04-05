@@ -45,3 +45,23 @@ La propriété `length-1` va nous donner le dernier élément d'un tableau, pour
 const last = [3, 8, 238, 278]
 console.log(last[last.length-1]) // Affiche 278
 ```
+
+## Ajouter un élément au début du tableau
+
+La propriété `unshift` nous permet d'ajouter un ou plusieurs éléments au début du tableau 
+
+```js
+const addStart = [2, 923, 2093]
+addStart.unshift(300)
+console.log(addStart) // Affiche [300, 2, 923, 2093]
+```
+
+## Ajouter un élément à la fin du tableau
+
+Pour ajouter un élément à la fin du tableau il faut utiliser la propriété `push`
+
+```js
+const addEnd = [2, 923, 2093]
+addEnd.push("apple")
+console.log(addEnd) // Affiche [2, 923, 2093, "apple"]
+```
