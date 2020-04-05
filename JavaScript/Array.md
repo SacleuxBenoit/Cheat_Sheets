@@ -3,7 +3,8 @@
 ## Description
 
 Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments n'est fixe, puisque nous pouvons ajouter ou enlever des éléments dedans.
-Voici la syntaxe : 
+Voici la syntaxe :
+
 ```js
 const arr = ["Elem1", "Elem2", "Elem3"]
 ```
@@ -24,10 +25,10 @@ console.log(Myarr.length)
 On peut donc voir dans la console : `4`, c'est le nombre d'éléments dans le tableau.
 
 
-## Accéder à un élément d'un tableau
+## Trouver un élément dans un tableau grâce à son index
 
-Pour accéder à un élément d'un tableau en connaissant son index il va falloir faire comme ci-dessous (il ne faut pas oublier
-qu'un tableau commence toujours pas l'indedx 0).
+Pour trouver un élément d'un tableau en connaissant son index il va falloir faire comme ci-dessous (il ne faut pas oublier
+qu'un tableau commence toujours pas l'index 0).
 
 ```js
 const findElem = ["index0", "index1", "index2","index3"]
