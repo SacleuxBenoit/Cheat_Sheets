@@ -124,3 +124,13 @@ console.log(deleteElem) // Affiche ["Apple", "Orange"]
 ```
 
 Comme nous pouvons le voir dans l'exemple au-dessus, la méthode `splice` prend 2 paramètres le 1er c'est l'index et le deuxième c'est le nombre d'éléments à supprimer
+
+## Exploser une chaîne de caractère en tableau
+
+Pour exploser une chaîne de caractère en tableau il faut utiliser la méthode `split`
+
+```js
+const str = "Facebook/Twitter/Instagram/Linkedin"
+const table = str.split("/")
+console.log(table) // Affiche ["Facebook" "Twitter" "Instagram" "Linkedin"]
+```
