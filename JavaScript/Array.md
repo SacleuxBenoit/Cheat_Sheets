@@ -136,3 +136,14 @@ console.log(table) // Affiche ["Facebook" "Twitter" "Instagram" "Linkedin"]
 ```
 
 Le `("/")` permet de supprimer le slash entre chaque mot.
+
+## Transformer un tableau en chaîne de caractères
+
+Maintenant que nous avons vu comment avoir un tableau à partir d'une chaîne de caractères, nous allons voir comment faire l'inverse, c'est-à-dire transformer un tableau en chaîne de caractères, pour ce faire il va falloir utiliser la méthode `join`
+
+```js
+const ArrayJoin = ["Apple", "Bananas", "Orange"]
+console.log(ArrayJoin.join(", ")) // Affiche "Apple, Bananas, Orange"
+```
+
+Le `(", ")` va mettre une virgule ET un espace entre chaque mot.
