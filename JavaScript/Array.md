@@ -135,3 +135,4 @@ const table = str.split("/")
 console.log(table) // Affiche ["Facebook" "Twitter" "Instagram" "Linkedin"]
 ```
 
+Le `("/")` permet de supprimer le slash entre chaque mot.
