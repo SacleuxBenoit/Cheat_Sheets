@@ -191,7 +191,7 @@ console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
 
 ## Trier un tableau par ordre décroissant
 
-Pour trier un tableau par ordre décroissant, nous allons avoir besoin de 2 méthodes que nous avons déjà vue ici, la méthde `reverse` et la méthode `sort`
+Pour trier un tableau par ordre décroissant, nous allons avoir besoin de 2 méthodes que nous avons déjà vues ici, la méthode `reverse` et la méthode `sort`
 
 ```js
 const reverseSort = ["Zorro", "Hercule", "Ulysse"]
