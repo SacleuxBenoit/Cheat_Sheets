@@ -165,3 +165,30 @@ console.log(secondCopy.slice(1,3))
 ```
 
 le 1er paramètre (1) correspond à l'index du début du tableau que l'on va copier, le 2ieme paramètre (3) correspond à la fin du tableau que l'on va coper
+
+## Retourner un tableau
+
+Pour retourner un tableau il faut utiliser la méthode `reverse`
+
+```js
+const arrayReverse = [1,2,3,4,5]
+console.log(arrayReverse.reverse()) // Affiche [5,4,3,2,1]
+```
+
+## Trier un tableau par ordre croissant
+
+Pour trier un tableau par ordre croissant ou par ordre alphabétique, il va falloir utiliser la méthode `sort`
+
+Pour l'ordre alphabétique : 
+
+```js
+const arraySort = ["Zorro", "Hercule", "Ulysse"]
+console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
+```
+
+et pour l'ordre croissant : 
+
+```js
+const arraySort = ["Zorro", "Hercule", "Ulysse"]
+console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
+```
