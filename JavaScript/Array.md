@@ -179,16 +179,26 @@ console.log(arrayReverse.reverse()) // Affiche [5,4,3,2,1]
 
 Pour trier un tableau par ordre croissant ou par ordre alphabétique, il va falloir utiliser la méthode `sort`
 
-Pour l'ordre alphabétique : 
+```js
+const arraySort = ["Zorro", "Hercule", "Ulysse"]
+console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
+```
 
 ```js
 const arraySort = ["Zorro", "Hercule", "Ulysse"]
 console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
 ```
 
-et pour l'ordre croissant : 
+## Trier un tableau par ordre décroissant
+
+Pour trier un tableau par ordre décroissant, nous allons avoir besoin de 2 méthodes que nous avons déjà vue ici, la méthde `reverse` et la méthode `sort`
 
 ```js
-const arraySort = ["Zorro", "Hercule", "Ulysse"]
-console.log(arraySort.sort()) // Affiche ["Hercule", "Ulysse", "Zorro"]
+const reverseSort = ["Zorro", "Hercule", "Ulysse"]
+console.log(reverseSort.reverse(reverseSort.sort())) // Affiche ["Zorro", "Ulysse", "Hercule"]
+```
+
+```js
+const reverseNumber = [5, 2, 1, 9]
+console.log(reverseNumber.reverse(reverseNumber.sort())) // Affiche [9,5,2,1]
 ```
