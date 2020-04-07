@@ -147,3 +147,21 @@ console.log(ArrayJoin.join(", ")) // Affiche "Apple, Bananas, Orange"
 ```
 
 Le `(", ")` va mettre une virgule ET un espace entre chaque mot.
+
+## Copier un tableau
+
+Pour copier un tableau, il faut utiliser la méthode `slice`
+
+```js
+const copyArray = ["Name", "Surname", "Username"]
+console.log(copyArray.slice()) // Affiche ["Name", "Surname", "Username"]
+```
+
+il est aussi possible de copier qu'une partie du tableau
+
+```js
+const secondCopy = ["Name", "Surname", "Username"]
+console.log(secondCopy.slice(1,3))
+```
+
+le 1er paramètre (1) correspond à l'index du début du tableau que l'on va copier, le 2ieme paramètre (3) correspond à la fin du tableau que l'on va coper
