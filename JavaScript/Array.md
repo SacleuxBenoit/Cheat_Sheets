@@ -24,7 +24,6 @@ console.log(Myarr.length)
 
 On peut donc voir dans la console : `4`, c'est le nombre d'éléments dans le tableau.
 
-
 ## Trouver un élément dans un tableau grâce à son index
 
 Pour trouver un élément d'un tableau en connaissant son index il va falloir faire comme ci-dessous (il ne faut pas oublier
