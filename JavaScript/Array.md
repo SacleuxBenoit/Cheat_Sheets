@@ -202,3 +202,27 @@ console.log(reverseSort.reverse(reverseSort.sort())) // Affiche ["Zorro", "Ulyss
 const reverseNumber = [5, 2, 1, 9]
 console.log(reverseNumber.reverse(reverseNumber.sort())) // Affiche [9,5,2,1]
 ```
+
+## Fusionner 2 tableaux
+
+Pour fusionner 2 tableaux (ou plus), il va falloir utiliser la méthode `concat`
+
+```js
+const arrayConcat = ["This", "is a test"]
+const anotherArrayConcat = ["for", "concat"]
+console.log(arrayConcat.concat(anotherArrayConcat)) // Affiche ["this", "is a test", "for", "concat"]
+```
+
+## Filtrer des éléments dans un tableau
+
+Pour filtrer des éléments dans un tableau on va devoir utiliser `filter`
+
+```js
+const age = [15, 22, 11, 95]
+function checkAdult(age){
+    return age >= 18
+}
+console.log(age.filter(checkAdult)) // Affiche [22, 95]
+```
+
+`filter` va retourner un nouveau tableau avec tous les éléments qui ont passé le test.
