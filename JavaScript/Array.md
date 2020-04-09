@@ -223,3 +223,17 @@ console.log(age.filter(checkAdult)) // Affiche [22, 95]
 ```
 
 `filter` va retourner un nouveau tableau avec tous les éléments qui ont passé le test.
+
+## vérifier si une valeur est présente dans le tableau
+
+Pour vérifier si une valeur est présente dans le tableau il faut utiliser la méthode `include()` et mettre l'élément que l'on recherche en argument, Retourne `true` si l'élément est trouvé dans le tableau, sinon retourne `false`
+
+```js
+const numVerif = [22, 11, 18, 16, 14, 12]
+console.log(numVerif.includes(22)) // Affiche true
+console.log(numVerif.includes(2)) // Affiche false 
+
+const stringVerif = ["Lamb", "Goose", "Deer"]
+console.log(stringVerif.includes("Lamb")) // Affiche true
+console.log(stringVerif.includes("Lambe")) // Affiche false
+```
