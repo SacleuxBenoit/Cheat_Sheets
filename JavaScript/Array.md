@@ -24,7 +24,7 @@ On peut donc voir dans la console : `4`, c'est le nombre d'éléments dans le ta
 
 ## Trouver un élément dans un tableau grâce à son index
 
-Pour trouver un élément d'un tableau en connaissant son index il va falloir faire comme ci-dessous (il ne faut pas oublier
+Pour trouver un élément d'un tableau en connaissant son index il faut utiliser `array[x]` x représentant l'index. (ATTENTION il ne faut pas oublier
 qu'un tableau commence toujours par l'index 0).
 
 ```js
