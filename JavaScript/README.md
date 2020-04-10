@@ -6,7 +6,6 @@
 *   [Type conversions](Type-conversions.md)
 *   [Alert Prompt et Confirm](AlertPromptConfirm.md)
 *   [Strict mode](strict_mode.md)
-*   [Map and Set](MapAndSet.md)
 *   [Switch](Switch.md)
 *   [Promise](Promise.md)
 *   [Math](Math.md)
