@@ -2,14 +2,18 @@
 
 ## Description
 
-Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments n'est fixe, puisque nous pouvons ajouter ou enlever des éléments dedans.
-Voici la syntaxe :
+Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments n'est fixe, puisque nous pouvons ajouter ou enlever des éléments dedans. Il faut savoir que le premier élément d'un tableau est TOUJOURS l'index 0 ! 
+
+
+Voici les syntaxes :
 
 ```js
 const arr = ["Elem1", "Elem2", "Elem3"]
+const secondArray = new Array("elem1", "elem2", "elem3")
 ```
 
-Il faut savoir que le premier élément d'un tableau est TOUJOURS l'index 0 ! 
+Les 2 syntaxes vont afficher la même chose, mais la première est la plus utilisée.
+
 
 ## connaître le nombre d'éléments dans un tableau
 
