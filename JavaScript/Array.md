@@ -244,7 +244,7 @@ console.log(stringVerif.includes("Lambe")) // Affiche false
 
 ## Boucler dans un tableau
 
-il existe plusieurs façon de boucler dans un tableau : 
+il existe plusieurs façons de boucler dans un tableau : 
 
 ### la boucle for
 ```js
@@ -254,10 +254,19 @@ for(let i = 0; i <firstLoop.length; i++){
 }
 ```
 
-### La boucle for of
+### La boucle for... of
 ```js
 const secondLoop = ["elem1","elem2", "elem3"]
 for(let elem of secondLoop){
     console.log(elem) // Affiche "elem1", "elem2", "elem3"
+}
+```
+
+### La boucle for... in 
+
+```js
+const thirdLoop = ["elem1","elem2", "elem3"]
+for(let third in thirdLoop){
+    console.log(thirdLoop[third]) // Affiche "elem1", "elem2", "elem3"
 }
 ```
