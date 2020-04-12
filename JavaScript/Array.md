@@ -241,3 +241,23 @@ const stringVerif = ["Lamb", "Goose", "Deer"]
 console.log(stringVerif.includes("Lamb")) // Affiche true
 console.log(stringVerif.includes("Lambe")) // Affiche false
 ```
+
+## Boucler dans un tableau
+
+il existe plusieurs façon de boucler dans un tableau : 
+
+### la boucle for
+```js
+const firstLoop = ["elem1","elem2", "elem3"]
+for(let i = 0; i <firstLoop.length; i++){
+    console.log(firstLoop[i]) // Affiche "elem1", "elem2", "elem3"
+}
+```
+
+### La boucle for of
+```js
+const secondLoop = ["elem1","elem2", "elem3"]
+for(let elem of secondLoop){
+    console.log(elem) // Affiche "elem1", "elem2", "elem3"
+}
+```
