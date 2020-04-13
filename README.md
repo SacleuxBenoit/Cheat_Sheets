@@ -62,9 +62,4 @@
 
 *   [Markdown](Markdown/README.md)
 
-*   [Python](Python)
-    *   [installation](Python/installation.md)
-    *   [interpreteur](Python/interpreteur.md)
-    *   [variables](Python/variables.md)
-
 *   [Regex](regex/README.md)
