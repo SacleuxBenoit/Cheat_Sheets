@@ -244,7 +244,10 @@ console.log(stringVerif.includes("Lambe")) // Affiche false
 
 ## Boucler dans un tableau
 
-il existe plusieurs façons de boucler dans un tableau : 
+Description : boucler dans un tableau est un moyen pour répéter une / ou des actions rapidement et facilement. il existe différent type de boucle, chaque type peut être utilisé en fonction de la situation du problème que l'on a.
+
+Voici les différent type de boucle :
+
 
 ### la boucle for
 ```js
