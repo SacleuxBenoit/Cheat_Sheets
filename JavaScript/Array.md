@@ -24,11 +24,11 @@ const Myarr = ["apple", "bananas", "orange", "lemon"]
 console.log(Myarr.length)
 ```
 
-On peut donc voir dans la console : `4`, c'est le nombre d'éléments dans le tableau.
+On peut donc voir dans la console : `4`, c'est le nombre d'éléments total qu'il y a dans le tableau.
 
-## Trouver un élément dans un tableau grâce à son index
+## Trouver un élément dans un tableau à partir d'un index
 
-Pour trouver un élément d'un tableau en connaissant son index il faut utiliser `array[x]` x représentant l'index. (ATTENTION il ne faut pas oublier
+Pour trouver un élément dans un tableau à partir d'un index il va falloir utiliser `array[x]`, x représentant l'index. (ATTENTION il ne faut pas oublier
 qu'un tableau commence toujours par l'index 0).
 
 ```js
@@ -40,7 +40,7 @@ dans la console `index1` va donc être affiché.
 
 ## Trouver le dernier élément dans un tableau
 
-La propriété `length-1` va nous donner le dernier élément d'un tableau, pourquoi mettre `-1`? car un tableau commence toujours par l'index 0.
+La propriété `length-1` va nous donner le dernier élément d'un tableau.
 
 ```js
 const last = [3, 8, 238, 278]
@@ -49,7 +49,7 @@ console.log(last[last.length-1]) // Affiche 278
 
 ## Ajouter un élément au début du tableau
 
-La méthode `unshift()` nous permet d'ajouter un ou plusieurs éléments au début du tableau 
+La méthode `unshift()` va nous permettre d'ajouter un ou plusieurs éléments au début du tableau.
 
 ```js
 const addStart = [2, 923, 2093]
@@ -89,7 +89,7 @@ console.log(deleteEnd) // Affiche ["i am still here"]
 
 ## Trouver l'index d'un élément dans un tableau
 
-Pour trouver l'index d'un élément dans un tableau, il faut utiliser la méthode `indexOf()`, il est sensible à la casse il faut donc faire attention de bien mettre la majuscule.
+Pour trouver l'index d'un élément dans un tableau, il va falloir utiliser la méthode `indexOf()`, il est sensible à la casse il faut donc faire attention de bien mettre la majuscule.
 
 ```js
 const findIndex = [7687, 0876, 23, 021]
