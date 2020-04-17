@@ -7,12 +7,10 @@
     *   [AlertPromptConfirm](JavaScript/AlertPromptConfirm.md)
     *   [Data types](JavaScript/Data-types.md)
     *   [if-else](JavaScript/if-else.md)
-    *   [Map and Set](JavaScript/MapAndSet.md)
     *   [Strict-mode](JavaScript/strict-mode.md)
     *   [Switch](JavaScript/Switch.md)
     *   [variables](JavaScript/variables.md)
     *   [Promise](JavaScript/Promise.md)
-    *   [Async Await](JavaScript/AsyncAwait.md)
     *   [Math](JavaScript/Math.md)
     *   [Array](JavaScript/Array.md)
 
