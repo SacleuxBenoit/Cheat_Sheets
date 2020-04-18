@@ -8,5 +8,6 @@
 *   [Strict mode](strict_mode.md)
 *   [Switch](Switch.md)
 *   [Promise](Promise.md)
+*   [Try...Catch](Try-catch.md)
 *   [Math](Math.md)
 *   [Array](Array.md)
