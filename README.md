@@ -11,6 +11,7 @@
     *   [Switch](JavaScript/Switch.md)
     *   [variables](JavaScript/variables.md)
     *   [Promise](JavaScript/Promise.md)
+    *   [Try catch](JavaScript/Try-catch.md)
     *   [Math](JavaScript/Math.md)
     *   [Array](JavaScript/Array.md)
 
