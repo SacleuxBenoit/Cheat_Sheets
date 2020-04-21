@@ -13,3 +13,15 @@ try{
 }
 ```
 
+comme on peut le voir ci-dessus il y a 2 blocs : `try` et `catch`, premièrement la partie `try` est exécutée, s'il n'y a pas d'erreurs alors il ignore directement la partie `catch` et continue d'exécuter le reste du code, mais si une erreur est trouvée dans la partie `try` alors la partie `catch` est exécutée.
+
+## Exemple de try...catch avec un code qui fonctionne
+```js
+try{
+    console.log(Math.random(1,10))
+}catch(err){
+    console.log("Math.random is not working")
+}
+```
+
+Ici `try` va être exécuté et comme il n'y a pas d'erreur dans le code, le code va correctement s'exécuter et ne pas passer dans la partie `catch`, un nombre aléatoire entre 1 et 10 va être affiché dans la console.
