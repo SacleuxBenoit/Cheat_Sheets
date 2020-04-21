@@ -25,3 +25,15 @@ try{
 ```
 
 Ici `try` va être exécuté et comme il n'y a pas d'erreur dans le code, le code va correctement s'exécuter et ne pas passer dans la partie `catch`, un nombre aléatoire entre 1 et 10 va être affiché dans la console.
+
+## Exemple de try...catch avec un code qui ne fonctionne pas
+
+```js
+try{
+    console.log(Math.rand(1,10))
+}catch(err){
+    console.log("Math.random is not working")
+}
+```
+
+Ici il y a un problème dans le 1er bloc, donc le `catch` va être exécuté et (Math.random is not working) va être affiché dans la console.
