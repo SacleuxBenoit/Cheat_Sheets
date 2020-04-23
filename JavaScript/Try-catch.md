@@ -2,7 +2,7 @@
 
 ## try..catch
 
-Lorsque nous avons un problème dans notre code celui-ci s'arrête immédiatement, nous pouvons faire un console.log pour voir ou est le problème, mais peut-on faire en sorte que si un problème est détecté dans une partie du code, au lieu de s'arrêter immédiatement, il exécute quelque chose d'autre ? la réponse est oui ! ... il suffit d'utiliser `try... catch` (il fonctionne de manière synchrone)
+Lorsque nous avons un problème dans notre code celui-ci s'arrête immédiatement, nous pouvons faire un console.log pour voir ou est le problème, mais peut-on faire en sorte que si un problème est détecté dans une partie du code, au lieu de s'arrêter immédiatement, il exécute quelque chose d'autre ? la réponse est oui ! ... il suffit d'utiliser `try... catch` (il fonctionne de manière [synchrone](https://github.com/SacleuxBenoit/Cheat_Sheets/blob/master/JavaScript/SynchroneVsAsynchrone.md))
 
 Voici la syntaxe :
 ```js
