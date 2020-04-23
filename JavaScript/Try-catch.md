@@ -36,7 +36,7 @@ try{
 }
 ```
 
-Ici il y a un problème dans le 1er bloc, donc le `catch` va être exécuté et (Math.random is not working) va être affiché dans la console.
+Ici il y a un problème dans le 1er bloc, donc le `catch` va être exécuté et `"Math.random is not working"` va être affiché dans la console.
 
 ## Erreur 
 
@@ -44,7 +44,7 @@ Quand une erreur se produit, Javascript génère un objet contenant les détaill
 
 *   `name` : Nom de l'erreur, par exemple pour une variable non définie (ReferenceError)
 
-*   `message` : Message textuel sur les détaille de l'erreur, il existe d'autres propriétés disponibles dans la plupart des environnements, l'un des plus utilisées et : 
+*   `message` : Message textuel sur les détaille de l'erreur, il existe d'autres propriétés disponibles dans la plupart des environnements, l'un des plus utilisées et : `stack`
 
 *   `stack`: une chaîne contenant des informations sur la séquence d'appels imbriqués qui ont conduit à l'erreur. Utilisé à des fins de débogage.
 
