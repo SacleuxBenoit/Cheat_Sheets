@@ -37,3 +37,26 @@ try{
 ```
 
 Ici il y a un problème dans le 1er bloc, donc le `catch` va être exécuté et (Math.random is not working) va être affiché dans la console.
+
+## Erreur 
+
+Quand une erreur se produit, Javascript génère un objet contenant les détaille à propos de cette erreur. 
+
+*   `name` : Nom de l'erreur, par exemple pour une variable non définie (ReferenceError)
+
+*   `message` : Message textuel sur les détaille de l'erreur, il existe d'autres propriétés disponibles dans la plupart des environnements, l'un des plus utilisées et : 
+
+*   `stack`: une chaîne contenant des informations sur la séquence d'appels imbriqués qui ont conduit à l'erreur. Utilisé à des fins de débogage.
+
+```js
+try {
+    rand; // error, variable is not defined!
+  } catch(err) {
+    console.log(err.name); // ReferenceError
+    console.log(err.message); // rand is not defined
+    console.log(err.stack); // ReferenceError: rand is not defined at (...call stack)
+    // The error is converted to string as "name: message"
+    console.log(err); // ReferenceError: rand is not defined
+  }
+```
+
