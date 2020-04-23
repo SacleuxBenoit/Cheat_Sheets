@@ -14,6 +14,7 @@
     *   [Try catch](JavaScript/Try-catch.md)
     *   [Math](JavaScript/Math.md)
     *   [Array](JavaScript/Array.md)
+    *   [Synchrone / Asynchrone](JavaScript/SynchroneVsAsynchrone.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
