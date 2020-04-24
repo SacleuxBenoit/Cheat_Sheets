@@ -60,3 +60,11 @@ try {
   }
 ```
 
+Si nous n'avons pas besoin des détails de l'erreur, nous pouvons l'enlever :
+
+```js
+try{
+    // Mettez votre code ici
+}catch{
+    // gestion de l'erreur ici
+}
