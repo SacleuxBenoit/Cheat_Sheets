@@ -242,6 +242,34 @@ console.log(stringVerif.includes("Lamb")) // Affiche true
 console.log(stringVerif.includes("Lambe")) // Affiche false
 ```
 
+## Réduire une liste de nombre à une seule valeur
+
+Pour réduire une liste de nombre à une seule valeur, il va falloir utiliser la méthode `reduce` cette méthode applique une fonction, un `accumulateur` qui traite chaque valeur d'une liste (de la gauche vers la droite) afin de la réduire en une seule valeur.
+
+Voici la syntaxe : 
+```js
+arr.reduce(callback, valeurInitiale)
+```
+
+et voici un exemple :
+
+```js
+let arr = [1, 2, 3, 4, 5];
+let sum = arr.reduce((a, b) => a + b);
+console.log(sum);
+```
+
+Pour cet exemple la fonction `callback` va être appelée 4 fois :
+
+*   Le premier appel : `l'accumulateur` va être de 1 et la `valeur courante` de 2, la `valeur retournée` sera : 3
+
+*   Le deuxième appel : `l'accumulateur` va être de 3 et la `valeur courante` de 3, la `valeur retournée` sera : 6
+
+*   Le troisième appel : `l'accumulateur` va être de 6 et la `valeur courante` de 4, la `valeur retournée` sera : 10
+
+*   Le quatrième appel : `l'accumulateur` va être de 10 et la `valeur courante` de 5, la `valeur retournée` sera : 15
+
+
 ## Boucler dans un tableau
 
 Description : boucler dans un tableau est un moyen pour répéter une / ou des actions rapidement et facilement. il existe différents types de boucle, chaque type peut être utilisé en fonction de la situation du problème que l'on a.
