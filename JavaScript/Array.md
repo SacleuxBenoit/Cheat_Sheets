@@ -228,7 +228,7 @@ console.log(age.filter(checkAdult)) // Affiche [22, 95]
 
 `filter` va retourner un nouveau tableau avec tous les éléments qui ont passé le test.
 
-## vérifier si une valeur est présente dans le tableau
+## Vérifier si une valeur est présente dans le tableau
 
 Pour vérifier si une valeur est présente dans le tableau il faut utiliser la méthode `include()` et mettre l'élément que l'on recherche en argument, Retourne `true` si l'élément est trouvé dans le tableau, sinon retourne `false`
 
@@ -269,6 +269,7 @@ Pour cet exemple la fonction `callback` va être appelée 4 fois :
 
 *   Le quatrième appel : `l'accumulateur` va être de 10 et la `valeur courante` de 5, la `valeur retournée` sera : 15
 
+La valeur retournée va donc être celle du dernier appel, pour l'exemple ci-dessus ce sera donc 15.
 
 ## Boucler dans un tableau
 
