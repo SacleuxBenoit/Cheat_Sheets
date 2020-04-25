@@ -4,7 +4,6 @@
 
 Les tableaux sont des objets qui possèdent des méthodes incorporées, ni la taille du tableau ni les éléments n'est fixe, puisque nous pouvons ajouter ou enlever des éléments dedans. Il faut savoir que le premier élément d'un tableau est TOUJOURS l'index 0 ! 
 
-
 Voici les syntaxes :
 
 ```js
@@ -13,7 +12,6 @@ const secondArray = new Array("elem1", "elem2", "elem3")
 ```
 
 Les 2 syntaxes vont afficher la même chose, mais la première est la plus utilisée.
-
 
 ## connaître le nombre d'éléments dans un tableau
 
@@ -262,11 +260,8 @@ console.log(sum);
 Pour cet exemple la fonction `callback` va être appelée 4 fois :
 
 *   Le premier appel : `l'accumulateur` va être de 1 et la `valeur courante` de 2, la `valeur retournée` sera : 3
-
 *   Le deuxième appel : `l'accumulateur` va être de 3 et la `valeur courante` de 3, la `valeur retournée` sera : 6
-
 *   Le troisième appel : `l'accumulateur` va être de 6 et la `valeur courante` de 4, la `valeur retournée` sera : 10
-
 *   Le quatrième appel : `l'accumulateur` va être de 10 et la `valeur courante` de 5, la `valeur retournée` sera : 15
 
 La valeur retournée va donc être celle du dernier appel, pour l'exemple ci-dessus ce sera donc 15.
@@ -276,7 +271,6 @@ La valeur retournée va donc être celle du dernier appel, pour l'exemple ci-des
 Description : boucler dans un tableau est un moyen pour répéter une / ou des actions rapidement et facilement. il existe différents types de boucle, chaque type peut être utilisé en fonction de la situation du problème que l'on a.
 
 Voici les différents types de boucle :
-
 
 ### la boucle for
 ```js
