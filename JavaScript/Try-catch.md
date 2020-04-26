@@ -68,3 +68,22 @@ try{
 }catch{
     // gestion de l'erreur ici
 }
+```
+## Try...catch...finally
+
+`Try...catch` peut venir avec `finally`, il s'exécute dans tous les cas : après `try` s'il n'y a pas d'erreur, ou après `catch` s'il y a une erreur.
+
+Voici la syntaxe :
+
+```js
+try{
+    // Mettez votre code ici
+}catch{
+    // gestion de l'erreur ici
+}finally{
+    // S'exécute toujours après Try si pas d'erreur, ou après catch s'il y a une erreur
+}
+```
+
+
+
