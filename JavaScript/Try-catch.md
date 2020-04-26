@@ -71,7 +71,7 @@ try{
 ```
 ## Try...catch...finally
 
-`Try...catch` peut venir avec `finally`, il s'exécute dans tous les cas : après `try` s'il n'y a pas d'erreur, ou après `catch` s'il y a une erreur.
+`Try...catch` peut venir avec `finally`, il s'exécute dans tous les cas, après `try` s'il n'y a pas d'erreur, ou après `catch` s'il y a une erreur.
 
 Voici la syntaxe :
 
