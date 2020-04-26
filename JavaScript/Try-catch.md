@@ -84,6 +84,16 @@ try{
     // S'exécute toujours après Try si pas d'erreur, ou après catch s'il y a une erreur
 }
 ```
+## Try...finally
 
+`Try...finally` sans le `catch` est également utile, nous pouvons l'appliquer lorsque l'on ne veut pas traiter les erreurs.
 
+Voici la syntaxe : 
 
+```js
+try{
+    // Mettez votre code ici
+}finally{
+    // S'exécute toujours après Try si pas d'erreur, ou après catch s'il y a une erreur
+}
+```
