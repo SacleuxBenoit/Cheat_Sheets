@@ -14,14 +14,14 @@ mais que les variables sont liées à aucun d'entre eux.
 
 Il existe x types de données `primitives` en Javascript : 
 
-*   `Number`
-*   `Boolean`
-*   `String`
-*   `Null`
-*   `Undefined`
-*   `Symbol`
+*   [Number](#number)
+*   [Boolean]()
+*   [String]()
+*   [Null]()
+*   [Undefined]()
+*   [Symbol]()
 
-## Number 
+## Number <a id="number"></a>
 
 Le type Number sert à la fois pour des nombres entiers comme pour des nombres à virgule.
 
@@ -32,10 +32,14 @@ Il existe aussi des "valeurs numériques spéciales" qui appartiennent égalemen
 `Infinity` représente l'infini en mathématique. C'est une valeur qui est plus grande que n'importe quel nombre.
 
 Nous pouvons l'obtenir à la suite d'une division par zéro, ou encore en le mentionnant directement :
-```javascript
-alert(Infinity);
+```js
+console.log(1 / 0); // Infinity
+console.log(Infinity); // Infinity
 ```
 
 `NaN` représente une erreur de calcul c'est le résultat d'une opération incorrecte ou non définie.
+```js
+console.log("a string" / 2) // NaN
+```
 
 Les valeurs numériques spéciales appartiennent formellement au type "Number" 
