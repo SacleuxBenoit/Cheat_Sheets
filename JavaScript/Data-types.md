@@ -2,8 +2,7 @@
 
 ## Les types de données  
 
-En Javascript une variable peut contenir n'importe quel type de donnnées, elle peut être à un moment une chaine de caractère, et à un autre
-moment une valeur numérique.
+En Javascript une variable peut contenir n'importe quel type de donnnées, elle peut être à un moment une chaine de caractère, et à un autre moment une valeur numérique.
 
 ```javascript
 let message = "Hello";
@@ -13,7 +12,14 @@ message = 12346;
 Les langages de programmation qui permettent des choses comme ça sont appelés "typés dynamiquement", ce qui signifie qu'il existe des types de données,
 mais que les variables sont liées à aucun d'entre eux.
 
-Il existe 7 types de données de base en Javascript.
+Il existe x types de données `primitives` en Javascript : 
+
+*   `Number`
+*   `Boolean`
+*   `String`
+*   `Null`
+*   `Undefined`
+*   `Symbol`
 
 ## Number 
 
