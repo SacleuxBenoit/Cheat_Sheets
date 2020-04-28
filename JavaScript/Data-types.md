@@ -15,7 +15,7 @@ mais que les variables sont liées à aucun d'entre eux.
 Il existe x types de données `primitives` en Javascript : 
 
 *   [Number](#number)
-*   [Boolean]()
+*   [Boolean](#boolean)
 *   [String]()
 *   [Null]()
 *   [Undefined]()
@@ -38,8 +38,20 @@ console.log(Infinity); // Infinity
 ```
 
 `NaN` représente une erreur de calcul c'est le résultat d'une opération incorrecte ou non définie.
+
 ```js
 console.log("a string" / 2) // NaN
 ```
 
-Les valeurs numériques spéciales appartiennent formellement au type "Number" 
+## Boolean <a id="boolean"></a>
+
+Le type `Boolean` à seulement 2 valeurs, `true` et `false`:
+
+*   `true` pour correct
+*   `false` pour inccorect
+
+```js
+console.log(2 > 4) // False
+console.log(2 < 4) // True
+````
+
