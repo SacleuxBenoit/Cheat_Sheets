@@ -53,5 +53,4 @@ Le type `Boolean` à seulement 2 valeurs, `true` et `false`:
 ```js
 console.log(2 > 4) // False
 console.log(2 < 4) // True
-````
-
+```
