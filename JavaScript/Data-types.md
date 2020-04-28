@@ -61,7 +61,7 @@ En Javascript une chaine de caractères doit être entouré par des guillemets, 
 
 *   Les doubles quotes `"Mercure"`
 *   Les simples quotes `'Venus'`
-*   Les backticks ``Earth``
+*   Les backticks \`Earth\`
 
 Pour Javascript il n'y a pas de réelle différence entre les doubles et les simples quotes. 
 
