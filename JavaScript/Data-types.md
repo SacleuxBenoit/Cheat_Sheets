@@ -16,7 +16,7 @@ Il existe x types de données `primitives` en Javascript :
 
 *   [Number](#number)
 *   [Boolean](#boolean)
-*   [String]()
+*   [String](#string)
 *   [Null]()
 *   [Undefined]()
 *   [Symbol]()
@@ -53,4 +53,30 @@ Le type `Boolean` à seulement 2 valeurs, `true` et `false`:
 ```js
 console.log(2 > 4) // False
 console.log(2 < 4) // True
+```
+
+## String <a id="string"></a>
+
+En Javascript une chaine de caractères doit être entouré par des guillemets, il existe 3 types de guillemet :
+
+*   Les doubles quotes `"Mercure"`
+*   Les simples quotes `'Venus'`
+*   Les backticks `\`Earth\``
+
+Pour Javascript il n'y a pas de réelle différence entre les doubles et les simples quotes. 
+
+Pour les Backticks, ils vont permettre d'insérer des variables et des expressions : 
+
+```js
+let planet = "Mars"
+console.log(`Tu es sur la planète ${planet}`) // Tu es sur la planète Mars
+console.log("Tu es sur la planète ${planet}") // Tu es sur la planète ${planet}
+```
+
+Le dernier exemple ci-dessus, ne fonctionne pas car ce ne sont pas des Backticks mais des doubles quotes.
+
+L'expression à l'intérieur de `${}` est évalué, c'est-à-dire que l'on peut mettre à peu près tout ce que l'on veut, ça peut aller d'une variable, à un string ou encore une opération : 
+
+```js
+console.log(`il y a ${4 + 4} planètes dans notre système solaire`) // il y a 8 planètes dans notre système solaire 
 ```
