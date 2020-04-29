@@ -18,7 +18,7 @@ Il existe x types de données `primitives` en Javascript :
 *   [Boolean](#boolean)
 *   [String](#string)
 *   [Null](#null)
-*   [Undefined]()
+*   [Undefined](#undefined)
 *   [Symbol]()
 
 ## Number <a id="number"></a>
@@ -84,3 +84,22 @@ console.log(`il y a ${4 + 4} planètes dans notre système solaire`) // il y a 8
 ## Null <a id="null"></a>
 
 En javascript, la valeur `Null` représente la "nullité", dans le sens ou aucune valeur n'est présente pour l'objet
+
+## undefined <a id="undefined"></a>
+
+Tout comme `Null` la valeur `undefined` crée son propre type, sa signification est : "aucune valeur n'est affectée"
+
+```js
+let pluton;
+console.log(pluton) //undefined
+```
+
+Techniquement c'est possible d'assigner `undefined` pour une variable en faisant :
+```js
+let pluton = "planet";
+pluton = undefined;
+console.log(pluton) // undefined
+```
+
+mais cette technique n'est pas recommandée, pour affecter une valeur vide ou inconnue, il est préférable d'utiliser `Null`.
+Undefined est plus utilisé pour des vérifications, comme pour voir si une variable a été affectée.
