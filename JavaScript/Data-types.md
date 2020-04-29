@@ -17,7 +17,7 @@ Il existe x types de données `primitives` en Javascript :
 *   [Number](#number)
 *   [Boolean](#boolean)
 *   [String](#string)
-*   [Null]()
+*   [Null](#null)
 *   [Undefined]()
 *   [Symbol]()
 
@@ -80,3 +80,7 @@ L'expression à l'intérieur de `${}` est évalué, c'est-à-dire que l'on peut 
 ```js
 console.log(`il y a ${4 + 4} planètes dans notre système solaire`) // il y a 8 planètes dans notre système solaire 
 ```
+
+## Null <a id="null"></a>
+
+En javascript, la valeur `Null` représente la "nullité", dans le sens ou aucune valeur n'est présente pour l'objet
