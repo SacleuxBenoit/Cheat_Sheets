@@ -27,3 +27,7 @@ Voici la liste de tous les caractères spéciaux que l'on peut utiliser avec le 
 *   `\'` va échapper le single quote
 *   `\"` va échapper le double quote
 *   `\n` Nouvelle ligne 
+*   `\r` carriage return
+*   `\t` tab
+*   `\b` backspace
+*   `\f` form feed
