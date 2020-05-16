@@ -57,6 +57,16 @@ console.log(herbo) // Je ramasse de la zin"anthide
 ```
 
 *   `\n` Nouvelle ligne 
+
+```js
+let newline = "ceci est une \n nouvelle ligne"
+console.log(newline)
+```
+
+"Ceci est une
+
+nouvelle ligne" va donc être affiché.
+
 *   `\r` carriage return
 *   `\t` tab
 *   `\b` backspace
