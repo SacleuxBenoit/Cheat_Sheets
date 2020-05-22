@@ -16,6 +16,7 @@
     *   [Array](JavaScript/Array.md)
     *   [Synchrone / Asynchrone](JavaScript/SynchroneVsAsynchrone.md)
     *   [Caractères spéciaux](JavaScript/Special-characters.md)
+    *   [Les fonctions](JavaScript/Functions.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
