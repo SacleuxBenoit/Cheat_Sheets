@@ -13,3 +13,4 @@
 *   [Array](Array.md)
 *   [Synchrone / Asynchrone](SynchroneVsAsynchrone.md)
 *   [Caractères spéciaux](Special-characters.md)
+*   [Les fonctions](Functions.md)
