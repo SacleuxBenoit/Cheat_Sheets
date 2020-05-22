@@ -42,8 +42,10 @@ switch(a){
       break;
     case 4:
       alert('exactly');
+      break;
     case 5:
       alert('too large');
+      break:
     default:
     alert('I dont know this values');
 }
