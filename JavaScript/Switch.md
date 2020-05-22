@@ -48,3 +48,19 @@ switch(a){
     alert('I dont know this values');
 }
 ```
+
+avec un `if` / `else if` çela correspondrais à ca : 
+
+```js
+let a = 2 + 2
+
+if(a == 3){
+  console.log('Too small')
+}else if(a == 4){
+  console.log('exactly')
+}else if(a == 5){
+  console.log('Too large')
+}else{
+  console.log('I dont know this values')
+}
+```
