@@ -4,7 +4,7 @@
 
 ### Description
 
-Une fonction c'est un ensemble d'instructions pouvant effectuer une tâche, les fonctions font parties des briques fondamentales de Javascript, il existe des fonctions intégrées
+Une fonction c'est un ensemble d'instructions pouvant effectuer une tâche, les fonctions font parties des briques fondamentales de Javascript, il existe des fonctions intégrées comme [Alert Prompt et Confirm](AlertPromptConfirm.md), mais nous pouvons aussi créer les nôtres.
 
 ### Pourquoi utiliser une fonction
 
