@@ -21,3 +21,20 @@ function NameFunction(arg1, arg2){
 ```
 
 lorsque nous déclarons une fonction, celle-ci n'est pas exécuté, mais elle est gardé en mémoire pour être exécutée quand on va l'appeler.
+
+### Appeler une fonction
+
+Pour appeler une fonction il suffit de mettre le nom de la fonction suivie de parenthèses
+
+```js
+function conversion(){
+    let message= prompt("Entrez la valeur en miles"); // Demande d'entrer une valeur en miles
+    let resultat = message * 1.60934; // Fait la conversion en Km
+    alert(message + " miles est égal à " + resultat + " Km") // Affiche un message avec "Alert"
+}
+
+conversion()
+```
+
+La fonction ci-dessus va afficher un prompt et demander une valeur en miles, une fois que l'utilisateur auras entré sa valeur, 
+la fonction va calculer la valeur en miles et la convertir en Km, puis affiché un message donnant le résultat en Km.
