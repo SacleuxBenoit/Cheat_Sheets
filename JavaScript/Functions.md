@@ -24,7 +24,7 @@ lorsque nous déclarons une fonction, celle-ci n'est pas exécuté, mais elle es
 
 ### Appeler une fonction
 
-Pour appeler une fonction il suffit de mettre le nom de la fonction suivie de parenthèses
+Pour appeler une fonction il suffit de mettre le nom de la fonction suivie de parenthèses. Une fois ceci fait la fonction sera exécuté.
 
 ```js
 function conversion(){
@@ -38,3 +38,19 @@ conversion()
 
 La fonction ci-dessus va afficher un prompt et demander une valeur en miles, une fois que l'utilisateur auras entré sa valeur, 
 la fonction va calculer la valeur en miles et la convertir en Km, puis affiché un message donnant le résultat en Km.
+
+### Créer une fonction avec un argument
+
+Rappel : pour mettre un argument dans une fonction il suffit de l'écrire dans les parenthèses après le nom de la fonction : 
+
+```js
+function convertisseur(change){
+    let miles = prompt("Entrez votre valeur en miles");
+    let result = miles * change;
+    alert(miles + " miles est égal à " + result + " Km")
+}
+
+convertisseur(1.60934)
+```
+
+Il est tout à fait possible de mettre un deuxième argument, il faut juste mettre une virgule après le 1er. Ensuite quand nous allons appeler notre fonction, il suffira de donner les paramètres dans le même ordre.
