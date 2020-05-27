@@ -37,7 +37,7 @@ conversion()
 ```
 
 La fonction ci-dessus va afficher un prompt et demander une valeur en miles, une fois que l'utilisateur auras entré sa valeur, 
-la fonction va calculer la valeur en miles et la convertir en Km, puis affiché un message donnant le résultat en Km.
+la fonction va faire la conversion des miles en km, puis affiché un message donnant le résultat.
 
 ### Créer une fonction avec un argument
 
