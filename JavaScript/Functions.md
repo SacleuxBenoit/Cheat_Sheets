@@ -54,3 +54,15 @@ convertisseur(1.60934)
 ```
 
 Il est tout à fait possible de mettre un deuxième argument, il faut juste mettre une virgule après le 1er. Ensuite quand nous allons appeler notre fonction, il suffira de donner les paramètres dans le même ordre.
+
+## Les fonctions expressions
+
+Precédemment nous avons vue comment créer une fonction, il faut savoir qu'il existe une autre syntaxe : `Function expression` 
+
+```js
+let Hello = function(){
+    alert("Hello")
+};
+```
+
+La fonction est assigné à une variable, peut importe ce qu'il y a dans la fonction, elle va être stocker dans la variable `Hello` (il ne faut pas oublier de mettre le point virgule à la fin, car c'est une variable).
