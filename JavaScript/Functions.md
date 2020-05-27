@@ -57,7 +57,7 @@ Il est tout à fait possible de mettre un deuxième argument, il faut juste mett
 
 ## Les fonctions expressions
 
-Precédemment nous avons vue comment créer une fonction, il faut savoir qu'il existe une autre syntaxe : `Function expression` 
+Précédemment nous avons vu comment créer une fonction, il faut savoir qu'il existe une autre syntaxe que l'on appelle : `Function expression` 
 
 ```js
 let Hello = function(){
@@ -65,4 +65,19 @@ let Hello = function(){
 };
 ```
 
-La fonction est assigné à une variable, peut importe ce qu'il y a dans la fonction, elle va être stocker dans la variable `Hello` (il ne faut pas oublier de mettre le point virgule à la fin, car c'est une variable).
+La fonction est assignée à une variable, peu importe ce qu'il y a dans la fonction, elle va être stockée dans la variable `Hello` (il ne faut pas oublier de mettre le point-virgule à la fin, car c'est une variable).
+
+La différence entre une fonction classique et celle-là, c'est que dans la fonction classique toute la fonction est chargée dans la mémoire du navigateur, même si elle n'est pas utilisée immédiatement, à la différence des `function expression` qui sont appelées quand l'interpréteur atteint leur ligne de code. 
+
+Nous pouvons copier une fonction dans une autre variable : 
+
+```js
+let Hello = function(){
+    alert("Hello")
+};
+
+let Hi = Hello
+
+Hello() // Hello
+Hi() // Hello
+```
