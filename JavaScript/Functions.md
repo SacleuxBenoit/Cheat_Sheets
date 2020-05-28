@@ -33,7 +33,7 @@ function conversion(){
     alert(message + " miles est égal à " + resultat + " Km") // Affiche un message avec "Alert"
 }
 
-conversion()
+conversion() // Appel de la fonction
 ```
 
 La fonction ci-dessus va afficher un prompt et demander une valeur en miles, une fois que l'utilisateur auras entré sa valeur, 
@@ -72,11 +72,11 @@ La différence entre une fonction classique et celle-là, c'est que dans la fonc
 Nous pouvons copier une fonction dans une autre variable : 
 
 ```js
-let Hello = function(){
+let Hello = function(){ // création de la fonction 
     alert("Hello")
 };
 
-let Hi = Hello
+let Hi = Hello // copie de la fonction dans la variable Hi
 
 Hello() // Hello
 Hi() // Hello
