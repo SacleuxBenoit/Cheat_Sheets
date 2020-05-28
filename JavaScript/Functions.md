@@ -87,15 +87,44 @@ Hi() // Hello
 Il y a une autre syntaxe pour les fonctions : les `Arrow functions`
 
 ```js
-let Goodbye = (arg1, arg2) => Expression
+let Goodbye = (arg1, arg2) => Expression ;
 ```
 
-on crée une fonction `Goodbye` qui prend arg1 et arg2 en argument et qui évalue `Expression`
+on crée une fonction `Goodbye` qui prend `arg1` et `arg2` en argument et qui évalue `Expression`
 
 c'est beaucoup plus court que ceci : 
 
 ```js
 let Goodbye = function(arg1, arg2){
     return expression
+};
+```
+
+Si nous n'avons qu'un seul argument, les parenthèses ne sont pas obligatoire par exemple :
+
+```js
+let Km = miles => miles * 1,60934;
+```
+
+ce qui donnerais avec une function expression
+
+```js
+let Km = function(miles){
+    return miles * 1,60934
+}
+```
+
+par contre si il n'y a pas d'arguement les parenthèses sont obligatoire
+
+```js
+let Mage = () => alert("I'm a Mage")
+```
+
+Maintenant, si nous avons besoin d'écrire une `Arrow function` sur plusieurs lignes il va falloir utiliser les accolades :
+
+```js
+let Division = (a,b) => {
+    let result = a / b;
+    return result
 }
 ```
