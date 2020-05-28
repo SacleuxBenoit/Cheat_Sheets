@@ -100,13 +100,13 @@ let Goodbye = function(arg1, arg2){
 };
 ```
 
-Si nous n'avons qu'un seul argument, les parenthèses ne sont pas obligatoire par exemple :
+Si nous n'avons qu'un seul argument, les parenthèses ne sont pas obligatoires par exemple :
 
 ```js
 let Km = miles => miles * 1,60934;
 ```
 
-ce qui donnerais avec une function expression
+ce qui donnerait avec une function expression
 
 ```js
 let Km = function(miles){
@@ -114,7 +114,7 @@ let Km = function(miles){
 }
 ```
 
-par contre si il n'y a pas d'arguement les parenthèses sont obligatoire
+par contre s'il n'y a pas d'argument les parenthèses sont obligatoire
 
 ```js
 let Mage = () => alert("I'm a Mage")
