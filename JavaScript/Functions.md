@@ -57,7 +57,7 @@ Il est tout à fait possible de mettre un deuxième argument, il faut juste mett
 
 ## Les fonctions expressions
 
-Précédemment nous avons vu comment créer une fonction, il faut savoir qu'il existe une autre syntaxe que l'on appelle : `Function expression` 
+Précédemment nous avons vu comment créer une fonction, il faut savoir qu'il existe d'autres sortes de fonction, nous allons maintenant voir les `Function expression` 
 
 ```js
 let Hello = function(){
@@ -80,4 +80,22 @@ let Hi = Hello // copie de la fonction dans la variable Hi
 
 Hello() // Hello
 Hi() // Hello
+```
+
+## les fonctions fléchées
+
+Il y a une autre syntaxe pour les fonctions : les `Arrow functions`
+
+```js
+let Goodbye = (arg1, arg2) => Expression
+```
+
+on crée une fonction `Goodbye` qui prend arg1 et arg2 en argument et qui évalue `Expression`
+
+c'est beaucoup plus court que ceci : 
+
+```js
+let Goodbye = function(arg1, arg2){
+    return expression
+}
 ```
