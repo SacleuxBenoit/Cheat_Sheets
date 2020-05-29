@@ -17,6 +17,7 @@
     *   [Synchrone / Asynchrone](JavaScript/SynchroneVsAsynchrone.md)
     *   [Caractères spéciaux](JavaScript/Special-characters.md)
     *   [Les fonctions](JavaScript/Functions.md)
+    *   [Les opérateurs logiques](Logical-Operators.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
