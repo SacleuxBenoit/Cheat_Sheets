@@ -15,6 +15,6 @@ result = true || false
 Il faut savoir que :
 
 *   l'opérateur `OR` évalue l'opérande de la gauche vers la droite
-*   il convertie chaque opérande en booléan
+*   il converti chaque opérande en booléen
 *   si le résultat est `true ` alors il s'arrête et retourne la valeur
 *   si tous les opérandes sont `false` alors il retourne le dernier opérande
