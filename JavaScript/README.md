@@ -14,3 +14,4 @@
 *   [Synchrone / Asynchrone](SynchroneVsAsynchrone.md)
 *   [Caractères spéciaux](Special-characters.md)
 *   [Les fonctions](Functions.md)
+*   [Les opérateurs logiques](Logical-Operators.md)
