@@ -28,7 +28,7 @@ alert( false || true );  // true
 alert( false || false ); // false
 ```
 
-comme nous pouvons le voir le résultat est toujours `true`sauf quand tous les opérandes sont `false`.
+comme nous pouvons le voir le résultat est toujours `true` sauf quand tous les opérandes sont `false`.
 
 La plupart du temps `||` s'utilise avec un `if`
 
@@ -39,3 +39,34 @@ if (heure < 8 || heure > 18) {
   alert( 'Le bureau est fermé' );
 }
 ```
+
+### L'opérateur AND &&
+
+Voici la syntaxe : 
+
+```js
+result = a && b
+```
+
+contrairement à `||`, `&&` retourne `true` uniquement si les 2 opérandes sont `true` :
+
+```js
+alert( true && true );   // true
+alert( true && false );  // false
+alert( false && true  );  // false
+alert( false && false ); // false
+```
+
+tout comme `||`, `&&` s'utilise souvent avec `if`
+
+```js
+let Heure = 00;
+let Minute = 00;
+let Seconde = 00;
+
+if(Heure == 00 && Minute == 00 && Seconde == 00){
+    alert("We have a Lift-off !")
+}
+```
+
+il faut savoir que `&&` ne recherche pas les valeurs `true` mais il recherche la première valeur `false` ! si une valeur `false` est trouvée alors l'opérande sera automatiquement `false`
