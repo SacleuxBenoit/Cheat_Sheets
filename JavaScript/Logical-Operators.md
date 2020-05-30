@@ -70,3 +70,5 @@ if(Heure == 00 && Minute == 00 && Seconde == 00){
 ```
 
 il faut savoir que `&&` ne recherche pas les valeurs `true` mais il recherche la première valeur `false` ! si une valeur `false` est trouvée alors l'opérande sera automatiquement `false`
+
+Pour ce qui est de la précédence, `AND` est plus grand que `OR` donc pour `1 && 2 || 3 && 4` c'est comme ci c'était `(1 && 2) || (3 && 4)`
