@@ -103,3 +103,5 @@ Le double `!!` permet de convertir la valeur en `BOOLEAN`
 alert(!!"un string non vide") // true
 alert(!!"") // false
 ```
+
+En résumé pour `!!` le 1er point d'exclamation convertie la valeur en booléen, et le deuxième point d'exclamation change une fois de plus la valeur en Booléen et la retourne.
