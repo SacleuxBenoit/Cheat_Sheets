@@ -11,15 +11,15 @@ Déjà, il faut savoir que Nodejs N'EST PAS un serveur ou un framework, Nodejs c
 Contrairement à `PhP`, que l'on associe avec un serveur web HTTP comme `APACHE`, pour Nodejs il va falloir créer sois même le serveur ! 
 
 ```js
-const http = require('http');
+const http = require('http'); // Le require fait appel à la bibliothèque de Nodejs, ici il fait appel à http
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const hostname = '127.0.0.1';  // Ici 127.0.0.1 c'est le localhost
+const port = 3000; // configuration du port 
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
+const server = http.createServer((req, res) => {  // Crée un serveur HTTP
+  res.statusCode = 200; // Le status code 200 indique la réussite d'une requête
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
+  res.end('Hello World'); // Termine le processus et affiche "Hello World"
 });
 
 server.listen(port, hostname, () => {
@@ -27,3 +27,4 @@ server.listen(port, hostname, () => {
 });
 ```
 
+Le code ci-dessus crée un serveur qui renvoie "Hello World" sur le port 3000
