@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {  // Crée un serveur HTTP
   res.end('Hello World'); // Termine le processus et affiche "Hello World"
 });
 
-server.listen(port, hostname, () => {
+server.listen(port, hostname, () => { // écoute le port 3000 
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
