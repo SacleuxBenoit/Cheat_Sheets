@@ -4,13 +4,13 @@
 
 Un code HTTP que l'on appel aussi `status code`, permet de définir le résultat d'une requête, il est divisé en 5 parties :
 
-*   100-199 : C'est la partie `Information`, c'est une réponse provisoire
-*   200-299 : Ici c'est le `succès` de la requête 
+*   [100-199](#199) : C'est la partie `Information`, c'est une réponse provisoire
+*   [200-299](#299) : Ici c'est le `succès` de la requête 
 *   300-399 : C'est le code qui est lié à la `redirection`
 *   400-499 : `Erreur dans la requête`
 *   500-599 : `Erreur au niveau du serveur`
 
-### Partie Information 100-199
+### Partie Information 100-199 <a id="199"></a>
 
 | Code | Message | Description |
 | ----------- | ----------- | ----------- |
@@ -18,7 +18,7 @@ Un code HTTP que l'on appel aussi `status code`, permet de définir le résultat
 | 101 | Switching protocols | Changement de protocole accepté par le serveur, le protocole ne devra être changé que si il est avantageux de le faire |
 | 102 | Processing | Traitement en cours, (évite que le client dépasse le temps d'attente limite, se ferme et provoque l'erreur 499) |
 
-### Partie succès 200-299
+### Partie succès 200-299 <a id="299"></a>
 
 | Code | Message | Description |
 | ----------- | ----------- | ----------- |
