@@ -33,3 +33,17 @@ Un code HTTP que l'on appel aussi `status code`, permet de définir le résultat
 | 208 | Already reported | Ce code est principalement utilisé par le serveur WebDAV, élément de réponse propstat pour éviter d'énumérer les membres internes de plusieurs liaisons à la même collection à plusieurs reprises |
 | 210 | Content different | Ce code est principalement utilisé par le serveur WebDAV, La copie de la ressource côté client diffère de celle du serveur (contenu ou propriétés) |
 | 226 | IM used | Le serveur a accompli la requête pour la ressource, et la réponse est une représentation du résultat d'une ou plusieurs manipulations d'instances appliquées à l'instance actuelle |
+
+### Partie Redirection 300-399
+
+| Code | Message | Description |
+| ----------- | ----------- | ----------- |
+| 300 | Multiple choices | Il indique qu'il existe plusieurs réponse possible pour la requête |
+| 301 | Moved permanently | Il est utilisé pour une redirection d'URL permanente |
+| 302 | Found | Il est utilisé pour une redirection d'URL non permanente |
+| 303 | See other | Il indique que la redirection ne fait pas le lien vers la ressource actuelle mais vers une autre page |
+| 304 | Not modified | C'est une redirection implicite vers une ressource mise en cache |
+| 305 | Use proxy | Redirection vers un proxy spécifié par l’entête |
+| 307 | Temporary redirection | Il indique que la ressource est temporairement déplacée vers l'URL contenue dans l'en-tête Location |
+| 308 | Permanent redirection | Il indique que la ressource demandée à définitivement été déplacée vers l'URL contenue dans l'en-tête Location |
+| 310 | Too many redirect | Cette erreur est renvoyée lorsque la requête est redirigée de trop nombreuses fois, ou est victime d’une boucle de redirection |
