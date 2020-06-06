@@ -51,7 +51,7 @@ switch(a){
 }
 ```
 
-avec un `if` / `else if` çela correspondrais à ca : 
+avec un `if` / `else if` cela correspondrait à ça : 
 
 ```js
 let a = 2 + 2
