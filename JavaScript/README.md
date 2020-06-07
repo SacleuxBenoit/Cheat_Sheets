@@ -3,7 +3,6 @@
 *   [if else](if-else.md)
 *   [variables](variables.md)
 *   [Data Types](Data-types.md)
-*   [Type conversions](Type-conversions.md)
 *   [Alert Prompt et Confirm](AlertPromptConfirm.md)
 *   [Strict mode](strict_mode.md)
 *   [Switch](Switch.md)
@@ -15,3 +14,4 @@
 *   [Caractères spéciaux](Special-characters.md)
 *   [Les fonctions](Functions.md)
 *   [Les opérateurs logiques](Logical-Operators.md)
+*   [Événement clavier](Keyboard-Event.md)
