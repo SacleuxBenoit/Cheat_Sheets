@@ -19,6 +19,8 @@
     *   [Les fonctions](JavaScript/Functions.md)
     *   [Les opérateurs logiques](JavaScript/Logical-Operators.md)
     *   [Événement clavier](Javascript/Keyboard-Event.md)
+    *   [Polyfill](Javascript/Polyfill.md)
+
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
