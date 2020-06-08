@@ -10,9 +10,11 @@ En Javascript il existe 3 types d'événement pour l'utilisation d'une touche au
 
 ## event.key et event.code
 
-*   Pour la propriété `key` on va directement renseigner le caractère
+*   Pour la propriété `key` on va directement renseigner le caractère, il faut bien faire attention au majuscule par exemple pour `e.key == "z"` et `e.key == "Z"` ce n'est pas la même chose.
 
 ```js
+let message = document.getElementById('TextArea')
+
 message.addEventListener('keydown', (e) => {
     if(e.key == "z"){
         console.log("Z à était press")
@@ -23,6 +25,8 @@ message.addEventListener('keydown', (e) => {
 *   Tandis que pour la propriété `code` il va falloir obtenir un code spécial, pour trouver quel code correspond à la touche que l'on souhaite entrer, on peut utiliser le site [keycode.info](https://keycode.info) il suffit d'appuyer sur une touche et le site va directement vous donner le code pour cette touche
 
 ```js
+let message = document.getElementById('TextArea')
+
 message.addEventListener('keydown', (e) => {
     if(e.keyCode == "65"){
         console.log("A à était press")
