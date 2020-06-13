@@ -69,3 +69,15 @@ function Timer(){
     }, 100)
 }
 ```
+
+## clearInterval 
+
+La méthode `clearInterval` va nous permettre d'arrêter l'exécution en boucle d'une fonction / block de code défini par `setInterval`. 
+
+Si nous voulons stopper le timer de l'exemple pour la partie `setInterval` il suffirait de rajouter :
+
+```js
+function PauseTimer(){
+    clearInterval(intervalId);
+}
+```
