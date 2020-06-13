@@ -27,3 +27,45 @@ function dontSayHello(){
 ```
 
 avec l'exemple ci-dessus, si l'on crée un bouton `lancer l'alerte` qu'on l'assigne à la fonction `sayHello` et que l'on crée un autre bouton `Stop l'alerte` avec l'assignation de la fonction `dontSayHello`, lorsque nous cliquons sur le bouton `lancer l'alerte` au bout de 4 secondes l'alerte avec le message "Hi" va donc être affiché, par contre si avant les 4 secondes nous cliquons sur le bouton, rien ne sera affiché car `clearTimeout` va annuler le délai définis.
+
+## setInterval
+
+`setInterval` va nous permettre d'exécuter une fonction / bloc de code en boucle, selon un intervalle défini.
+
+Cette méthode va être utile, lorsque nous voulons réaliser de nombreuses choses, comme une horloge ou encore un timer, qui va se mettre à jours toutes les secondes 
+
+```js
+let timer = document.getElementById("timer");
+let intervalId;
+
+let jours = 0;
+let heures = 0;
+let minutes = 0;
+let secondes = 0;
+let millisecondes = 0;
+
+timer.textContent = jours + ' jours : ' + heures + ' heures : ' + minutes + ' minutes : ' + secondes + ' secondes : ' + millisecondes;
+
+function Timer(){
+    intervalId = setInterval(function(){
+        timer.textContent = jours + ' jours : ' + heures + ' heures : ' + minutes + ' minutes : ' + secondes + ' secondes : ' + millisecondes;
+        millisecondes+=1;
+        if(millisecondes >= 10){
+            millisecondes = 0;
+            secondes += 1;
+        }
+        if(secondes >= 60){
+            secondes = 0;
+            minutes += 1;
+        }
+        if(minutes >= 60){
+            minutes = 0;
+            heures += 1;
+        }
+        if(heures >= 24){
+            heures = 0;
+            jours += 1;
+        }
+    }, 100)
+}
+```
