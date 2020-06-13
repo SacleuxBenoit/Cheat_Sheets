@@ -18,8 +18,10 @@
     *   [Caractères spéciaux](JavaScript/Special-characters.md)
     *   [Les fonctions](JavaScript/Functions.md)
     *   [Les opérateurs logiques](JavaScript/Logical-Operators.md)
-    *   [Événement clavier](Javascript/Keyboard-Event.md)
-    *   [Transpiler](Javascript/Transpiler.md)
+    *   [Événement clavier](JavaScript/Keyboard-Event.md)
+    *   [Transpiler](JavaScript/Transpiler.md)
+    *   [SetTimeout and setInterval](JavaScript/setTimeout-setInterval.md)
+
 
 
 *   [css](css)  
