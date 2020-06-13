@@ -16,3 +16,4 @@
 *   [Les opérateurs logiques](Logical-Operators.md)
 *   [Événement clavier](Keyboard-Event.md)
 *   [Transpiler](Transpiler.md)
+*   [SetTimeout and setInterval](setTimeout-setInterval.md)
