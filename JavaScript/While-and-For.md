@@ -35,3 +35,21 @@ par exemple :
 ```js
 while(i > 0) alert(i--) // Fait aussi un décompte et affiche 10,9,8,7,6,5,4,3,2,1
 ```
+
+## La boucle do... while
+
+```js
+do{
+    // body
+}while(condition)
+```
+
+Pour la boucle `do while`, la boucle commence par exécuter le body puis ensuite regarder la condition et si la condition est vrai alors on repart dans le `do`.
+
+```js
+let i = 10;
+do{
+    alert(i--)
+}while(i > 0)
+```
+
