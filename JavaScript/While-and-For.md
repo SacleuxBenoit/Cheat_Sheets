@@ -44,7 +44,7 @@ do{
 }while(condition)
 ```
 
-Pour la boucle `do while`, la boucle commence par exécuter le body puis ensuite regarder la condition et si la condition est vrai alors on repart dans le `do`.
+la boucle commence par exécuter le body puis ensuite regarder la condition et si la condition est vrai alors on repart dans le `do`.
 
 ```js
 let i = 10;
@@ -53,3 +53,14 @@ do{
 }while(i > 0)
 ```
 
+cela peut aussi poser des problèmes par exemple : 
+
+```js
+let Country = "France";
+
+do{
+    alert("Bienvenue en Amérique")
+}while(Country === "Amérique")
+```
+
+dans l'exemple ci-dessus la boucle va exécuter le body, il va donc afficher `Bienvenue en Amérique`, et seulement après la boucle va regarder la condition.
