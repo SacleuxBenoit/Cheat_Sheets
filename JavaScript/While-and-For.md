@@ -27,3 +27,11 @@ while(i > 0){
 ```
 
 Pour l'exemple ci-dessus, on dit que : `pendant que` i est plus grand que 0 alors tu rentres dans le body et tu exécutes `alert(i--)`, à chaque fois que l'on rentre dans le body on dit que l'on fait une itération, pour cet exemple il y a donc 10 itérations
+
+il faut aussi savoir que les accolades ne sont pas obligatoires quand il n'y a qu'une seule instruction dans le body
+
+par exemple :
+
+```js
+while(i > 0) alert(i--) // Fait aussi un décompte et affiche 10,9,8,7,6,5,4,3,2,1
+```
