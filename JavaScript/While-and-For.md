@@ -100,3 +100,37 @@ Voici toutes les étapes réalisées :
 *   `alert(2)`
 *   `2++`
 *   `3 < arr.length` non car arr.length est égal à 3, donc la boucle stop ici
+
+### Enlever un / plusieurs paramètre pour la boucle for
+
+Nous pouvons enlever n'importe quel paramètre pour la boucle for : 
+
+```js
+let arr = [2, 4, 6];
+let n = 0;
+
+for(; n < arr.length; n++){
+    alert(n)
+}
+```
+
+pour l'exemple ci-dessus, nous n'avons pas besoin d'écrire que `n = 0` car nous l'avons fait plus haut donc nous pouvons l'omettre.
+
+```js
+let arr = [2, 4, 6];
+let i = 0;
+
+for(; i < arr.length;){
+    alert(i++) // Affiche 0,1,2
+}
+```
+
+Ici cela reviens au même que `while(i < arr.length){ alert(i++)}`
+
+```js
+for(;;){
+    // boucle infinis
+}
+```
+
+Les 2 points-virgules doivent être présent, sinon il y a une syntaxe error.
