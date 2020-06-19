@@ -64,3 +64,39 @@ do{
 ```
 
 dans l'exemple ci-dessus la boucle va exécuter le body, il va donc afficher `Bienvenue en Amérique`, et seulement après la boucle va regarder la condition.
+
+## La boucle for
+
+voici la syntaxe :
+
+```js
+for(begin; condition; step){
+    // body
+}
+```
+
+premièrement `begin` est exécuté, ensuite on part dans `condition` si la condition est `true` alors le body est exécuté, puis on exécute la partie `step`
+
+Ci-dessous un exemple d'utilisation 
+
+```js
+let arr = [2, 4, 6]
+
+for(let n = 0; n < arr.length; n++){
+    alert(n) // Affiche 0, 1, 2
+}
+```
+
+Voici toutes les étapes réalisées :
+
+*   Exécute begin `let n = 0`
+*   Vérifie la condition `0 < arr.length`
+*   Exécute le body `alert(0)`
+*   Exécute step `0++`
+*   Ensuite on repart check la condition `1 < arr.length`
+*   `alert(1)`
+*   `1++`
+*   `2 < arr.length`
+*   `alert(2)`
+*   `2++`
+*   `3 < arr.length` non car arr.length est égal à 3, donc la boucle stop ici
