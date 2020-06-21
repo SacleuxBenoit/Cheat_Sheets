@@ -23,6 +23,7 @@
     *   [SetTimeout and setInterval](JavaScript/setTimeout-setInterval.md)
     *   [Date and Time](JavaScript/Date-and-Time.md)
     *   [Boucle While and For](JavaScript/While-and-For.md)
+    *   [Les objets](JavaScript/Objects.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
