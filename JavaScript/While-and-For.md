@@ -134,3 +134,27 @@ for(;;){
 ```
 
 Les 2 points-virgules doivent être présent, sinon il y a une syntaxe error.
+
+
+### for...in
+
+`for in` va nous permettre d'itérer sur des propriétés énumérables d'un objet.
+
+```js
+let array = ["this", "is", "a", "test"]
+
+for(let arrays in array){
+    alert(arrays) // Affiche 0,1,2,3
+}
+```
+
+### for...of 
+
+`for of` est utilisé pour parcourir les valeurs d'un itérable, comme un tableau : 
+
+```js
+let array = ["this", "is", "a", "test"]
+for(let arrays of array){
+    alert(arrays) // Affiche "this", "is", "a", "test"
+}
+```
