@@ -1,7 +1,5 @@
 # cmd (invite de commandes)
 
-##  Cheat_sheets en cours de développement 
-
 ## Comment ouvrir CMD 
 
 Pour ouvrir l'invite de commande de Windows, il faut appuyer sur la touche `Windows + R`, ça va ouvrir la fenêtre
