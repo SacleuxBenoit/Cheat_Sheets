@@ -90,15 +90,15 @@ et mettre la commande ci-dessous dans le terminal :
 pg_dump --no-owner testcopy > test.sql
  ```
 
- `testcopy` c'est ne nom de la base de données à exporter et `test.sql` c'est le nom du fichier .sql que l'on veut créer
+`testcopy` c'est ne nom de la base de données à exporter et `test.sql` c'est le nom du fichier .sql que l'on veut créer
 
- ### Importer la base de données 
+### Importer la base de données 
 
- Une fois que l'on a récupéré le fichier test.sql :
+Une fois que l'on a récupéré le fichier test.sql :
 
- *  Nous allons faire `psql` puis créer la base de données `testcopybackup` avec `CREATE DATABASE testcopybackup`
+*  Nous allons faire `psql` puis créer la base de données `testcopybackup` avec `CREATE DATABASE testcopybackup`
 
- *  Maintenant que nous avons créé `testcopybackup` nous allons sortir avec `\q` et faire `psql testcopybackup < test.sql`
+*  Maintenant que nous avons créé `testcopybackup` nous allons sortir avec `\q` et faire `psql testcopybackup < test.sql`
 
 et voila, la base de données et maintenant importer.
 
