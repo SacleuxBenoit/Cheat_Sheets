@@ -24,7 +24,7 @@ on va pouvoir créer une base de données avec la commande `CREATE DATABASE`
 CREATE DATABASE name_db;
 ```
 
-## Créer une database avec un propriétaire (OWNER)  
+## Créer une base de données avec un propriétaire (OWNER)  
 
 Si l'on veut créer une base de données avec un propriétaire spécifique il va falloir utiliser `OWNER`
 
@@ -48,7 +48,7 @@ Pour retrouver une information dans une base de données il faut faire :
 SELECT name_column FROM name_table WHERE "what we need"
 ```
 
-## Database 
+## Créer une table 
 
 Pour créer une table il faut faire la commande suivante : 
 ```psql
@@ -64,8 +64,6 @@ Si nous voulons modifier une table on va devoir utilser `ALTER TABLE`, on va pou
 ALTER TABLE table_name RENAME TO new_table_name;
 ```
 
-## Commandes
-
 ## Entrer dans une base de données 
 
 Pour entrer dans une base de données il faut utiliser : 
@@ -73,6 +71,36 @@ Pour entrer dans une base de données il faut utiliser :
 ```psql
 \c name_db
 ```
+
+## Importer et exporter une base de données
+
+### Exporter la base de données
+
+*   Pour ce faire, nous allons tout d'abord créer la base de données, nous allons l'apeller `testcopy`
+
+```psql
+CREATE DATABASE testcopy;
+```
+
+*   Ensuite, il va falloir quitter postgresql avec `\q`
+
+et mettre la commande ci-dessous dans le terminal :
+
+```psql
+pg_dump --no-owner testcopy > test.sql
+ ```
+
+ `testcopy` c'est ne nom de la base de données à exporter et `test.sql` c'est le nom du fichier .sql que l'on veut créer
+
+ ### Importer la base de données 
+
+ Une fois que l'on a récupéré le fichier test.sql :
+
+ *  Nous allons faire `psql` puis créer la base de données `testcopybackup` avec `CREATE DATABASE testcopybackup`
+
+ *  Maintenant que nous avons créé `testcopybackup` nous allons sortir avec `\q` et faire `psql testcopybackup < test.sql`
+
+et voila, la base de données et maintenant importer.
 
 ## Voir les utilisateurs 
 
