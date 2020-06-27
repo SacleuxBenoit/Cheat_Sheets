@@ -77,6 +77,8 @@
     
     *   [Nodejs](Backend/Nodejs)
         *   [Les bases](Backend/Nodejs/Les-bases.md)
+        *   [Installation de Nodejs](Backend/Nodejs/installation.md)
+        *   [Npm](Backend/Nodejs/npm.md)
 
     *   [Base de données](Backend/Base-de-donnees)
         *   [Postgresql](Backend/Base-de-donnees/PostgreSQL)
