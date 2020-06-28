@@ -2,7 +2,7 @@
 
 ## Npm c'est quoi
 
-Npm `Node package manager`, c'est un gestionnaire de dépndances, en gros c'est un outil qui va permettre de gérer les bibliothèques / frameworks. Depuis la version 0.6.3 il a était intégré à Nodejs c'est pour cela que quand on installe nodejs npm viens avec. 
+Npm `Node package manager`, c'est un gestionnaire de dépendances, en gros c'est un outil qui va permettre de gérer les bibliothèques / frameworks. Depuis la version 0.6.3 il a était intégré à Nodejs c'est pour cela que quand on installe nodejs npm viens avec. 
 
 ## Comment l'installer
 
@@ -45,3 +45,32 @@ Pour commencer un projet, nous allons utiliser `npm init` dans le terminal plusi
 *   `license` ISC est la licence de base, la plupart des projets Open source Nodejs sont sous MIT
 
 *   et enfin, il y a une demande de confirmation 
+
+Une fois ceci fait, un fichier `package.json` va apparaître dans le dossier ou npm init a était effectué
+
+### Package.json
+
+dans ce fichier, on va retrouver toutes les informations que nous avons indiquées précédemment :
+
+```json
+{
+  "name": "TestForcheatsheets",
+  "version": "1.0.0",
+  "description": "This repo is a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sacleux Benoît",
+  "license": "MIT"
+}
+
+```
+
+ce fichier est utilisé pour fournir à npm des informations qui lui permettent de gérer les dépendances du projet par exemple si nous installons `express` avec `npm install express` le package.json va être update avec la partie `dependencies` :
+
+```json
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+```
