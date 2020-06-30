@@ -16,3 +16,26 @@ document.body.style.background = "blue";
 *   Si nous voulons accéder au body `document.body`
 *   Et pour le tag `head` `document.head`
 *   Etc...
+
+## null
+
+Si nous utilisons `document.body` dans la balise `head`, nous allons avoir un problème, `null` va être affiché, car dans le DOM la valeur `nul` veut dire `n'existe pas`
+
+```html
+<html>
+
+<head>
+  <script>
+    alert( "à partir de HEAD: " + document.body ); // affiche null, il n'y a pas de <body>
+  </script>
+</head>
+
+<body>
+
+  <script>
+    alert( "à partir du BODY: " + document.body );
+  </script>
+
+</body>
+</html>
+```
