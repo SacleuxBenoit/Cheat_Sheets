@@ -20,3 +20,4 @@
 *   [Date et Time](Date-and-Time.md)
 *   [Boucle While et For](While-and-For.md)
 *   [Les objets](Objects.md)
+*   [DOM](DOM.md)
