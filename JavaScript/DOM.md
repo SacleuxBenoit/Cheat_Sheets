@@ -42,7 +42,9 @@ Si nous utilisons `document.body` dans la balise `head`, nous allons avoir un pr
 
 ## getElementById
 
-Si par exemple nous voulons appliquer une couleur spécifique sur un paragraphe lorsque l'on clique sur un bouton, on va utiliser `getElementById` pour récupérer l'id du paragraphe en question et lui ajouter une couleur 
+`getElementById` va nous permettre de récupérer un id, pour ensuite pouvoir l'utiliser avec Javascript.
+
+Nous pouvons par exemple utiliser `getElementById` pour changer la couleur d'un paragraphe en cliquant sur un bouton
 
 ```js
 function changeColor(newColor){
