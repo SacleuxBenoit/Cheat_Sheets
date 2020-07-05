@@ -25,6 +25,7 @@
     *   [Boucle While and For](JavaScript/While-and-For.md)
     *   [Les objets](JavaScript/Objects.md)
     *   [DOM](JavaScript/DOM.md)
+    *   [Map and Set](JavaScript/Map-and-Set.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
