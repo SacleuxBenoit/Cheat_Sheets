@@ -12,14 +12,14 @@ message = 12346;
 Les langages de programmation qui permettent des choses comme ça sont appelés "typés dynamiquement", ce qui signifie qu'il existe des types de données,
 mais que les variables sont liées à aucun d'entre eux.
 
-Il existe x types de données `primitives` en Javascript : 
+Il existe 6 types de données `primitives` en Javascript : 
 
 *   [Number](#number)
 *   [Boolean](#boolean)
 *   [String](#string)
 *   [Null](#null)
 *   [Undefined](#undefined)
-*   [Symbol]()
+*   [Symbol](#symbol)
 
 ## Number <a id="number"></a>
 
@@ -103,3 +103,5 @@ console.log(pluton) // undefined
 
 mais cette technique n'est pas recommandée, pour affecter une valeur vide ou inconnue, il est préférable d'utiliser `Null`.
 Undefined est plus utilisé pour des vérifications, comme pour voir si une variable a été affectée.
+
+## symbol <a id="symbol"></a>
