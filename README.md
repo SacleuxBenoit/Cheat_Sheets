@@ -59,7 +59,6 @@
             *   [Express Generator](framework/Back/Express.js/generator.md)
 
 *   [SQL](SQL)
-    *   [agir sur BDD](SQL/agir-sur-bdd.md)
     *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
     *   [types de données](SQL/types-de-donnees.md)
     
