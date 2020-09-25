@@ -3,6 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6cf2e3b95bc24a83a3419a45ee1fc831)](https://www.codacy.com/manual/benoitsacleux/Cheat_Sheets?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SacleuxBenoit/Cheat_Sheets&amp;utm_campaign=Badge_Grade)
 
 ## Bienvenue sur mon Cheat_Sheets, il est pour le moment composé de 
+
 *   [JavaScript](JavaScript)
     *   [AlertPromptConfirm](JavaScript/AlertPromptConfirm.md)
     *   [Data types](JavaScript/Data-types.md)
@@ -36,9 +37,6 @@
     *   [Insertion Sort](algo/InsertionSort.md)
     *   [Merge Sort](algo/MergeSort.md)
 
-*   [TypeScript](TypeScript)
-    *   [Introduction](TypeScript/Introduction.md)
-
 *   [Framework](framework)
     *   [Front](framework/Front)
         *   [Angular](framework/Front/Angular/README.md)
@@ -51,16 +49,17 @@
             *   [instance de vue](framework/vue.js/Front/instance-de-vue.md)
             *   [syntaxe de template](framework/vue.js/Front/syntaxe-de-template.md)
             
-    *   [Back](framework/Back)
-        *   [Express.Js](framework/Back/Express.js)
-            *   [Installation](framework/Back/Express.js/installation.md)
-            *   [Base](framework/Back/Express.js/base.md)
-            *   [Routage](framework/Back/Express.js/routage.md)
-            *   [Express Generator](framework/Back/Express.js/generator.md)
+*   [Back](framework/Back)
+    *   [Express.Js](framework/Back/Express.js)
+        *   [Installation](framework/Back/Express.js/installation.md)
+        *   [Base](framework/Back/Express.js/base.md)
+        *   [Routage](framework/Back/Express.js/routage.md)
+        *   [Express Generator](framework/Back/Express.js/generator.md)
+            *   [SQL](SQL)
+                *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
+                *   [types de données](SQL/types-de-donnees.md)
+                *   [Connection à une base de données](connection_database.md)
 
-*   [SQL](SQL)
-    *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
-    *   [types de données](SQL/types-de-donnees.md)
     
 *   [Gitflow](Git_flow/README.md)
 
