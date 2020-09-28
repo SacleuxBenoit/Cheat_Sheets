@@ -55,10 +55,6 @@
         *   [Base](framework/Back/Express.js/base.md)
         *   [Routage](framework/Back/Express.js/routage.md)
         *   [Express Generator](framework/Back/Express.js/generator.md)
-            *   [SQL](SQL)
-                *   [SQL vs NoSQL](SQL/SQLvsNoSQL.md)
-                *   [types de données](SQL/types-de-donnees.md)
-                *   [Connection à une base de données](connection_database.md)
 
     
 *   [Gitflow](Git_flow/README.md)
@@ -84,3 +80,9 @@
         *   [Postgresql](Backend/Base-de-donnees/PostgreSQL)
             *   [Installation](Backend/Base-de-donnees/PostgreSQL/Installation.md)
             *   [Commandes](Backend/Base-de-donnees/PostgreSQL/Commandes.md)
+
+    *   [SQL](Backend/SQL)
+        *   [SQL vs NoSQL](Backend/SQL/SQLvsNoSQL.md)
+        *   [types de données](Backend/SQL/types-de-donnees.md)
+        *   [Connection à une base de données](Backend/SQL/connection_database.md)
+        *   [insérer dans base de données](Backend/SQL/insert.md)
