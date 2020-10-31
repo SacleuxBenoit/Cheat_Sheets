@@ -86,3 +86,6 @@
         *   [types de données](Backend/SQL/types-de-donnees.md)
         *   [Connection à une base de données](Backend/SQL/connection_database.md)
         *   [insérer dans base de données](Backend/SQL/insert.md)
+
+*   [else](Else)
+    *  [naming conventions](Else/Naming-Conventions.md)
