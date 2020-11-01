@@ -56,7 +56,7 @@
     
 *   [Gitflow](Git_flow/README.md)
 
-*   [ligne de commande](ligne_de_commande)
+*   [ligne de commande](ligne-de-commande)
     *   [Cmd](ligne-de-commande/cmd/README.md)
 
     *   [Terminal](ligne-de-commande/Terminal/README.md)
@@ -82,7 +82,7 @@
         *   [SQL vs NoSQL](Backend/SQL/SQLvsNoSQL.md)
         *   [types de données](Backend/SQL/types-de-donnees.md)
         *   [Connection à une base de données](Backend/SQL/connection_database.md)
-        *   [insérer dans base de données](Backend/SQL/insert.md)
+        *   [insérer dans une base de données](Backend/SQL/insert.md)
 
 *   [else](Else)
     *  [naming conventions](Else/Naming-Conventions.md)
