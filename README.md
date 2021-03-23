@@ -15,18 +15,15 @@
     *   [Try catch](JavaScript/Try-catch.md)
     *   [Math](JavaScript/Math.md)
     *   [Array](JavaScript/Array.md)
-    *   [Synchrone / Asynchrone](JavaScript/SynchroneVsAsynchrone.md)
     *   [Caractères spéciaux](JavaScript/Special-characters.md)
     *   [Les fonctions](JavaScript/Functions.md)
     *   [Les opérateurs logiques](JavaScript/Logical-Operators.md)
     *   [Événement clavier](JavaScript/Keyboard-Event.md)
-    *   [Transpiler](JavaScript/Transpiler.md)
     *   [SetTimeout and setInterval](JavaScript/setTimeout-setInterval.md)
     *   [Date and Time](JavaScript/Date-and-Time.md)
     *   [Boucle While and For](JavaScript/While-and-For.md)
     *   [Les objets](JavaScript/Objects.md)
     *   [DOM](JavaScript/DOM.md)
-    *   [Map and Set](JavaScript/Map-and-Set.md)
 
 *   [css](css)  
     *   [Sass](css/SASS/README.md)
@@ -59,7 +56,7 @@
     
 *   [Gitflow](Git_flow/README.md)
 
-*   [ligne de commande](ligne_de_commande)
+*   [ligne de commande](ligne-de-commande)
     *   [Cmd](ligne-de-commande/cmd/README.md)
 
     *   [Terminal](ligne-de-commande/Terminal/README.md)
@@ -85,4 +82,7 @@
         *   [SQL vs NoSQL](Backend/SQL/SQLvsNoSQL.md)
         *   [types de données](Backend/SQL/types-de-donnees.md)
         *   [Connection à une base de données](Backend/SQL/connection_database.md)
-        *   [insérer dans base de données](Backend/SQL/insert.md)
+        *   [insérer dans une base de données](Backend/SQL/insert.md)
+
+*   [else](Else)
+    *  [naming conventions](Else/Naming-Conventions.md)
