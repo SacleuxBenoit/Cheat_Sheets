@@ -20,17 +20,16 @@ brew install sass/sass/sass
 ## Comment faire fonctionner le compilateur de SASS 
 
 l'objectif est de créer un fichier SASS et de le compiler, pour ce faire nous allons créer un dossier `Projet`, dedans nous allons
-ajouter 2 sous-dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de 
-la compilation.
+ajouter 2 sous-dossiers `SASS` et `CSS`, le dossier SASS va servir à stocker le code SASS et le dossier CSS va être le résultat de la compilation.
 
-Ensuite nous allons créer un fichier `style.scss` dans notre dossier `SASS`.
+Ensuite nous allons créer un fichier `style.scss` dans notre dossier `sass`.
 
 (à noter que les noms des dossiers n'ont pas d'importance, et que l'on peut mettre ce que l'on veut)
 
 ### La compilation  
 
 pour compiler le fichier `style.scss` nous allons vérifier le fichier édité avec `watch`, pour cela on va se mettre dans le dossier `Projet`
-et écrire `sass --watch scss:css` dans le terminal.
+et écrire `sass --watch sass:css` dans le terminal.
 
 Un fichier `style.css` sera donc créé dans le dossier `CSS`, il va être actualisé après chaque sauvegarde du fichier `style.scss`
 
