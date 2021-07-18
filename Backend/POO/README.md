@@ -9,3 +9,9 @@ class Personnage{
 }
 ?>
 ```
+
+## Définition
+
+*   `attribut` un attribut désigne une variable.
+
+*   `méthode` une méthode désigne une fonction.
