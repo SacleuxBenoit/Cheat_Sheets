@@ -1,6 +1,6 @@
 ## Syntaxe d'une classe
 
-Il faut utiliser le mot clé `class` suivi du nom de la classe
+Il faut utiliser le mot-clé `class` suivi du nom de la classe
 
 ```php
 <?php
@@ -14,12 +14,12 @@ il faut savoir que pour respecter la notation PEAR le nom de la classe commence 
 
 ## Visibilité d'un attribut ou d'une méthode
 
-la visibilité d'un attribut ou d'une méthode nous indique à partir d'ou on peut y avoir accès :
+la visibilité d'un attribut ou d'une méthode nous indique à partir d'où on peut y avoir accès :
 il existe 2 types : `private` && `public`.
 
-*   `public` on peut y accéder depuis n'importe ou.
+*   `public` on peut y accéder depuis n'importe où.
 
-*   `private` ici, nous pouvons avoir accès aux attributs et méthode UNIQUEMENT à l'interieur de la classe.
+*   `private` ici, nous pouvons avoir accès aux attributs et méthode UNIQUEMENT à l'intérieur de la classe.
 
 ## Création d'un attribut
 
