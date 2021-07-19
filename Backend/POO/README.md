@@ -32,6 +32,21 @@ class Personnage{
 
 on utilise le mot-clé private suivi du nom de l'attribut (avec un underscore au début, c'est la notation PEAR) puis la valeur de l'attribut.
 
+## Création d'une méthode 
+
+```php
+class Personnage{
+    private $_life = 100;
+    private $_mana = 50;
+
+    public function move(){
+        // une méthode qui permet de déplacer le personnage
+    }
+}
+```
+
+il faut mettre la visibilité `public` ou `private` (en général la visibilité est public), ensuite utiliser `function` puis mettre le nom de la fonction.
+
 ## Définition
 
 *   `attribut` un attribut désigne une variable.
