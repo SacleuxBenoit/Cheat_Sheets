@@ -49,6 +49,16 @@ class Personnage{
 
 il faut mettre la visibilité `public` ou `private` (en général la visibilité est public), ensuite utiliser `function` puis mettre le nom de la fonction.
 
+## Créer un objet
+
+pour créer un objet il faut précéder le nom de la class par `new`
+
+```php
+$personnage = new Personnage;
+```
+
+on crée donc une instance de la classe `Personnage`.
+
 ## Définition
 
 *   `attribut` un attribut désigne une variable.
