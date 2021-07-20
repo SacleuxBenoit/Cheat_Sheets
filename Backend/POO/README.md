@@ -59,6 +59,29 @@ $personnage = new Personnage;
 
 on crée donc une instance de la classe `Personnage`.
 
+## Appeller une méthode d'un objet
+
+```php
+    // Création de la classe Personnage
+class Personnage{
+
+    // Création des attributs
+    private $_life = 100;
+    private $_mana = 50;
+    
+    // Création de la méthode
+    public function speak(){
+        echo 'Hi there';
+    }
+}
+
+// Création d'un nouvel objet
+$personnage = new Personnage;
+
+// invoque la méthode speak() pour l'objet $personnage
+$personnage->spreak();
+```
+
 ## Définition
 
 *   `attribut` un attribut désigne une variable.
