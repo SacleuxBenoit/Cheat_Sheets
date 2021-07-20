@@ -30,7 +30,6 @@
 *   [algo](algo)
     *   [Bubble Sort](algo/BubbleSort.md)
     *   [Insertion Sort](algo/InsertionSort.md)
-    *   [Merge Sort](algo/MergeSort.md)
 
 *   [Framework](framework)
     *   [Front](framework/Front)
