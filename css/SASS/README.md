@@ -177,3 +177,30 @@ div:hover {
    transition-timing-function: ease;
 } 
 ```
+
+## Les partials
+
+Nous pouvons créer un fichier partial qui va contenir un petit bout de code, ce bout de code va pouvoir être importé dans nos autres fichiers. 
+
+Par exemple si nous avons besoin d'utiliser la même palette de couleurs pour plusieurs fichiers, nous allons créer `_colors.scss`
+(l'underscore spécifie à SASS que c'est un fichier partial et ne va pas générer de fichier css)
+et l'importer dans nos fichiers avec `@import "colors"` il n'y a pas besoin d'utiliser l'underscore pour l'import
+
+ça va donner quelque chose comme : 
+```scss
+/* Partial _color.scss */
+$colorBackground:#141414;
+$colorContainer:#1f1f1f;
+$colorBorder:#3b3a3a;
+```
+
+```scss
+/* commentSection.scss */
+.containerCommentSection{
+    @import "colors";
+
+    background-color: $colorContainer; /* $colorContainer = #1f1f1f */
+    border: 1px solid $colorBorder; /* $colorBorder = #3b3a3a */
+    margin-top: .5rem;
+}
+```
