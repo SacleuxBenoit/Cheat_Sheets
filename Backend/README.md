@@ -7,7 +7,7 @@
     *   [Installation de Nodejs](Nodejs/installation.md)
     *   [Npm](Nodejs/npm.md)
 
-   *   [Base de données](Base-de-donnees)
+*   [Base de données](Base-de-donnees)
     *   [Postgresql](Base-de-donnees/PostgreSQL)
         *   [Installation](Base-de-donnees/PostgreSQL/Installation.md)
         *   [Commandes](Base-de-donnees/PostgreSQL/Commandes.md)
