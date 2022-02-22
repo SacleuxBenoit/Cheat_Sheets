@@ -2,17 +2,15 @@
 
 ## CD
 
-Pour naviguer dans un répertoire on utilise la commande `cd` succédée du nom du répertoire.
+Pour naviguer dans un répertoire on utilise la commande `cd` succédée du nom du dossier.
 
-`cd /` Permet de se retrouver à la racine du site.
+`cd ~` ou `cd` Permet d'accéder à notre Home.
 
-`cd ~` ou `cd` Permet d'accéder au répertoire de l'utilisateur.
-
-`cd sites/prod` permet d'aller dans le répertoire prod.
+`cd sites/prod` permet d'aller dans le dossier prod qui est lui même dans le dossier sites.
 
 `cd ..` Remonte dans le répertoire parent à partir de l'endroit ou vous avez utilisé cette commande.
 
-`cd -` Permet de revenir au répertoire précédent.
+`cd -` Permet de revenir au dossier précédent.
 
 `pwd` Renvoie le chemin absolu du répertoire.
 
@@ -38,15 +36,21 @@ La commande `ls` permet de lister le contenu du répertoire
 
 `ls -i` Affiche le numéro d'inode, il est unique à chaque dossier de votre systeme de fichier.
 
+## Autres commandes utiles
+
+`mkdir project` Crée un dossier projet dans le répértoire actuel : si l'on est dans `site/` le chemin va donc être : `site/project`
+
+`touch inxdex.html` Crée un fichier index.html
+
 ## Autres
 
-`man` Permet d'afficher le manuel d'aide de n'importe quelle commande par exemple `man ls` affiche le manuel d'aide de la commande ls
+`man` Permet d'afficher le manuel d'aide de n'importe quelle commande par exemple `man ls` affiche le manuel d'aide pour la commande ls
 
 `head` Permet d'afficher le début d'un fichier (par défaut elle affiche les 10 premières lignes). Par exemple `head README.md` ça affiche les 10 premières ligne du readme.
 
 `tail` Fait le contraire de `head` cette commande permet d'afficher la fin d'un fichier (par défaut elle affiche les 10 dernières lignes). Par exemple `tail README.md` ça affiche les 10 dernières ligne du readme.
 
- `wc Linux_commandes` Affiche le nombre de ligne + mots + caractères du fichier Linux_commandes.
+ `wc Linux_commandes` Affiche le nombre de ligne + mots + caractères du fichier Linux_commandes. (ne fonctionne pas avec les dossiers)
 
  `date` Affiche la date, le mois, l'heure et l'année.
 
@@ -54,23 +58,11 @@ La commande `ls` permet de lister le contenu du répertoire
 
 `cat` Affiche le fichier texte dans le terminal.
 
-`less` Simillaire à `cat` mais affiche le fichier page par page.
-
-`touch inxdex.html` Crée un fichier index.html
-
-`mkdir projet` Crée un dossier projet. 
-
 `cp` Fait une copie d'un fichier, l'option `-R` permet des copies de dossiers entiers.
 
-`rm` Supprime des fichiers, l'option `-f` force la suppression, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers.
+`rm` Supprime des fichiers / dossiers, l'option `-f` force la suppression, l'option `-i` demande une confirmation avant la suppression et l'option `-r` permet de supprimer les dossiers. Pour supprimer un dossier de force on va donc faire : `rm -f`
 
 `echo "ceci est un test"` Affiche `ceci est un test` sur la console.
-
-Quelque cas pratique de `echo` : 
-
--> `echo "ceci est un test" >> monfichier` grâce au signe `>>`, ça va écrire le texte à la fin du fichier `monficher` sans en écraser le contenu
-
--> `echo "ceci est un test" > monfichier` Par contre pour écraser un fichier, en effaçant tout son contenu, on utilise le signe `>`.
 
 `uptime` La principale fonction de la commande `uptime` c'est d'indiquer depuis combien de temps le système fonctionne, 
 cette commande affiche : 
