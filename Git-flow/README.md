@@ -36,9 +36,9 @@ Pour publier une fonctionnalité sur le server distant pour qu'elle puisse être
 ## Récupérer une fonctionnalité publiée 
 
 Pour récupérer une fonctionnalité publiée par un autre utilisateur il faut faire la commande suivante :
-`git flow feature pull origin MYFEATURE`
+`git flow feature pull origin MYFEATURE` (ceci est une version "deprecated" depuis la mise à jour 2.0.0 de git)
 
-On peut aussi suivre une fonctionnalité sur le serveur distant avec : `git flow feature track MYFEATURE`
+Il est maintenant préférable d'utiliser git `flow feature track MYFEATURE` (depuis la 2.0.0)
 
 ## Livraison (release)
 
