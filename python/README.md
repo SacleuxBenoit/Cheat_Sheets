@@ -36,8 +36,12 @@ Si ont fait `print(MyVar)` "deux" va donc être affiché au lieu de "2"
 
 ### chaine de caractères
 
-pour une chaine de caractères, il faut utiliser les guillemets au début et à la fin : `greetings = "Hey, how are you ?"`.
-Si l'ont veut concaténer deux chaines de caractères il suffit d'utiliser le `+` entre les 2 chaines.
+Pour une chaine de caractères, il faut utiliser les guillemets au début et à la fin : `greetings = "Hey, how are you ?"`.
+
+*   `concaténation` Si l'ont veut concaténer deux chaines de caractères il suffit d'utiliser le `+` entre les 2 chaines.
+
+*   `opérateur de répétition` l'opérateur de répétition c'est : `*` ça va nous permettre de répéter une chaine un certain nombre de fois.
+    exemple : `username=toto` si l'on fait `4 * toto` ça équivau à `totototototototo`.
 
 ### type booléan 
 
@@ -45,8 +49,49 @@ il existe 2 réponses possible pour un type booléan :
 
 *   `True`
 *   `False`
+
 ```python
 b = true
 print(b)
 # true
+```
+
+### Connaître le type d'une valeur
+
+pour ce faire, il va falloir utiliser la fonction `type()`.
+```python
+str = "a string"
+num = 2
+
+print(type(str))
+print(type(num))
+# Pour str : affiche <classe 'str'>
+# Pour num : affiche <classe 'int'> 
+```
+
+### Les listes
+
+les listes ressemblent au `array` de JS : 
+
+```python
+firstList = [2,4,6,8,10]
+print(firstList)
+# Affiche [2,4,6,8,10]
+```
+
+encore un exemple :
+```python
+prenom = ["pierre","paul","jacque"]
+print(prenom)
+# Affiche ["pierre","paul","jacque"]
+```
+
+pour récupérer une valeur en particulier dans la liste il va falloir spécifier le nom de la liste suivit de la valeur entre crochet
+l'indice -1 correspond au dernier element du tableau, le -2 à l'avant dernier etc.
+
+```python
+print(prenom[0])
+# Affiche "pierre"
+print(prenom[-1])
+# Affiche "jacque"
 ```
