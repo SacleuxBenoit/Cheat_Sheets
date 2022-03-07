@@ -83,3 +83,6 @@
 
 *   [Python](Python)
     *   [README](Python/README.md)
+
+*   [Vim](Vim)
+    *   [README](Vim/README.md)
