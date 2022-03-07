@@ -23,3 +23,4 @@ descendre d'une ligne : `j`
 monter d'une ligne : `k`
 partir sur la gauche : `h`
 partir sur la droite : `l`
+pour bouger sur la ligne que l'on souahite `:2` pour bouger sur la ligne 2 
