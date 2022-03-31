@@ -4,7 +4,7 @@ Il existe différentes façons de nommer les variables voici quelque exemples :
 
 *   `Camel Case` il consiste à écrire plusieurs mots sans espaces / ponctuation, le premier mot est en minuscule puis la première lettre de tous les autres mots est en Majuscule comme par exemple `startTimer`. Plusieurs marques utilisent cette méthode dans leur nom comme playStation, eBay ...
 
-*   `Pascal Case` c'est comme le Camel Case faut que la première lettre commence aussi par une majuscule pour reprendre l'exemple au-dessus : `StartTimer`. Cette convention souvent utilisé pour nommer les `class`
+*   `Pascal Case` c'est comme le Camel Case, sauf que la première lettre commence par une majuscule pour reprendre l'exemple au-dessus : `StartTimer`. Cette convention souvent utilisé pour nommer les `class`
 
 *   `Kebab Case` tout est en minuscule, on met des tirets `-` à la place des espaces, c'est plus souvent utiliser pour écrire les URL `start-timer`
 
