@@ -2,9 +2,9 @@
 
 `symfony new --webapp --version=lts project_name`
 
-cette commande va nous permettre d'initialiser le project
+cette commande va nous permettre d'initialiser le projet
 
-*   L'option `--webapp` installe tous les packages nécessaire pour créer des applications web.
+*   L'option `--webapp` installe tous les packages nécessaires pour créer des applications web.
 
 *   L'option `--version=lts` prend en compte la dernière version stable (lts pour long-term support).
 
@@ -24,7 +24,7 @@ cette commande va nous permettre d'initialiser le project
 
 ## création du fichier .env.local
 
-*   il faut commencer par créer un fichier `.env.local` à la racine du project.
+*   il faut commencer par créer un fichier `.env.local` à la racine du projet.
 
 *   ensuite il faut aller dans le fichier `.env` et copier la ligne `DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7&charset=utf8mb4"`.
 
