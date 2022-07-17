@@ -43,3 +43,22 @@ une fois ceci fait, il va falloir modifier quelques éléments :
 au final cela va donner quelque chose comme : 
 
 `DATABASE_URL="mysql://project_name:42@127.0.0.1:3306/project_name?serverVersion=5.7&charset=utf8mb4"`.
+
+## Création des classes
+
+`php bin/console make:entity` 
+
+une série de questions va nous être posée : 
+
+*   `Class name of the entity to create or update` tout simplement le nom de la classe (avec une majuscule au début) 2 fichiers vont donc être créés par exemple pour la class Product : 
+`src/Entity/Product.php` && `src/Repository/ProductRepository.php`
+
+*   `New property name`
+
+*   `field type` ici il faut préciser le type : booléan / string / int / datetime etc
+
+*   `field length` par défaut la taille est de 255 mais la convention veut que pour un titre ou un mot de passe on utilise 191
+
+*   `can this field be null in the database` choix par défaut : no `src/Entity/Product.php` va être update
+
+*   `Add another property` il suffit d'appuyer sur la touche Enter pour dire non si nous n'avons pas d'autres propriétés à ajouter
