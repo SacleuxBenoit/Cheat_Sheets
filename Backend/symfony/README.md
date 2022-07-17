@@ -40,13 +40,13 @@ une fois ceci fait, il va falloir modifier quelques éléments :
 
 *   `server_version=...` par la version actuelle de la base de données
 
-au final cela va donner quelque chose comme : 
+au final cela va donner quelque chose comme :
 
 `DATABASE_URL="mysql://project_name:42@127.0.0.1:3306/project_name?serverVersion=5.7&charset=utf8mb4"`
 
 ## Création des classes
 
-`php bin/console make:entity` 
+`php bin/console make:entity`
 
 une série de questions va nous être posée : 
 
@@ -62,3 +62,17 @@ une série de questions va nous être posée :
 *   `can this field be null in the database` choix par défaut : no `src/Entity/Product.php` va être update
 
 *   `Add another property` il suffit d'appuyer sur la touche Enter pour dire non si nous n'avons pas d'autres propriétés à ajouter
+
+## Migration des tables / schémas de la base de données
+
+pour ce faire nous allons utiliser la commande `php/bin console make:migration` si tout à fonctionner on devrait avoir un message comme : 
+
+```bash
+SUCCESS!
+
+Next: Review the new migration "migrations/Version20211116204726.php"
+Then: Run the migration with php bin/console doctrine:migrations:migrate
+```
+
+Ensuite il faut utiliser la commande : `php bin/console doctrine:migrations:migrate` ou son alias : `php bin/console do:mi:mi`, cette commande exécute tous les fichiers de migrations
+qui n'ont pas encore été exécutés sur la base de données.
