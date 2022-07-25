@@ -42,7 +42,7 @@ une fois ceci fait, il va falloir modifier quelques éléments :
 
 au final cela va donner quelque chose comme :
 
-`DATABASE_URL="mysql://project_name:42@127.0.0.1:3306/project_name?serverVersion=5.7&charset=utf8mb4"`
+`DATABASE_URL="mysql://project_name:42@127.0.0.1:3306/project_name?serverVersion=&charset=utf8mb4"`
 
 ## Création des classes
 
