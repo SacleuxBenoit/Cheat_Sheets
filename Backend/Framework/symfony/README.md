@@ -20,7 +20,15 @@ cette commande va nous permettre d'initialiser le projet
 
 ## Création de la database avec les install scripts
 
-`./mkdb.sh project_name`
+*   Cloner `https://github.com/jibundeyare/install-scripts`
+
+*   Dans le terminal utiliser la commande suivante : `./mkdb.sh project_name`
+
+## Création de la database avec PhpMyAdmin
+
+*   Créer un user : Compte utilisateurs > Ajouter un compte d'utilisateur
+
+*   Cocher la case `Créer une base portant son nom et donner à cet utilisateur tous les privilèges sur cette base. `
 
 ## création du fichier .env.local
 
