@@ -160,6 +160,17 @@ foreach ($userDatas as $userData){
 
 *   Puis finir avec la commande `php bin/console doctrine:fixtures:load` dans le terminal.
 
+si tout fonctionne correctement il devrait y avoir un message comme :
+
+```sh
+ Careful, database "library" will be purged. Do you want to continue? (yes/no) [no]:
+ > yes
+
+   > purging database
+   > loading App\DataFixtures\AppFixtures
+   > loading App\DataFixtures\TestFixtures
+```
+
 
 # Notes
 
