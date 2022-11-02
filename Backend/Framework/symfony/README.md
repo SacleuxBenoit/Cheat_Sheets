@@ -84,3 +84,25 @@ Then: Run the migration with php bin/console doctrine:migrations:migrate
 
 Ensuite il faut utiliser la commande : `php bin/console doctrine:migrations:migrate` ou son alias : `php bin/console do:mi:mi`, cette commande exécute tous les fichiers de migrations
 qui n'ont pas encore été exécutés sur la base de données.
+
+## Créer les relations entre tables
+
+Pour avoir une relation `ManyToOne` entre `Livre` et `Auteur` :
+
+*   Dans le terminal : `php bin/console make:entity`
+
+*   Renseigner la classe que l'on veut modifier donc ici `Livre`
+
+*   ` New property name (press <return> to stop adding fields)` ici il faut indiquer `auteur` ATTENTION il n'y a pas de majuscule
+
+*   `Field type (enter ? to see all types)` c'est ici qu'il faut préciser `ManyToOne`
+
+*   `What class should this entity be related to?` ça va être `Auteur`
+
+*   `Is the Livre.auteur property allowed to be null (nullable)? (yes/no) [yes]:` il faut ce poser la question : un livre doit-il obligatoirement avoir un auteur ? si la réponse est oui : écrire `no`
+
+*   `Do you want to add a new property to Auteur so that you can access/update Livre objects from it - e.g. $auteur->getLivres()? (yes/no) [yes]:`
+
+*   `New field name inside Auteur [livres]:`
+
+et voilà !
