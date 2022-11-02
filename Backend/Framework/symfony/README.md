@@ -106,3 +106,62 @@ Pour avoir une relation `ManyToOne` entre `Livre` et `Auteur` :
 *   `New field name inside Auteur [livres]:`
 
 et voilà !
+
+## Créer des données de test brut
+
+*   Pour commencer il faut faire `composer require --dev orm-fixtures` pour installer les fixtures.
+
+*   Ensuite `symfony console make:fixtures TestFixtures` pour créer le fichier `TestFixtures`.
+
+Une fois le fichier créé il est maintenant possible de créer des données de test
+
+*   Créer une fonction `loadUser` dans la classe `TestFixtures` avec comme paramètre `ObjectManager $manager`
+
+*   Ajouter un tableau avec les données brut :
+
+```php
+$userDatas = [
+    [
+        "email" => "admin@example.com",
+        "roles" => "ROLE_ADMIN",
+        "password" => "2y/H2ChUxriH.0Q33g3EUEx.S2s4j/rGJH2G88jK9nCP60GbUW8mi5K",
+        "enabled" => true,
+        "created_at" => DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-01-01 09:00:00'),
+        "updated_at" => DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-01-01 09:00:00'),
+    ],
+    [
+        "email" => "foo.foo@example.com",
+        "roles" => "ROLE_EMRUNTEUR",
+        "password" => "2y/H2ChUxriH.0Q33g3EUEx.S2s4j/rGJH2G88jK9nCP60GbUW8mi5K",
+        "enabled" => true,
+        "created_at" => DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-01-01 10:00:00'),
+        "updated_at" => DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-01-01 10:00:00'),
+    ]
+]
+```
+
+*   Ensuite il va falloir utiliser une boucle foreach
+
+```php
+foreach ($userDatas as $userData){
+    $user = new User();
+    $user->setRoles($userData['roles']);
+    $user->setEmail($userData['email']);
+    $user->setPassword($userData['password']);
+    $user->setEnabled($userData['enabled']);
+    $user->setCreatedAt($userData['created_at']);
+    $user->setUpdatedAt($userData['updated_at']);
+
+    $manager->persist($user);
+}
+```
+
+*   Il ne reste plus qu'à mettre `$this->loadUser($manager);` dans la fonction `load()`
+
+*   Puis finir avec la commande `php bin/console doctrine:fixtures:load` dans le terminal.
+
+
+# Notes
+
+*   Symfony viens avec le package `symfony/maker-bundle`, pour nous aider à trouver toutes les commandes il faut faire
+`symfony console list make`
