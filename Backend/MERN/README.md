@@ -1,6 +1,4 @@
-# MERN
-
-MongoDb, Express, React, NodeJs
+# Nodejs
 
 ## Init Project
 
