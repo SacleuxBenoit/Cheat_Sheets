@@ -29,3 +29,13 @@ app.listen(port,()=>{
 ```
 
 *   `npm start` Hello World should be display in the terminal
+
+## Database (MongoDB)
+
+*   install dotenv `npm i dotenv`
+
+Once dotenv is installed create database with MongoDB, and put `MONGO = mongodb+srv://username:password@cluster.dfypsyt.mongodb.net/databasename` in .env
+
+*   install mongoose `npm i mongoose`
+
+*   import dotenv && mongoose in `server.js`
