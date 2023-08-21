@@ -86,3 +86,55 @@ Une fois toutes les pages importées, il suffit de faire comme ci-dessous et le 
   </Routes>
 </BrowserRouter>
 ```
+
+## Afficher une valeur
+
+```jsx
+import React, { useState } from "react";
+export default function MyApp() {
+  const [firstNumber, setFirstNumber] = useState(1);
+  const [secondNumber, setSecondNumber] = useState(2);
+  let sum = firstNumber + secondNumber;
+
+  return (
+    <>
+      {firstNumber} + {secondNumber} = {sum}
+    </>
+  );
+}
+```
+
+## Props
+
+```jsx
+import React from "react";
+
+const User = (props) => {
+  return (
+    <div>
+      <h1>{props.name}</h1>
+      <h1>{props.age}</h1>
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <>
+      <User name="Totor" age={25} />
+      <User name="Systaire" age={42} />
+    </>
+  );
+}
+
+export default App;
+```
+
+# useState
+
+- il faut d'abord importer useState
+  `import { useState } from "react"`
+
+# notes
+
+un Hook commence forcément avec le mot `use` par exemple `useState`, `useEffect`
