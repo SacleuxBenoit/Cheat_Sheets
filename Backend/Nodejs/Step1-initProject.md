@@ -23,7 +23,7 @@
 }
 ```
 
-Il suffit maintenant de faire un >npm run server dans le terminal pour faire apparaître le `Hello World`
+Il suffit maintenant de faire un npm run dev dans le terminal pour faire apparaître le `Hello World`
 
 # Notes
 
