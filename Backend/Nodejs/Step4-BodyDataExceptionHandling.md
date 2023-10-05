@@ -50,3 +50,27 @@ Ensuite on vérifie si la propriété `text` est absente / vide dans le corps de
 Si la condition est vrai c'est qu'il n'y a pas de champ text / qu'il est vide, donc on renvoi une erreur 400 avec comme message `Please add a text field`
 
 Si la condition est fausse, renvoi un status 200 ainsi qu'un objet JSON avec comme message "Ceate goal"
+
+# Middleware
+
+Créer un dossier `middleware` et un fichier errorMiddleware.js (dans le dossier précedemment créé)
+
+## errorMiddleware.js
+
+```js
+const errorHandler = (err,req,res,next) => {
+    const statusCode = res.statusCode ? res.statusCode : 500
+    res.status(statusCode)
+
+    res.json({
+        message: err.message,
+        stacl: process.env.NODE_ENV === 'production' ? null : err.stack
+    })
+}
+
+module.exports = {
+    errorHandler
+}
+```
+
+Ce code définit un gestionnaire d'erreurs qui se produit pendant le traitement des reqiêtes HTTP et renvoie une erreur appropriées
