@@ -73,4 +73,16 @@ module.exports = {
 }
 ```
 
-Ce code définit un gestionnaire d'erreurs qui se produit pendant le traitement des reqiêtes HTTP et renvoie une erreur appropriées
+Ce code définit un gestionnaire d'erreurs qui se produit pendant le traitement des reqiêtes HTTP et renvoie une erreur appropriée
+
+## Server.js
+
+maintenant il faut importer le gestionnaire d'erreur, puis l'enregistrer comme middleware global avec app.use
+
+```js
+const { errorHandler } = require('./middleware/errorMiddleware')
+
+app.use(erroHandler)
+```
+
+ATTENTION ! à bien mettre le `app.use(errorHandler)` en dessous des autres `app.use` et non au dessus.
